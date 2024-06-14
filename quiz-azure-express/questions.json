@@ -134,5 +134,478 @@
       "D - Azure Functions"
     ],
     "answer": "B - Azure Monitor"
-  }
+  },
+[
+    {
+        "question": "Was ist Cloud Computing?",
+        "options": [
+            "Ein Modell zur Bereitstellung von IT-Diensten über das Internet",
+            "Ein Modell zur Bereitstellung von IT-Diensten lokal",
+            "Ein Modell zur Bereitstellung von IT-Diensten über Satellit",
+            "Ein Modell zur Bereitstellung von IT-Diensten über Telefonleitung"
+        ],
+        "answer": "Ein Modell zur Bereitstellung von IT-Diensten über das Internet"
+    },
+    {
+        "question": "Was ist das Shared Responsibility Model in der Cloud?",
+        "options": [
+            "Ein Modell, bei dem der Kunde und der Cloud-Anbieter die Sicherheitsverantwortung teilen",
+            "Ein Modell, bei dem nur der Cloud-Anbieter für die Sicherheit verantwortlich ist",
+            "Ein Modell, bei dem nur der Kunde für die Sicherheit verantwortlich ist",
+            "Ein Modell, bei dem die Sicherheitsverantwortung unklar ist"
+        ],
+        "answer": "Ein Modell, bei dem der Kunde und der Cloud-Anbieter die Sicherheitsverantwortung teilen"
+    },
+    {
+        "question": "Welches der folgenden ist KEIN Cloud-Modell?",
+        "options": [
+            "Public Cloud",
+            "Private Cloud",
+            "Hybrid Cloud",
+            "Lokal Cloud"
+        ],
+        "answer": "Lokal Cloud"
+    },
+    {
+        "question": "Was ist der Hauptvorteil eines Public Cloud Modells?",
+        "options": [
+            "Volle Kontrolle über die Infrastruktur",
+            "Höhere Betriebskosten",
+            "Exklusiver Zugang zu Ressourcen",
+            "Skalierbarkeit und Flexibilität"
+        ],
+        "answer": "Skalierbarkeit und Flexibilität"
+    },
+    {
+        "question": "Was beschreibt am besten das IaaS (Infrastructure-as-a-Service) Modell?",
+        "options": [
+            "Eine Plattform zum Entwickeln und Verwalten von Anwendungen",
+            "Bereitstellung von Software über das Internet",
+            "Bereitstellung von grundlegender IT-Infrastruktur wie Servern und Speicher",
+            "Bereitstellung von Sicherheitsdiensten"
+        ],
+        "answer": "Bereitstellung von grundlegender IT-Infrastruktur wie Servern und Speicher"
+    },
+    {
+        "question": "Welcher Azure-Dienst ermöglicht das Ausführen von Code ohne die explizite Verwaltung der zugrunde liegenden Infrastruktur?",
+        "options": [
+            "Azure Virtual Machines",
+            "Azure App Service",
+            "Azure Functions",
+            "Azure Storage"
+        ],
+        "answer": "Azure Functions"
+    },
+    {
+        "question": "Was ist Azure App Service?",
+        "options": [
+            "Ein Dienst, der die Erstellung und das Hosting von Webanwendungen ohne Verwaltung der zugrunde liegenden Infrastruktur ermöglicht",
+            "Ein Cloud-Speicherdienst",
+            "Eine virtuelle Maschine in Azure",
+            "Eine Datenbank in der Cloud"
+        ],
+        "answer": "Ein Dienst, der die Erstellung und das Hosting von Webanwendungen ohne Verwaltung der zugrunde liegenden Infrastruktur ermöglicht"
+    },
+    {
+        "question": "Was ist eine Azure Virtual Machine?",
+        "options": [
+            "Ein Anwendungscontainer",
+            "Eine physische Maschine",
+            "Eine virtuelle Maschine in der Cloud, die vollständige Kontrolle über das Betriebssystem bietet",
+            "Ein Datenbankdienst"
+        ],
+        "answer": "Eine virtuelle Maschine in der Cloud, die vollständige Kontrolle über das Betriebssystem bietet"
+    },
+    {
+        "question": "Welcher Azure-Dienst bietet eine Laufzeitumgebung für serverlose Anwendungen?",
+        "options": [
+            "Azure Virtual Machines",
+            "Azure App Service",
+            "Azure Functions",
+            "Azure Kubernetes Service"
+        ],
+        "answer": "Azure Functions"
+    },
+    {
+        "question": "Was ist das SaaS (Software-as-a-Service) Modell?",
+        "options": [
+            "Bereitstellung von grundlegender IT-Infrastruktur",
+            "Eine Plattform zum Entwickeln und Verwalten von Anwendungen",
+            "Bereitstellung von Software über das Internet",
+            "Bereitstellung von Sicherheitsdiensten"
+        ],
+        "answer": "Bereitstellung von Software über das Internet"
+    },
+    {
+        "question": "Was ist der Zweck von Azure Regions?",
+        "options": [
+            "Hosting von virtuellen Maschinen lokal",
+            "Bereitstellung von geografischer Redundanz und Verfügbarkeit",
+            "Speichern von Daten auf physischen Festplatten",
+            "Verwalten von Sicherheitsrichtlinien"
+        ],
+        "answer": "Bereitstellung von geografischer Redundanz und Verfügbarkeit"
+    },
+    {
+        "question": "Was ist eine Azure Resource Group?",
+        "options": [
+            "Eine Gruppe von virtuellen Maschinen",
+            "Ein Container, der verwandte Ressourcen für eine Azure-Lösung umfasst",
+            "Ein Datenbankdienst",
+            "Ein Cloud-Speicherdienst"
+        ],
+        "answer": "Ein Container, der verwandte Ressourcen für eine Azure-Lösung umfasst"
+    },
+    {
+        "question": "Was ist eine Azure Availability Zone?",
+        "options": [
+            "Eine spezifische geografische Region in Azure",
+            "Eine Gruppe von physischen Standorten innerhalb einer Azure-Region",
+            "Eine Art von virtueller Maschine",
+            "Ein Datenbankdienst"
+        ],
+        "answer": "Eine Gruppe von physischen Standorten innerhalb einer Azure-Region"
+    },
+    {
+        "question": "Welches Tool ermöglicht das Verwalten und Überwachen von Azure-Ressourcen über die Befehlszeile?",
+        "options": [
+            "Azure Portal",
+            "Azure CLI",
+            "Azure Functions",
+            "Azure App Service"
+        ],
+        "answer": "Azure CLI"
+    },
+    {
+        "question": "Welcher Azure-Dienst bietet Sicherheit und Compliance auf Ressourcenebene?",
+        "options": [
+            "Azure Policy",
+            "Azure App Service",
+            "Azure Virtual Machines",
+            "Azure Functions"
+        ],
+        "answer": "Azure Policy"
+    },
+    {
+        "question": "Was beschreibt am besten den Azure Storage-Dienst?",
+        "options": [
+            "Ein Dienst für virtuelle Maschinen",
+            "Ein Datenbankdienst",
+            "Ein Dienst, der skalierbaren Cloud-Speicher bereitstellt",
+            "Ein Containerdienst"
+        ],
+        "answer": "Ein Dienst, der skalierbaren Cloud-Speicher bereitstellt"
+    },
+    {
+        "question": "Welches Authentifizierungsverfahren in Azure ermöglicht den Zugang ohne Passwort?",
+        "options": [
+            "Multi-Factor Authentication (MFA)",
+            "Single Sign-On (SSO)",
+            "Passwordless Authentication",
+            "Azure AD Domain Services"
+        ],
+        "answer": "Passwordless Authentication"
+    },
+    {
+        "question": "Welcher Azure-Dienst ermöglicht die Nutzung von virtuellen Desktops?",
+        "options": [
+            "Azure Virtual Machines",
+            "Azure Virtual Desktop",
+            "Azure App Service",
+            "Azure Functions"
+        ],
+        "answer": "Azure Virtual Desktop"
+    },
+    {
+        "question": "Welches Azure-Tool hilft bei der Berechnung der Kosten für verschiedene Dienste?",
+        "options": [
+            "Azure Policy",
+            "Azure Pricing Calculator",
+            "Azure Monitor",
+            "Azure Resource Manager"
+        ],
+        "answer": "Azure Pricing Calculator"
+    },
+    {
+        "question": "Welcher Azure-Dienst ermöglicht den physischen Transfer großer Datenmengen zu Azure?",
+        "options": [
+            "Azure Migrate",
+            "Azure Data Box",
+            "Azure File Sync",
+            "AzCopy"
+        ],
+        "answer": "Azure Data Box"
+    },
+    {
+        "question": "Welches Azure-Tool bietet Empfehlungen zur Optimierung von Ressourcen?",
+        "options": [
+            "Azure Monitor",
+            "Azure Advisor",
+            "Azure Policy",
+            "Azure Resource Manager"
+        ],
+        "answer": "Azure Advisor"
+    },
+    {
+        "question": "Welcher Azure-Dienst ermöglicht die Erstellung und Verwaltung von Containern?",
+        "options": [
+            "Azure Virtual Machines",
+            "Azure Kubernetes Service (AKS)",
+            "Azure App Service",
+            "Azure Functions"
+        ],
+        "answer": "Azure Kubernetes Service (AKS)"
+    },
+    {
+        "question": "Was beschreibt am besten das Konzept 'Zero Trust' in der Sicherheit?",
+        "options": [
+            "Standardmäßiges Vertrauen in alle Benutzer",
+            "Kein Vertrauen in niemanden innerhalb und außerhalb des Netzwerks",
+            "Vertrauen nur in externe Benutzer",
+            "Standardmäßiges Vertrauen in alle Geräte"
+        ],
+        "answer": "Kein Vertrauen in niemanden innerhalb und außerhalb des Netzwerks"
+    },
+    {
+        "question": "Welcher Azure-Dienst wird zur Überwachung und Diagnose von Problemen in Anwendungen und Diensten verwendet?",
+        "options": [
+            "Azure Policy",
+            "Azure Monitor",
+            "Azure Resource Manager",
+            "Azure App Service"
+        ],
+        "answer": "Azure Monitor"
+    },
+    {
+        "question": "Welches Azure-Tool ermöglicht die Verwaltung von Richtlinien und Compliance?",
+        "options": [
+            "Azure CLI",
+            "Azure Advisor",
+            "Azure Policy",
+            "Azure Resource Manager"
+        ],
+        "answer": "Azure Policy"
+    },
+    {
+        "question": "Welcher Azure-Dienst ermöglicht Single Sign-On (SSO)?",
+        "options": [
+            "Azure Virtual Machines",
+            "Azure Active Directory (Azure AD)",
+            "Azure App Service",
+            "Azure Storage"
+        ],
+        "answer": "Azure Active Directory (Azure AD)"
+    },
+    {
+        "question": "Was beschreibt am besten die Redundanz in Azure?",
+        "options": [
+            "Speicherung von Daten auf einem einzigen Server",
+            "Speicherung von Daten an mehreren Standorten innerhalb einer Region",
+            "Keine Datensicherungen",
+            "Speicherung von Daten an mehreren geografischen Standorten"
+        ],
+        "answer": "Speicherung von Daten an mehreren geografischen Standorten"
+    },
+    {
+        "question": "Was ist Azure SQL Database?",
+        "options": [
+            "Eine virtuelle Maschine in Azure",
+            "Ein relationaler Datenbankdienst in der Cloud",
+            "Ein Speicherdienst",
+            "Ein Containerdienst"
+        ],
+        "answer": "Ein relationaler Datenbankdienst in der Cloud"
+    },
+    {
+        "question": "Was beschreibt am besten den Begriff 'High Availability' in Azure?",
+        "options": [
+            "Sicherstellung der Verfügbarkeit der Dienste zu 50% der Zeit",
+            "Sicherstellung der Verfügbarkeit der Dienste zu 100% der Zeit",
+            "Sicherstellung der Verfügbarkeit der Dienste die meiste Zeit",
+            "Keine Verfügbarkeitsgarantie für Dienste"
+        ],
+        "answer": "Sicherstellung der Verfügbarkeit der Dienste die meiste Zeit"
+    },
+    {
+        "question": "Welcher Azure-Dienst wird zur Verwaltung von Schlüsseln und Geheimnissen verwendet?",
+        "options": [
+            "Azure Storage",
+            "Azure Key Vault",
+            "Azure SQL Database",
+            "Azure App Service"
+        ],
+        "answer": "Azure Key Vault"
+    },
+    {
+        "question": "Was ist ein SLA (Service Level Agreement) in Azure?",
+        "options": [
+            "Eine Vereinbarung zwischen Azure und dem Kunden über garantierte Dienstleistungs- und Verfügbarkeitsniveaus",
+            "Eine Preisvereinbarung",
+            "Ein Sicherheitsvertrag",
+            "Eine Supportvereinbarung"
+        ],
+        "answer": "Eine Vereinbarung zwischen Azure und dem Kunden über garantierte Dienstleistungs- und Verfügbarkeitsniveaus"
+    },
+    {
+        "question": "Welcher Azure-Dienst ermöglicht die Analyse und Visualisierung von Daten in Echtzeit?",
+        "options": [
+            "Azure Functions",
+            "Azure Monitor",
+            "Azure Stream Analytics",
+            "Azure DevOps"
+        ],
+        "answer": "Azure Stream Analytics"
+    },
+    {
+        "question": "Was ist Azure DevOps?",
+        "options": [
+            "Eine virtuelle Maschine in Azure",
+            "Ein Dienst zur Verwaltung und Automatisierung der Softwareentwicklung",
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst"
+        ],
+        "answer": "Ein Dienst zur Verwaltung und Automatisierung der Softwareentwicklung"
+    },
+    {
+        "question": "Was ist eine Azure Resource Manager (ARM) Vorlage?",
+        "options": [
+            "Eine Vorlage zur Erstellung und Verwaltung von Azure-Ressourcen auf wiederholbare und konsistente Weise",
+            "Ein Cloud-Speicherdienst",
+            "Ein Datenbankdienst",
+            "Eine virtuelle Maschine in Azure"
+        ],
+        "answer": "Eine Vorlage zur Erstellung und Verwaltung von Azure-Ressourcen auf wiederholbare und konsistente Weise"
+    },
+    {
+        "question": "Was ist ein Azure Virtual Network (VNet)?",
+        "options": [
+            "Ein Datenbankdienst",
+            "Ein isoliertes logisches Netzwerk in Azure",
+            "Ein Speicherdienst",
+            "Ein Containerdienst"
+        ],
+        "answer": "Ein isoliertes logisches Netzwerk in Azure"
+    },
+    {
+        "question": "Was beschreibt am besten den Begriff 'Disaster Recovery' in Azure?",
+        "options": [
+            "Bereitstellung von virtuellen Maschinen",
+            "Datensicherung und -wiederherstellung im Falle einer Katastrophe",
+            "Identitäts- und Zugriffsmanagement",
+            "Erstellung von Webanwendungen"
+        ],
+        "answer": "Datensicherung und -wiederherstellung im Falle einer Katastrophe"
+    },
+    {
+        "question": "Welcher Azure-Dienst bietet eine Umgebung, um Anwendungen schnell zu entwickeln, zu testen und bereitzustellen?",
+        "options": [
+            "Azure Virtual Machines",
+            "Azure App Service",
+            "Azure Storage",
+            "Azure Key Vault"
+        ],
+        "answer": "Azure App Service"
+    },
+    {
+        "question": "Welcher Azure-Dienst ermöglicht die Integration von Drittanbieter-Services und -Anwendungen?",
+        "options": [
+            "Azure Logic Apps",
+            "Azure Virtual Machines",
+            "Azure Storage",
+            "Azure Key Vault"
+        ],
+        "answer": "Azure Logic Apps"
+    },
+    {
+        "question": "Was beschreibt am besten den Azure Traffic Manager Dienst?",
+        "options": [
+            "Ein Speicher Dienst",
+            "Ein Datenbank Dienst",
+            "Ein DNS-basierter Load Balancer, der den Traffic auf Azure-Dienste verteilt",
+            "Ein Container Dienst"
+        ],
+        "answer": "Ein DNS-basierter Load Balancer, der den Traffic auf Azure-Dienste verteilt"
+    },
+    {
+        "question": "Was ist Azure Active Directory (Azure AD)?",
+        "options": [
+            "Ein Datenbank Dienst",
+            "Ein Cloud-basierter Identitäts- und Zugriffsverwaltungsdienst",
+            "Ein Speicher Dienst",
+            "Eine virtuelle Maschine in Azure"
+        ],
+        "answer": "Ein Cloud-basierter Identitäts- und Zugriffsverwaltungsdienst"
+    },
+    {
+        "question": "Welcher Azure-Dienst ermöglicht das automatische Skalieren von Ressourcen?",
+        "options": [
+            "Azure Virtual Machines",
+            "Azure App Service",
+            "Azure Monitor",
+            "Azure Resource Manager"
+        ],
+        "answer": "Azure App Service"
+    },
+    {
+        "question": "Was beschreibt am besten den Begriff 'Data Residency' in Azure?",
+        "options": [
+            "Die Fähigkeit, von überall auf Daten zuzugreifen",
+            "Der physische Standort, an dem Daten gespeichert sind",
+            "Die Verfügbarkeit von Daten",
+            "Die Datensicherung"
+        ],
+        "answer": "Der physische Standort, an dem Daten gespeichert sind"
+    },
+    {
+        "question": "Was ist ein Azure Availability Set?",
+        "options": [
+            "Eine Gruppe von Speicher Diensten",
+            "Eine Gruppe von virtuellen Maschinen, die Verfügbarkeit bei geplanten oder ungeplanten Ausfällen gewährleistet",
+            "Eine Gruppe von Sicherheitsrichtlinien",
+            "Eine Gruppe von Datenbanken"
+        ],
+        "answer": "Eine Gruppe von virtuellen Maschinen, die Verfügbarkeit bei geplanten oder ungeplanten Ausfällen gewährleistet"
+    },
+    {
+        "question": "Welcher Azure-Dienst wird zur Orchestrierung von Containern verwendet?",
+        "options": [
+            "Azure Virtual Machines",
+            "Azure Kubernetes Service (AKS)",
+            "Azure App Service",
+            "Azure Storage"
+        ],
+        "answer": "Azure Kubernetes Service (AKS)"
+    },
+    {
+        "question": "Welches Azure-Tool ermöglicht die Bereitstellung von Infrastruktur als Code?",
+        "options": [
+            "Azure CLI",
+            "Azure Resource Manager",
+            "Azure App Service",
+            "Azure Policy"
+        ],
+        "answer": "Azure Resource Manager"
+    },
+    {
+        "question": "Was ist Azure Sentinel?",
+        "options": [
+            "Ein Dienst zur Anwendungsüberwachung",
+            "Ein Container Orchestrierungsdienst",
+            "Ein Dienst zur Sicherheitsverwaltung und -analyse",
+            "Ein Datenbank Dienst"
+        ],
+        "answer": "Ein Dienst zur Sicherheitsverwaltung und -analyse"
+    },
+    {
+        "question": "Was beschreibt am besten das Konzept der 'Elastizität' in der Cloud?",
+        "options": [
+            "Die Fähigkeit, Ressourcen nach Bedarf nach oben oder unten zu skalieren",
+            "Die Fähigkeit, Daten unbegrenzt zu speichern",
+            "Die Fähigkeit, schnell auf Daten zuzugreifen",
+            "Die Fähigkeit, Daten effektiv zu sichern"
+        ],
+        "answer": "Die Fähigkeit, Ressourcen nach Bedarf nach oben oder unten zu skalieren"
+    }
+]
+
 ]
