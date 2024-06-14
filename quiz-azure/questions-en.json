@@ -1,0 +1,429 @@
+[
+  {
+    "question": "Which of the following options is a type of IaaS?",
+    "options": [
+      "Azure Files",
+      "Azure Virtual Machine",
+      "Azure SQL Database",
+      "Azure Logic App"
+    ],
+    "answer": "Azure Virtual Machine"
+  },
+  {
+    "question": "What term in the realm of cloud computing refers to the ability to increase the number of virtual machines in response to a sharp increase in demand?",
+    "options": [
+      "Vertical scaling",
+      "Horizontal scaling",
+      "High availability",
+      "Reliability"
+    ],
+    "answer": "Horizontal scaling"
+  },
+  {
+    "question": "For each of the following statements, choose 'Yes' if the statement is true, or 'No' if the statement is false.\nNote that each correct statement is worth one point.\nYou pay for the resources you create, regardless of whether you use them in the fixed-price model.",
+    "options": ["Yes", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "For each of the following statements, choose 'Yes' if the statement is true, or 'No' if the statement is false.\nNote that each correct statement is worth one point.\nIn the pay-as-you-go model, you only pay for what you use.",
+    "options": ["Yes", "No"],
+    "answer": ["Yes"]
+  },
+  {
+    "question": "For each of the following statements, choose 'Yes' if the statement is true, or 'No' if the statement is false.\nNote that each correct statement is worth one point.\nReservations are considered a consumption-based fee.",
+    "options": ["Yes", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "What Azure service allows you to send alerts when a virtual machine's CPU usage reaches 80%?",
+    "options": [
+      "Azure Bastion",
+      "Azure Monitor",
+      "Microsoft Defender for Cloud",
+      "Azure Service Health"
+    ],
+    "answer": "Azure Monitor"
+  },
+  {
+    "question": "You are planning to migrate several virtual machines for your front-end and back-end applications to Azure.\n\nThere is a compliance requirement stating that the backend servers must be in a separate network segment. What Azure solution should you implement?",
+    "options": [
+      "A security network for each group of front-end and back-end servers",
+      "A resource group for each group of front-end and back-end servers",
+      "A subscription for each group of front-end and back-end servers",
+      "A virtual network for each group of front-end and back-end servers"
+    ],
+    "answer": "A virtual network for each group of front-end and back-end servers"
+  },
+  {
+    "question": "What service allows you to assess regulatory compliance and improve the compliance posture of your Azure environment?",
+    "options": [
+      "Azure Advisor",
+      "Azure Blueprints",
+      "Azure Policies",
+      "Microsoft Defender for Cloud"
+    ],
+    "answer": "Microsoft Defender for Cloud"
+  },
+  {
+    "question": "A company has hundreds of virtual machines spread across multiple virtual networks and subscriptions.\n\nYou have been tasked with limiting the amount of outgoing HTTPS traffic to a specific list of Fully Qualified Domain Names (FQDNs) and restricting incoming traffic to the virtual networks.\n\nWhat should be done to meet the mentioned requirement?",
+    "options": [
+      "Integrate Azure Firewall into your network architecture",
+      "Implement a single network security group",
+      "Implement a single Azure ExpressRoute connection",
+      "Integrate Azure Virtual Network TAP into your network architecture"
+    ],
+    "answer": "Integrate Azure Firewall into your network architecture"
+  },
+  {
+    "question": "Serverless computing allows developers...",
+    "options": [
+      "Minimize time and resources for infrastructure management and code",
+      "Focus on application development by eliminating infrastructure management tasks such as server patching and provisioning of capabilities",
+      "Focus on infrastructure management tasks such as provisioning capabilities and patching",
+      "Run applications with less effort and fewer server resources, providing easy-to-use capacity provisioning tools"
+    ],
+    "answer": "Focus on application development by eliminating infrastructure management tasks such as server patching and provisioning of capabilities"
+  },
+  {
+    "question": "What Azure service allows you to create Windows desktops that can host desktop applications in just minutes, scale easily, and allow users to connect from any device over the Internet?",
+    "options": [
+      "Azure Functions",
+      "Azure Virtual Desktop",
+      "Azure Dedicated Host",
+      "Azure Batch"
+    ],
+    "answer": "Azure Virtual Desktop"
+  },
+  {
+    "question": "You have been tasked to find a document sharing solution that can be mapped or linked to your on-premises Windows servers. What Azure service should you use?",
+    "options": [
+      "Azure Cosmos DB",
+      "Azure Managed Disks",
+      "Azure Files",
+      "Azure Blob"
+    ],
+    "answer": "Azure Files"
+  },
+  {
+    "question": "Which of the following serverless computing services allows you to run event-based code without explicitly provisioning or managing infrastructure?",
+    "options": [
+      "Azure Logic Apps",
+      "Azure Container Instances",
+      "Azure Functions",
+      "Azure VMs"
+    ],
+    "answer": "Azure Functions"
+  },
+  {
+    "question": "Your company stores its multimedia resources in a storage account in the Singapore region. You need to recommend a solution to ensure that the data can still be retrieved if the Singapore region fails. The solution must also be cost-effective. Solution: Configure your storage account to use 'Geo-redundant storage and zonal redundancy' (GZRS) option. Does this meet the objective?",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "A company has multiple Azure resources in different regions. Support technicians must manage the company's Azure cloud environments using the Azure Command-Line Interface (CLI). What two of the following tools can technicians use to install and run Azure CLI?",
+    "options": [
+      "Azure AD Seamless SSO",
+      "Windows Command Line (CMD)",
+      "Azure Storage Explorer",
+      "Azure Resource Explorer",
+      "Windows PowerShell"
+    ],
+    "answer": ["Windows Command Line (CMD)", "Windows PowerShell"]
+  },
+  {
+    "question": "You need to configure a network security group in your Azure subscription to restrict access to the Remote Desktop Protocol for your virtual machines. What two resources can be associated with your network security group?",
+    "options": [
+      "Virtual network",
+      "Network interface",
+      "Route table",
+      "Subnet",
+      "DNS server"
+    ],
+    "answer": ["Network interface", "Subnet"]
+  },
+  {
+    "question": "For each of the following statements, choose 'Yes' if the statement is correct, or 'No' if the statement is incorrect.\nNote that each correct statement is worth one point.\nAzure Firewall uses Internet Protocol Security (IPsec) Security to encrypt all network traffic between your Azure resources and your on-premises network over the public Internet.",
+    "options": ["Yes", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "For each of the following statements, choose 'Yes' if the statement is correct, or 'No' if the statement is incorrect.\nNote that each correct statement is worth one point.\nYou can configure a VPN Gateway connection that uses IPsec to connect from your home computer to your Azure virtual network over the public Internet.",
+    "options": ["Yes", "No"],
+    "answer": ["Yes"]
+  },
+  {
+    "question": "For each of the following statements, choose 'Yes' if the statement is correct, or 'No' if the statement is incorrect.\nNote that each correct statement is worth one point.\nAzure network security groups can encrypt all network traffic between your Azure resources and your on-premises network over the public Internet.",
+    "options": ["Yes", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "You have been tasked with monitoring your on-premises identity infrastructure and ensuring reliable connectivity to Office 365 and Microsoft's online services. What service should you use?",
+    "options": [
+      "Azure Application Gateway",
+      "Microsoft Entra Connect Health",
+      "Azure App Service",
+      "Azure Application Insights"
+    ],
+    "answer": "Microsoft Entra Connect Health"
+  },
+  {
+    "question": "Your company plans to migrate its MS SQL application servers and databases to Microsoft Azure.\nYour company needs the highest level of flexibility and management control over your Azure resources. Therefore, you need to recommend a migration plan to use only the Infrastructure as a Service solution in your Azure implementation.\nWhat migration plan should you recommend? Solution: Deploy an Azure App Service for your application and Azure SQL databases for your database server. Does this meet the objective?",
+    "options": ["No", "Yes"],
+    "answer": "No"
+  },
+  {
+    "question": "A company has multiple Windows virtual machines deployed in Microsoft Azure and Linux servers in their on-premises data center as part of their hybrid cloud strategy.\nThe company plans to manage their on-premises Linux servers using the Azure portal.\nWhat should the company use to monitor and manage the Linux servers as if they were running in Azure?",
+    "options": [
+      "Azure App Service",
+      "Azure Site Recovery",
+      "Azure Arc",
+      "Azure Migrate"
+    ],
+    "answer": "Azure Arc"
+  },
+  {
+    "question": "Your company plans to migrate its MS SQL application servers and databases to Microsoft Azure.\nYour company needs the highest level of flexibility and management control over your Azure resources. Therefore, you need to recommend a migration plan to use only the Infrastructure as a Service solution in your Azure implementation.\nWhat migration plan should you recommend? Solution: Deploy a SQL Server Always On availability group. Does this meet the objective?",
+    "options": ["No", "Yes"],
+    "answer": "Yes"
+  },
+  {
+    "question": "A company is deploying its web servers in Microsoft Azure. The web servers need to communicate securely with backend databases, which are hosted on-premises.\nWhat should be implemented to securely communicate between the web servers in Azure and the backend databases on-premises?",
+    "options": [
+      "Configure a VPN Gateway in Azure",
+      "Use Azure AD Connect",
+      "Use Azure Private Link",
+      "Configure Azure Application Gateway"
+    ],
+    "answer": "Configure a VPN Gateway in Azure"
+  },
+  {
+    "question": "For each of the following elements, choose Yes if the statement is true, or No if the statement is false.\nNote that each correct element is worth one point.\nA Platform as a Service (PaaS) solution offers the ability to automatically scale the platform without manual intervention.",
+    "options": ["Yes", "No"],
+    "answer": ["Yes"]
+  },
+  {
+    "question": "Azure App Service and Azure Virtual Machines are services you can use in Azure. For each service, determine its correct cloud service model.\nSelect the correct answer from the drop-down list of options. Each correct selection is worth one point.\n\n1. Azure VMs\n2. Azure App Services",
+    "options": ["IaaS", "PaaS", "SaaS"],
+    "answer": ["IaaS", "PaaS"]
+  },
+  {
+    "question": "What is the primary advantage of using the public cloud for your servers?",
+    "options": [
+      "The public cloud is exclusively used by a single company or organization.",
+      "The public cloud belongs to the public and not a private organization or company.",
+      "The public cloud is a shared unit free funded by the public and accessible to all.",
+      "The public cloud is a shared unit operated by a third-party cloud service provider that multiple companies can use."
+    ],
+    "answer": [
+      "The public cloud is a shared unit operated by a third-party cloud service provider that multiple companies can use."
+    ]
+  },
+  {
+    "question": "Which of the following best describes an Azure region?",
+    "options": [
+      "A) A physical location with multiple datacenters.",
+      "B) A single datacenter.",
+      "C) A security group in Azure.",
+      "D) A virtual network."
+    ],
+    "answer": "A) A physical location with multiple datacenters."
+  },
+  {
+    "question": "Which Azure region is used to meet data storage requirements and compliance for certain countries or regions?",
+    "options": [
+      "A) Availability Zone",
+      "B) Geography",
+      "C) Resource Group",
+      "D) Subnet"
+    ],
+    "answer": "B) Geography"
+  },
+  {
+    "question": "Which of the following statements is correct regarding Azure Availability Zones?",
+    "options": [
+      "A) They are separate geographic regions.",
+      "B) They offer additional protection against datacenter failures.",
+      "C) They are only available in certain Azure regions.",
+      "D) Both B and C."
+    ],
+    "answer": "D) Both B and C."
+  },
+  {
+    "question": "Which of the following models describes cloud services where all infrastructure is provided and managed by a third party?",
+    "options": [
+      "A) On-Premises",
+      "B) Infrastructure as a Service (IaaS)",
+      "C) Platform as a Service (PaaS)",
+      "D) Software as a Service (SaaS)"
+    ],
+    "answer": "D) Software as a Service (SaaS)"
+  },
+  {
+    "question": "What advantages does using cloud services offer?",
+    "options": [
+      "A) Capital expenditure becomes operational expenditure.",
+      "B) Greater scalability.",
+      "C) Pay-as-you-go pricing model.",
+      "D) All of the above."
+    ],
+    "answer": "D) All of the above."
+  },
+  {
+    "question": "What is an essential feature of cloud computing that allows dynamic provisioning and management of resources?",
+    "options": [
+      "A) High availability",
+      "B) Elasticity",
+      "C) Global footprint",
+      "D) Network security"
+    ],
+    "answer": "B) Elasticity"
+  },
+  {
+    "question": "Which of the following best describes Azure Functions?",
+    "options": [
+      "A) A service for managing virtual machines.",
+      "B) A serverless computing service to run event-driven code.",
+      "C) SQL database management.",
+      "D) A tool for managing network security groups."
+    ],
+    "answer": "B) A serverless computing service to run event-driven code."
+  },
+  {
+    "question": "What is a typical use case for Azure Functions?",
+    "options": [
+      "A) Performing long-running computations.",
+      "B) Hosting websites.",
+      "C) Sending event-based email notifications.",
+      "D) Storing data in a relational database."
+    ],
+    "answer": "C) Sending event-based email notifications."
+  },
+  {
+    "question": "Which of the following languages is not supported by Azure Functions?",
+    "options": ["A) C#", "B) Python", "C) JavaScript", "D) COBOL"],
+    "answer": "D) COBOL"
+  },
+  {
+    "question": "What is the primary purpose of an Azure Virtual Machine (VM)?",
+    "options": [
+      "A) Provide a serverless architecture.",
+      "B) Create virtual networks.",
+      "C) Provide computing power for applications.",
+      "D) Store data in a structured form."
+    ],
+    "answer": "C) Provide computing power for applications."
+  },
+  {
+    "question": "Which of the following are Azure VM sizes designed for different workloads?",
+    "options": [
+      "A) Basic, Standard, Premium",
+      "B) Series B, Series D, Series F",
+      "C) Small, Medium, Large",
+      "D) Bronze, Silver, Gold"
+    ],
+    "answer": "B) Series B, Series D, Series F"
+  },
+  {
+    "question": "Which of the following statements is correct regarding scaling an Azure VM?",
+    "options": [
+      "A) Increases the number of VMs.",
+      "B) Increases the capacity of the existing VM by adding more resources.",
+      "C) Reduces the number of VMs.",
+      "D) Decreases the capacity of the existing VM."
+    ],
+    "answer": "B) Increases the capacity of the existing VM by adding more resources."
+  },
+  {
+    "question": "What is the primary purpose of a Resource Group in Azure?",
+    "options": [
+      "A) A method to manage billing.",
+      "B) A logical container to manage and organize Azure resources.",
+      "C) A physical data center.",
+      "D) A security protocol."
+    ],
+    "answer": "B) A logical container to manage and organize Azure resources."
+  },
+  {
+    "question": "Which of the following options describes Azure Role-Based Access Control (RBAC)?",
+    "options": [
+      "A) A method to control network access.",
+      "B) A system to manage user permissions.",
+      "C) A database management tool.",
+      "D) A storage protocol."
+    ],
+    "answer": "B) A system to manage user permissions."
+  },
+  {
+    "question": "Which Azure service allows monitoring and managing resources, applications, and services?",
+    "options": [
+      "A) Azure DevOps",
+      "B) Azure Monitor",
+      "C) Azure SQL Database",
+      "D) Azure Functions"
+    ],
+    "answer": "B) Azure Monitor"
+  },
+  {
+    "question": "What makes a system elastic?",
+    "options": [
+      "The ability to be available during updates.",
+      "The ability to increase and decrease capacity based on actual demand.",
+      "The ability to repair itself after a failure.",
+      "The ability to withstand DoS attacks."
+    ],
+    "answer": "The ability to increase and decrease capacity based on actual demand."
+  },
+  {
+    "question": "What is the fastest connection between your on-premises network and Microsoft Azure, if cost is not a concern?",
+    "options": [
+      "Point-to-Site VPN",
+      "Site-to-Site VPN",
+      "Private Link",
+      "Express Route"
+    ],
+    "answer": "Express Route"
+  },
+  {
+    "question": "Is it true that Azure PowerShell scripts and Command-Line Interface (CLI) scripts are fully compatible?",
+    "options": ["NO", "YES"],
+    "answer": "NO"
+  },
+  {
+    "question": "What resources are considered compute resources?",
+    "options": [
+      "All resources listed in the Azure Marketplace.",
+      "Only virtual machines.",
+      "Resources performing tasks requiring CPU cycles."
+    ],
+    "answer": "Resources performing tasks requiring CPU cycles."
+  },
+  {
+    "question": "What does the abbreviation ARM stand for in Azure?",
+    "options": [
+      "Advanced RISC Machine",
+      "Azure Resource Manager",
+      "Availability, Reliability, Maintainability",
+      "Account Resource Manager"
+    ],
+    "answer": "Azure Resource Manager"
+  },
+  {
+    "question": "What is Single Sign-On (SSO)?",
+    "options": [
+      "When an application outsources its identity service to a third-party platform (federated).",
+      "The ability to log in once and use existing user ID and password to log in to other applications without having to create/remember a new one.",
+      "When you log in to an application, it remembers who you are next time you visit."
+    ],
+    "answer": "The ability to log in once and use existing user ID and password to log in to other applications without having to create/remember a new one."
+  },
+  {
+    "question": "Why is Azure App Services considered Platform as a Service (PaaS)?",
+    "options": [
+      "You can decide on which type of virtual machine it runs: Series A, Series D, or even Series H.",
+      "You are responsible for keeping the operating system updated.",
+      "You are responsible for application code and data.",
+      "You cannot decide which hardware it will run on or which network connection it will use."
+    ],
+    "answer": "You cannot decide which hardware it will run on or which network connection it will use."
+  }
+]

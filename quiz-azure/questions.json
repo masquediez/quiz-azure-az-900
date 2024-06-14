@@ -1,0 +1,138 @@
+[
+  {
+    "question": "Welche der folgenden Aussagen beschreibt am besten eine Azure-Region?",
+    "options": [
+      "A - Ein physischer Standort mit mehreren Rechenzentren.",
+      "B - Ein einzelnes Rechenzentrum.",
+      "C - Eine Sicherheitsgruppe in Azure.",
+      "D - Ein Virtuelles Netzwerk."
+    ],
+    "answer": "A - Ein physischer Standort mit mehreren Rechenzentren."
+  },
+  {
+    "question": "Welche Azure-Region wird verwendet, um die Datenspeicherung und Compliance-Anforderungen bestimmter Länder oder Regionen zu erfüllen?",
+    "options": [
+      "A - Verfügbarkeitszone",
+      "B - Geografie",
+      "C - Resource Group",
+      "D - Subnetz"
+    ],
+    "answer": "B - Geografie"
+  },
+  {
+    "question": "Welche der folgenden Aussagen ist korrekt in Bezug auf Azure Availability Zones?",
+    "options": [
+      "A - Sie sind separate geografische Regionen.",
+      "B - Sie bieten zusätzlichen Schutz gegen Rechenzentrumsausfälle.",
+      "C - Sie sind nur in bestimmten Azure-Regionen verfügbar.",
+      "D - Sowohl B als auch C."
+    ],
+    "answer": "D - Sowohl B als auch C."
+  },
+  {
+    "question": "Welches der folgenden Modelle beschreibt Cloud-Dienste, bei denen die gesamte Infrastruktur von einem Drittanbieter bereitgestellt und verwaltet wird?",
+    "options": [
+      "A - On-Premises",
+      "B - Infrastructure as a Service (IaaS)",
+      "C - Platform as a Service (PaaS)",
+      "D - Software as a Service (SaaS)"
+    ],
+    "answer": "D - Software as a Service (SaaS)"
+  },
+  {
+    "question": "Welche der folgenden Vorteile bietet die Nutzung von Cloud-Diensten?",
+    "options": [
+      "A - Kapitalaufwand wird zu Betriebskosten.",
+      "B - Erhöhte Skalierbarkeit.",
+      "C - Pay-as-you-go-Preismodell.",
+      "D - Alle oben genannten."
+    ],
+    "answer": "D - Alle oben genannten."
+  },
+  {
+    "question": "Was ist eine wesentliche Eigenschaft des Cloud-Computings, die eine dynamische Ressourcenbereitstellung und -verwaltung ermöglicht?",
+    "options": [
+      "A - Hochverfügbarkeit",
+      "B - Elastizität",
+      "C - Globaler Fußabdruck",
+      "D - Netzwerksicherheit"
+    ],
+    "answer": "B - Elastizität"
+  },
+  {
+    "question": "Welche der folgenden Aussagen beschreibt Azure Functions am besten?",
+    "options": [
+      "A - Ein Dienst, um virtuelle Maschinen zu verwalten.",
+      "B - Ein serverloser Compute-Dienst zur Ausführung von Ereignis-getriebenem Code.",
+      "C - Eine SQL-Datenbankverwaltung.",
+      "D - Ein Tool zur Verwaltung von Netzwerksicherheitsgruppen."
+    ],
+    "answer": "B - Ein serverloser Compute-Dienst zur Ausführung von Ereignis-getriebenem Code."
+  },
+  {
+    "question": "Was ist eine typische Verwendung für Azure Functions?",
+    "options": [
+      "A - Lang laufende Berechnungen durchführen.",
+      "B - Webseiten hosten.",
+      "C - E-Mail-Benachrichtigungen basierend auf Ereignissen senden.",
+      "D - Daten in einer relationalen Datenbank speichern."
+    ],
+    "answer": "C - E-Mail-Benachrichtigungen basierend auf Ereignissen senden."
+  },
+  {
+    "question": "Welche der folgenden Sprachen wird von Azure Functions nicht unterstützt?",
+    "options": ["A - C#", "B - Python", "C - JavaScript", "D - COBOL"],
+    "answer": "D - COBOL"
+  },
+  {
+    "question": "Was ist der primäre Zweck einer Azure Virtual Machine (VM)?",
+    "options": [
+      "A - Eine serverlose Architektur bereitzustellen.",
+      "B - Virtuelle Netzwerke zu erstellen.",
+      "C - Rechenleistung für Anwendungen bereitzustellen.",
+      "D - Daten in einer strukturierten Form zu speichern."
+    ],
+    "answer": "C - Rechenleistung für Anwendungen bereitzustellen."
+  },
+
+  {
+    "question": "Welche der folgenden Aussagen ist korrekt in Bezug auf das Hochskalieren einer Azure VM?",
+    "options": [
+      "A - Es erhöht die Anzahl der VMs.",
+      "B - Es erhöht die Kapazität der vorhandenen VM durch Hinzufügen von mehr Ressourcen.",
+      "C - Es reduziert die Anzahl der VMs.",
+      "D - Es verringert die Kapazität der vorhandenen VM."
+    ],
+    "answer": "B - Es erhöht die Kapazität der vorhandenen VM durch Hinzufügen von mehr Ressourcen."
+  },
+  {
+    "question": "Was ist der Hauptzweck einer Resource Group in Azure?",
+    "options": [
+      "A - Eine Methode zur Verwaltung von Abrechnung.",
+      "B - Eine logische Container zur Verwaltung und Organisation von Azure-Ressourcen.",
+      "C - Ein physisches Rechenzentrum.",
+      "D - Ein Sicherheitsprotokoll."
+    ],
+    "answer": "B - Eine logische Container zur Verwaltung und Organisation von Azure-Ressourcen."
+  },
+  {
+    "question": "Welche der folgenden Optionen beschreibt eine Azure Role-Based Access Control (RBAC)?",
+    "options": [
+      "A - Eine Methode zur Kontrolle von Netzwerkzugriffen.",
+      "B - Ein System zur Verwaltung von Benutzerberechtigungen.",
+      "C - Ein Datenbankverwaltungswerkzeug.",
+      "D - Ein Speicherprotokoll."
+    ],
+    "answer": "B - Ein System zur Verwaltung von Benutzerberechtigungen."
+  },
+  {
+    "question": "Welche Azure-Dienstleistung ermöglicht die Überwachung und Verwaltung von Ressourcen, Anwendungen und Diensten?",
+    "options": [
+      "A - Azure DevOps",
+      "B - Azure Monitor",
+      "C - Azure SQL Database",
+      "D - Azure Functions"
+    ],
+    "answer": "B - Azure Monitor"
+  }
+]

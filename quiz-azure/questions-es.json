@@ -1,0 +1,1626 @@
+[
+  {
+    "question": "¿Cuál de las siguientes optionss es un tipo de IaaS?",
+    "options": [
+      "Azure Files",
+      "Azure Virtual Machine",
+      "Azure SQL Database",
+      "Azure Logic App"
+    ],
+    "answer": "Azure Virtual Machine"
+  },
+  {
+    "question": "¿Qué término en el ámbito de la computación en la nube se refiere a la capacidad de aumentar el número de máquinas virtuales en respuesta a un fuerte aumento de la demanda?",
+    "options": [
+      "Escalado vertical",
+      "Escalado horizontal",
+      "Alta disponibilidad",
+      "Confiabilidad"
+    ],
+    "answer": "Escalado horizontal"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, elija 'Sí' si la afirmación es verdadera, o 'No' si la afirmación es falsa. \nTenga en cuenta que cada afirmación correcta vale un punto.\n Usted paga por los recursos que crea, independientemente de si los usa en el modelo de precio fijo.",
+    "options": ["Sí", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, elija 'Sí' si la afirmación es verdadera, o 'No' si la afirmación es falsa. \nTenga en cuenta que cada afirmación correcta vale un punto.\n En el modelo de pago por uso, solo paga por lo que usa.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, elija 'Sí' si la afirmación es verdadera, o 'No' si la afirmación es falsa. \nTenga en cuenta que cada afirmación correcta vale un punto.\n Las reservas se consideran una tarifa basada en el consumo.",
+    "options": ["Sí", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "¿Qué servicio de Azure le permite enviar alertas cuando el uso de la CPU de una máquina virtual alcanza el 80%?",
+    "options": [
+      "Azure Bastion",
+      "Azure Monitor",
+      "Microsoft Defender para la Nube",
+      "Azure Service Health"
+    ],
+    "answer": "Azure Monitor"
+  },
+  {
+    "question": "Está planeando migrar varias máquinas virtuales para sus aplicaciones de frontend y backend en Azure. \n\nExiste un requisito de cumplimiento que indica que los servidores backend deben estar en un segmento de red separado. ¿Qué solución de Azure debe implementar?",
+    "options": [
+      "Una red de seguridad para cada grupo de servidores de frontend y backend",
+      "Un grupo de recursos para cada grupo de servidores de frontend y backend",
+      "Una suscripción para cada grupo de servidores de frontend y backend",
+      "Una red virtual para cada grupo de servidores de frontend y backend"
+    ],
+    "answer": "Una red virtual para cada grupo de servidores de frontend y backend"
+  },
+  {
+    "question": "¿Qué servicio le permite evaluar el cumplimiento normativo y mejorar el estado de conformidad de su entorno de Azure?",
+    "options": [
+      "Azure Advisor",
+      "Azure Blueprints",
+      "Azure Políticas",
+      "Microsoft Defender para la Nube"
+    ],
+    "answer": "Microsoft Defender para la Nube"
+  },
+  {
+    "question": "Una empresa tiene cientos de máquinas virtuales distribuidas en varias redes virtuales y suscripciones. \n\nSe le ha encomendado la tarea de limitar la cantidad de tráfico HTTPS saliente a una lista específica de nombres de dominio completamente calificados (FQDN) y restringir el tráfico entrante a las redes virtuales. \n\n¿Qué se debe hacer para cumplir con el requisito mencionado?",
+    "options": [
+      "Integrar Azure Firewall en su arquitectura de red",
+      "Implementar un solo grupo de seguridad de red",
+      "Implementar una sola conexión Azure ExpressRoute",
+      "Integrar Azure Virtual Network TAP (Terminal Access Point) en su arquitectura de red"
+    ],
+    "answer": "Integrar Azure Firewall en su arquitectura de red"
+  },
+  {
+    "question": "La computación sin servidor permite a los desarrolladores...",
+    "options": [
+      "minimizar el tiempo y los recursos para la gestión de infraestructura y código",
+      "centrarse en el desarrollo de aplicaciones eliminando tareas de gestión de infraestructura como el parcheo de servidores y la provisión de capacidades",
+      "centrarse en tareas de gestión de infraestructura como la provisión de capacidades y el parcheo",
+      "ejecutar aplicaciones con menos esfuerzo y menos recursos de servidor, proporcionando herramientas de provisión de capacidad fáciles de usar"
+    ],
+    "answer": "centrarse en el desarrollo de aplicaciones eliminando tareas de gestión de infraestructura como el parcheo de servidores y la provisión de capacidades"
+  },
+  {
+    "question": "¿Qué servicio de Azure le permite crear escritorios de Windows que pueden alojar aplicaciones de escritorio en solo unos minutos, escalarse fácilmente y permitir a los usuarios conectarse desde cualquier dispositivo a través de Internet?",
+    "options": [
+      "Azure Functions",
+      "Azure Virtual Desktop",
+      "Azure Dedicated Host",
+      "Azure Batch"
+    ],
+    "answer": "Azure Virtual Desktop"
+  },
+  {
+    "question": "Se le ha encargado encontrar una solución para compartir documentos que pueda asignar o vincular en sus servidores locales de Windows. ¿Qué servicio de Azure debe utilizar?",
+    "options": [
+      "Azure Cosmos DB",
+      "Azure Managed Disks",
+      "Azure Files",
+      "Azure Blob"
+    ],
+    "answer": "Azure Files"
+  },
+  {
+    "question": "¿Cuál de los siguientes servicios de computación sin servidor le permite ejecutar código basado en eventos sin proporcionar o administrar explícitamente la infraestructura?",
+    "options": [
+      "Azure Logic Apps",
+      "Azure Container Instances",
+      "Azure Functions",
+      "Azure VMs"
+    ],
+
+    "answer": "Azure Functions"
+  },
+  {
+    "question": "Su empresa almacena sus recursos multimedia en una cuenta de almacenamiento en la región de Singapur. Debe recomendar una solución para asegurarse de que los datos aún puedan recuperarse si la región de Singapur falla. La solución también debe ser rentable. Solución: Configure su cuenta de almacenamiento para usar la opción 'Almacenamiento con redundancia geográfica y zonal' (GZRS). ¿Cumple esto con el objetivo?",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Una empresa tiene múltiples recursos de Azure en diferentes regiones. Los técnicos de soporte deben gestionar los entornos de nube de Azure de la empresa utilizando la interfaz de línea de comandos de Azure (Azure CLI). ¿Qué dos de las siguientes herramientas pueden usar los técnicos para instalar y ejecutar Azure CLI?",
+    "options": [
+      "Azure AD Seamless SSO",
+      "Línea de comandos de Windows (CMD)",
+      "Azure Storage Explorer",
+      "Azure Resource Explorer",
+      "Windows PowerShell"
+    ],
+    "answer": ["Línea de comandos de Windows (CMD)", "Windows PowerShell"]
+  },
+  {
+    "question": "Debe configurar un grupo de seguridad de red en su suscripción de Azure para restringir el acceso al Protocolo de Escritorio Remoto para sus máquinas virtuales. ¿Qué dos recursos pueden asociarse a su grupo de seguridad de red?",
+    "options": [
+      "Red virtual",
+      "Interfaz de red",
+      "Tabla de rutas",
+      "Subred",
+      "Servidor DNS"
+    ],
+    "answer": ["Interfaz de red", "Subred"]
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, elija 'Sí' si la afirmación es correcta, o 'No' si la afirmación es incorrecta.\nTenga en cuenta que cada afirmación correcta vale un punto.\nAzure Firewall usa la Seguridad del Protocolo de Internet (IPsec) para cifrar todo el tráfico de red entre sus recursos de Azure y su red local a través de Internet público.",
+    "options": ["Sí", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, elija 'Sí' si la afirmación es correcta, o 'No' si la afirmación es incorrecta.\nTenga en cuenta que cada afirmación correcta vale un punto.\nPuede configurar una conexión VPN punto a sitio que use IPsec para conectarse desde su computadora doméstica a su red virtual de Azure a través de Internet público.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, elija 'Sí' si la afirmación es correcta, o 'No' si la afirmación es incorrecta.\nTenga en cuenta que cada afirmación correcta vale un punto.\nLos grupos de seguridad de red de Azure pueden cifrar todo el tráfico de red entre sus recursos de Azure y su red local a través de Internet público.",
+    "options": ["Sí", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "Se le ha encargado la tarea de monitorear su infraestructura de identidad local y garantizar una conexión confiable a Office 365 y los servicios en línea de Microsoft. ¿Qué servicio debe utilizar?",
+    "options": [
+      "Azure Application Gateway",
+      "Microsoft Entra Connect Health",
+      "Azure App Service",
+      "Azure Application Insights"
+    ],
+    "answer": "Microsoft Entra Connect Health"
+  },
+
+  {
+    "question": "Tu empresa planea migrar sus servidores de aplicaciones y bases de datos MS SQL a Microsoft Azure. \nTu empresa necesita tener el nivel más alto de flexibilidad y control de gestión sobre sus recursos de Azure. \nPor lo tanto, necesitas recomendar un plan de migración para usar solo la solución de Infraestructura como Servicio en tu implementación de Azure.\n ¿Qué plan de migración deberías recomendar? Solución: Desplegar un Azure App Service para tu aplicación y bases de datos Azure SQL para tu servidor de bases de datos. \n¿Cumple esto con el objetivo?",
+    "options": ["No", "Sí"],
+    "answer": "No"
+  },
+  {
+    "question": "Una empresa tiene varias máquinas virtuales Windows desplegadas en Microsoft Azure y servidores Linux en su centro de datos local como parte de su estrategia de nube híbrida. \nLa empresa planea gestionar sus servidores Linux locales utilizando el portal de Azure. \n¿Qué debería usar la empresa para monitorear y gestionar los servidores Linux como si estuvieran ejecutándose en Azure?",
+    "options": [
+      "Azure App Service",
+      "Azure Site Recovery",
+      "Azure Arc",
+      "Azure Migrate"
+    ],
+    "answer": "Azure Arc"
+  },
+  {
+    "question": "Tu empresa planea migrar sus servidores de aplicaciones y bases de datos MS SQL a Microsoft Azure. \nTu empresa necesita tener el nivel más alto de flexibilidad y control de gestión sobre sus recursos de Azure. \nPor lo tanto, necesitas recomendar un plan de migración para usar solo la solución de Infraestructura como Servicio en tu implementación de Azure. \n ¿Qué plan de migración deberías recomendar? Solución: Desplegar una máquina virtual de Azure para tu servidor de aplicaciones y una base de datos SQL de Azure para tu servidor de bases de datos. \n ¿Cumple esto con el objetivo?",
+    "options": ["No", "Sí"],
+    "answer": "No"
+  },
+  {
+    "question": "Si eliminas un grupo de recursos, ¿qué pasará con los recursos dentro de él?",
+    "options": [
+      "Los recursos dentro de él no serán eliminados.",
+      "Los recursos dentro de él serán eliminados.",
+      "Los recursos dentro de él serán transferidos a una cuenta de almacenamiento de Azure.",
+      "Los recursos dentro de él serán transferidos a Azure Site Recovery."
+    ],
+    "answer": "Los recursos dentro de él serán eliminados."
+  },
+  {
+    "question": "En el Modelo de Responsabilidad Compartida de Azure, ¿de quién es la responsabilidad de parchear el sistema operativo de un Azure App Service?",
+    "options": [
+      "Cliente",
+      "Azure",
+      "Tanto Azure como el cliente",
+      "Ni Azure ni el cliente"
+    ],
+    "answer": "Azure"
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elige Sí si la afirmación es verdadera o elige No si la afirmación es falsa. Toma en cuenta que cada respuesta correcta vale un punto. Puedes adjuntar un grupo de seguridad de red a una subred.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Puedes adjuntar un grupo de seguridad de red a una red virtual.",
+    "options": ["Sí", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "Puedes adjuntar un grupo de seguridad de red a una interfaz de red.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "El sistema de gestión de pacientes de una organización migró su aplicación que maneja los registros de pacientes a Azure. Debido a requisitos de cumplimiento, necesitas almacenar terabytes de registros durante más de 10 años. Los registros se acceden raramente y pueden acomodar un retraso en la recuperación. ¿Qué solución de almacenamiento se ajustaría mejor a los requisitos?",
+    "options": [
+      "Almacenar los registros en una máquina virtual",
+      "Almacenar los registros en Azure Blob Storage - Nivel de Archivo",
+      "Almacenar los registros en Azure Blob Storage - Nivel Caliente",
+      "Almacenar los registros en Azure Blob Storage - Nivel Frío"
+    ],
+    "answer": "Almacenar los registros en Azure Blob Storage - Nivel de Archivo"
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elige Sí si la afirmación es verdadera o elige No si la afirmación es falsa. Toma en cuenta que cada respuesta correcta vale un punto. Los gastos operativos son costos continuos de hacer negocios. Consumir servicios en la nube en un modelo de pago por uso podría calificar como un gasto operativo.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Dos máquinas virtuales que usan la instancia D2d v4 siempre tendrán los mismos costos mensuales.",
+    "options": ["Sí", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "Los gastos de capital generan beneficios a lo largo de un período prolongado. Estos gastos son generalmente no recurrentes y resultan en la adquisición de activos permanentes.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Los gastos de capital o CapEx se definen como fondos utilizados por las organizaciones para obtener, actualizar y mantener activos físicos como centros de datos. \nEstos gastos son generalmente no recurrentes y resultan en la adquisición de activos permanentes.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Las Instancias Reservadas de Azure son un ejemplo de un modelo de CapEx.",
+    "options": ["Sí", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "Una empresa planea migrar sus aplicaciones .NET y PHP accesibles públicamente a Azure. \nSe necesita un entorno para desplegar y probar las aplicaciones personalizadas de la empresa rápidamente mientras se minimiza el esfuerzo administrativo en la gestión de los recursos del servidor subyacente.\n El cliente debe poder centrarse en gestionar sus aplicaciones y servicios mientras el proveedor de servicios en la nube se encarga de todo lo demás. \n¿Qué tipo de servicio en la nube deberías recomendar?",
+    "options": [
+      "Infraestructura como Servicio (IaaS)",
+      "Plataforma como Servicio (PaaS)",
+      "Funciones como servicio (FaaS)",
+      "Software como Servicio (SaaS)"
+    ],
+    "answer": "Plataforma como Servicio (PaaS)"
+  },
+  {
+    "question": "Una empresa está migrando todas sus aplicaciones y datos a Microsoft Azure. \nHay un requisito estricto de que el entorno de Azure debe estar compuesto solo de soluciones de plataforma como servicio (PaaS) para minimizar la cantidad de esfuerzo administrativo en la gestión de los recursos subyacentes. \nSolución: Desplegar las aplicaciones utilizando cuentas de almacenamiento de Azure y Azure App Service.\n ¿Cumple esta solución con el requisito?",
+    "options": ["No", "Sí"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Una empresa tiene tres suscripciones para cada departamento llamadas TDHR, TDIT y TDAccounting. \nNecesitas recomendar una solución que te permita gestionar políticas a través de múltiples suscripciones. \n¿Qué solución de Azure recomendarías?",
+    "options": [
+      "Grupos de administración de Azure",
+      "Asesor de Azure",
+      "Grupos de recursos de Azure",
+      "Políticas de Azure"
+    ],
+    "answer": "Grupos de administración de Azure"
+  },
+  {
+    "question": "Tu organización tiene recursos en una suscripción de Azure que contiene los siguientes recursos no utilizados: \n20 direcciones IP públicas 15 tablas de enrutamiento 5 grupos de seguridad de red 10 redes virtuales Como parte de las actividades de reducción de costos, necesitas determinar qué recursos no utilizados están incurriendo en costos. \nSolución: Eliminar las direcciones IP públicas no utilizadas.\n ¿Cumple esto con el objetivo?",
+    "options": ["No", "Sí"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Una empresa tiene un grupo de recursos llamado TutorialsDojoRG y una red virtual de Azure llamada TutorialsDojoVNET. Se ha asignado una nueva política de Azure a TutorialsDojoRG que estipula que cualquier tipo de recurso de red virtual no está permitido en el grupo de recursos. La red virtual existente TutorialsDojoVNET ____.",
+    "options": [
+      "será eliminada automáticamente después de unos minutos",
+      "será eliminada después de 24 horas",
+      "continuará funcionando correctamente.",
+      "se moverá al grupo de recursos predeterminado"
+    ],
+    "answer": "continuará funcionando correctamente."
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elige Sí si la afirmación es verdadera o elige No si la afirmación es falsa. Toma en cuenta que cada respuesta correcta vale un punto. Microsoft Azure opera con un modelo basado en consumo.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "El modelo basado en consumo se considera como gastos de capital (CapEx).",
+    "options": ["Sí", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "El modelo basado en consumo requiere que los clientes gestionen su propia infraestructura.",
+    "options": ["Sí", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elige Sí si la afirmación es verdadera o elige No si la afirmación es falsa. Toma en cuenta que cada respuesta correcta vale un punto. Los datos cargados en una cuenta de almacenamiento de Azure se replican automáticamente a otra región.",
+    "options": ["Sí", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "Los datos cargados en una cuenta de almacenamiento de Azure solo se copian una vez dentro de una única ubicación física en la región principal.",
+    "options": ["Sí", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "Puedes recuperar datos eliminados dentro de cuentas de almacenamiento de Azure que tienen habilitada la versionado.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "¿Qué servicio de Azure utilizarías si el proyecto requiere que envíes más rápido, operes con facilidad, escales con confianza y aceleres el desarrollo de aplicaciones en contenedores?",
+    "options": [
+      "Registro de Contenedores de Azure",
+      "Servicio de Kubernetes de Azure",
+      "Balanceador de Carga Público",
+      "Balanceador de Carga Privado"
+    ],
+    "answer": "Servicio de Kubernetes de Azure"
+  },
+  {
+    "question": "Tu empresa está planeando migrar su TDPortalApp a Azure. Necesitas una solución que mantenga la conectividad de la máquina virtual al menos con una instancia con un tiempo de actividad del 99.95%.\n Solución: Desplegar una instancia de máquina virtual en un Conjunto de Disponibilidad. \n¿Cumple esto con el objetivo?",
+    "options": ["No", "Sí"],
+    "answer": "No"
+  },
+  {
+    "question": "Una organización está planeando migrar todos sus servidores y datos a Azure. Necesitas recomendar una solución para usar solo productos de Azure de Software como Servicio que apoyarán la migración planificada. \nSolución: Desplegar máquinas virtuales de Azure y una base de datos SQL de Azure. \n¿Cumple esto con el objetivo?",
+    "options": ["No", "Sí"],
+    "answer": "No"
+  },
+  {
+    "question": "__** es un modelo de seguridad que protege a las organizaciones gestionando y otorgando acceso basado en la verificación continua de identidades, dispositivos y servicios.",
+    "options": [
+      "Confianza Cero",
+      "Marco Bien Arquitectado de Microsoft Azure",
+      "Modelo de Responsabilidad Compartida",
+      "Portal de Confianza de Servicio"
+    ],
+    "answer": "Confianza Cero"
+  },
+
+  {
+    "question": "En el modelo de responsabilidad compartida de Azure, ¿de quién es la responsabilidad de parchear el sistema operativo de un Azure App Service?",
+    "options": [
+      "Ni Azure ni el cliente",
+      "Tanto Azure como el cliente",
+      "Cliente",
+      "Azure"
+    ],
+    "answer": ["Azure"]
+  },
+  {
+    "question": "Seleccione la respuesta correcta de la lista desplegable de opciones.\n\nLa computación en la nube es la provisión de servicios de TI",
+    "options": [
+      "a través de Internet para ofrecer innovaciones más rápidas, recursos flexibles, precios basados en el uso y economías de escala.",
+      "a través de Internet, que requiere una inversión inicial en infraestructura física.",
+      "a través de Internet, donde la seguridad de los datos y las identidades es completamente gestionada por el proveedor de la nube.",
+      "a través de Internet, que le permite gestionar la infraestructura subyacente."
+    ],
+    "answer": [
+      "a través de Internet para ofrecer innovaciones más rápidas, recursos flexibles, precios basados en el uso y economías de escala."
+    ]
+  },
+  {
+    "question": "Su empresa planea migrar su aplicación llamada TechApp a Azure. TechApp tiene un uso alto durante la primera y tercera semana del mes y un uso bajo durante la segunda y cuarta semana.\n¿Cuál ventaja de los servicios en la nube de Azure apoya la gestión de costos para este patrón de uso?",
+    "options": [
+      "Elasticidad",
+      "Tolerancia a fallos",
+      "Distribución de carga",
+      "Alta disponibilidad"
+    ],
+    "answer": ["Elasticidad"]
+  },
+  {
+    "question": "Una empresa está migrando todas sus aplicaciones y datos a Microsoft Azure. Existe el requisito estricto de que el entorno de Azure solo debe estar compuesto por soluciones de Platform-as-a-Service (PaaS) para minimizar el esfuerzo de gestión de los recursos subyacentes.\n\nSolución: Desplegar las aplicaciones con el Azure App Service y migrar los datos a bases de datos Azure SQL.\n¿Cumple esta solución con el requisito?",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "Una empresa hospeda una aplicación de promoción llamada App1, que es utilizada por todos los clientes. App1 tiene un uso bajo durante las primeras tres semanas de cada mes y un uso muy alto durante la última semana de cada mes. \n\n¿Cuál ventaja de los servicios en la nube de Azure apoya la gestión de costos para tales patrones de uso?",
+    "options": [
+      "Alta disponibilidad",
+      "Alta latencia",
+      "Elasticidad",
+      "Equilibrio de carga"
+    ],
+    "answer": ["Elasticidad"]
+  },
+  {
+    "question": "Una empresa planea migrar todos sus servidores y datos a Azure.\n\nDebe recomendar una solución que solo utilice productos de Software-as-a-Service (SaaS) de Azure para apoyar la migración planificada.\n\nSolución: Desplegar Azure VMs y Azure SQL Database.\n\n¿Cumple esto con el objetivo?",
+    "options": ["Sí", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "Una empresa está migrando todas sus aplicaciones y datos a Microsoft Azure. Existe el requisito estricto de que el entorno de Azure solo debe estar compuesto por soluciones de Platform-as-a-Service (PaaS) para minimizar el esfuerzo de gestión de los recursos subyacentes.\n\nSolución: Desplegar las aplicaciones con Azure Virtual Machines y Azure App Service.\n¿Cumple esta solución con el requisito?",
+    "options": ["Sí", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elija Sí si la afirmación es verdadera, o No si la afirmación es falsa.\n\n Tenga en cuenta que cada elemento correcto vale un punto.\n\n Las reservas se consideran modelos de precios basados en el consumo.",
+    "options": ["Sí", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elija Sí si la afirmación es verdadera, o No si la afirmación es falsa.\n\n Tenga en cuenta que cada elemento correcto vale un punto.\n\n bajo el modelo de pago por uso, solo paga por lo que usa.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elija Sí si la afirmación es verdadera, o No si la afirmación es falsa.\n\n Tenga en cuenta que cada elemento correcto vale un punto.\n\n Paga por los recursos que aprovisiona, independientemente de si los usa o no, bajo el modelo de precio fijo.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "¿De qué es responsable el cliente cuando utiliza una solución de Software-as-a-Service (SaaS)?",
+    "options": [
+      "Asegurar la alta disponibilidad de sus aplicaciones.",
+      "Asegurar la escalabilidad de sus aplicaciones en la nube.",
+      "Instalar sus aplicaciones personalizadas.",
+      "Configurar y usar la aplicación basada en la nube proporcionada."
+    ],
+    "answer": [
+      "Configurar y usar la aplicación basada en la nube proporcionada."
+    ]
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elija Sí si la afirmación es verdadera, o No si la afirmación es falsa.\n Tenga en cuenta que cada elemento correcto vale un punto.\n Dos máquinas virtuales que usan la instancia D2d v4 siempre tendrán los mismos costos mensuales.",
+    "options": ["Sí", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elija Sí si la afirmación es verdadera, o No si la afirmación es falsa.\n Tenga en cuenta que cada elemento correcto vale un punto.\n Capex genera beneficios durante un largo período. Estos gastos suelen ser únicos y conducen a la adquisición de activos permanentes.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elija Sí si la afirmación es verdadera, o No si la afirmación es falsa.\n Tenga en cuenta que cada elemento correcto vale un punto.\n Opex son costos operativos continuos. Consumir servicios en la nube en un modelo de pago por uso podría calificarse como gasto operativo.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "Asocie los modelos de nube con sus definiciones correctas.\n\nNube pública, Nube privada, Nube híbrida \n\nCombina infraestructuras locales o nubes privadas con nubes públicas para que las organizaciones puedan beneficiarse de ambas. \n\nRecursos de computación utilizados exclusivamente por una empresa u organización. \n\nTodo el hardware, software y otra infraestructura de soporte es propiedad y está gestionado por el proveedor de la nube.",
+    "options": [
+      "Nube publica, Nube privada, Nube hibrida",
+      "Nube híbrida, Nube privada, Nube pública",
+      "Nube híbrida, Nube publica, Nube pribada",
+      "Nube pribada, Nube hibrida, Nube pública"
+    ],
+    "answer": ["Nube híbrida, Nube privada, Nube pública"]
+  },
+
+  {
+    "question": "Debe recomendar una solución de implementación en la nube que permita a la empresa implementar sus aplicaciones empresariales en Microsoft Azure,\n donde cada aplicación tiene múltiples dependencias y subcomponentes, y la empresa también debe controlar y gestionar las actividades de parcheo del sistema operativo subyacente de los servidores.",
+    "options": ["PaaS", "FaaS", "SaaS", "IaaS"],
+    "answer": ["IaaS"]
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elija Sí si la afirmación es verdadera, o No si la afirmación es falsa./n Tenga en cuenta que cada elemento correcto vale un punto.\n Una solución de Platform as a Service (PaaS) proporciona un marco en el que los desarrolladores pueden construir para desarrollar o personalizar aplicaciones basadas en la nube.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elija Sí si la afirmación es verdadera, o No si la afirmación es falsa./n Tenga en cuenta que cada elemento correcto vale un punto.\n Una solución de Platform as a Service (PaaS) proporciona control total sobre los sistemas operativos subyacentes de los recursos de Azure en los que se ejecutan las aplicaciones host.",
+    "options": ["Sí", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "Para cada uno de los siguientes elementos, elija Sí si la afirmación es verdadera, o No si la afirmación es falsa./n Tenga en cuenta que cada elemento correcto vale un punto.\n Una solución de Platform as a Service (PaaS) ofrece la capacidad de escalar automáticamente la plataforma sin intervención manual.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+
+  {
+    "question": "¿Cuál es la principal ventaja de utilizar la nube pública para sus servidores?",
+    "options": [
+      "La nube pública es utilizada exclusivamente por una sola empresa u organización.",
+      "La nube pública pertenece al público y no a una organización privada o empresa.",
+      "La nube pública es una unidad compartida gratuita financiada por el público y accesible para todos.",
+      "La nube pública es una unidad compartida operada por un proveedor de servicios en la nube de terceros que varias empresas pueden utilizar."
+    ],
+    "answer": [
+      "La nube pública es una unidad compartida operada por un proveedor de servicios en la nube de terceros que varias empresas pueden utilizar."
+    ]
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor una región de Azure?",
+    "options": [
+      "A) Una ubicación física con varios centros de datos.",
+      "B) Un solo centro de datos.",
+      "C) Un grupo de seguridad en Azure.",
+      "D) Una red virtual."
+    ],
+    "answer": "A) Una ubicación física con varios centros de datos."
+  },
+  {
+    "question": "¿Qué región de Azure se utiliza para cumplir con los requisitos de almacenamiento de datos y cumplimiento de ciertos países o regiones?",
+    "options": [
+      "A) Zona de disponibilidad",
+      "B) Geografía",
+      "C) Grupo de recursos",
+      "D) Subred"
+    ],
+    "answer": "B) Geografía"
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es correcta con respecto a las Zonas de Disponibilidad de Azure?",
+    "options": [
+      "A) Son regiones geográficas separadas.",
+      "B) Ofrecen protección adicional contra fallos de centros de datos.",
+      "C) Solo están disponibles en ciertas regiones de Azure.",
+      "D) Tanto B como C."
+    ],
+    "answer": "D) Tanto B como C."
+  },
+  {
+    "question": "¿Cuál de los siguientes modelos describe servicios en la nube donde toda la infraestructura es proporcionada y gestionada por un tercero?",
+    "options": [
+      "A) On-Premises",
+      "B) Infrastructure as a Service (IaaS)",
+      "C) Platform as a Service (PaaS)",
+      "D) Software as a Service (SaaS)"
+    ],
+    "answer": "B) Infrastructure as a Service (IaaS)"
+  },
+  {
+    "question": "¿Qué ventajas ofrece el uso de servicios en la nube?",
+    "options": [
+      "A) El gasto de capital se convierte en gasto operativo.",
+      "B) Mayor escalabilidad.",
+      "C) Modelo de precios de pago por uso.",
+      "D) Todas las anteriores."
+    ],
+    "answer": "D) Todas las anteriores."
+  },
+  {
+    "question": "¿Cuál es una característica esencial de la computación en la nube que permite la provisión y gestión dinámica de recursos?",
+    "options": [
+      "A) Alta disponibilidad",
+      "B) Elasticidad",
+      "C) Huella global",
+      "D) Seguridad de la red"
+    ],
+    "answer": "B) Elasticidad"
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones describe mejor Azure Functions?",
+    "options": [
+      "A) Un servicio para gestionar máquinas virtuales.",
+      "B) Un servicio de computación sin servidor para ejecutar código impulsado por eventos.",
+      "C) Una gestión de bases de datos SQL.",
+      "D) Una herramienta para gestionar grupos de seguridad de red."
+    ],
+    "answer": "B) Un servicio de computación sin servidor para ejecutar código impulsado por eventos."
+  },
+  {
+    "question": "¿Cuál es un uso típico de Azure Functions?",
+    "options": [
+      "A) Realizar cálculos de larga duración.",
+      "B) Alojar sitios web.",
+      "C) Enviar notificaciones por correo electrónico basadas en eventos.",
+      "D) Almacenar datos en una base de datos relacional."
+    ],
+    "answer": "C) Enviar notificaciones por correo electrónico basadas en eventos."
+  },
+  {
+    "question": "¿Cuál de los siguientes lenguajes no es compatible con Azure Functions?",
+    "options": ["A) C#", "B) Python", "C) JavaScript", "D) COBOL"],
+    "answer": "D) COBOL"
+  },
+  {
+    "question": "¿Cuál es el propósito principal de una Máquina Virtual (VM) de Azure?",
+    "options": [
+      "A) Proporcionar una arquitectura sin servidor.",
+      "B) Crear redes virtuales.",
+      "C) Proporcionar potencia de cómputo para aplicaciones.",
+      "D) Almacenar datos en una forma estructurada."
+    ],
+    "answer": "C) Proporcionar potencia de cómputo para aplicaciones."
+  },
+  {
+    "question": "¿Cuáles de las siguientes opciones son tamaños de VM de Azure diseñadas para diferentes cargas de trabajo?",
+    "options": [
+      "A) Básico, Estándar, Premium",
+      "B) Serie B, Serie D, Serie F",
+      "C) Pequeño, Mediano, Grande",
+      "D) Bronce, Plata, Oro"
+    ],
+    "answer": "B) Serie B, Serie D, Serie F"
+  },
+  {
+    "question": "¿Cuál de las siguientes afirmaciones es correcta en relación con la ampliación de una VM de Azure?",
+    "options": [
+      "A) Aumenta el número de VMs.",
+      "B) Aumenta la capacidad de la VM existente añadiendo más recursos.",
+      "C) Reduce el número de VMs.",
+      "D) Disminuye la capacidad de la VM existente."
+    ],
+    "answer": "B) Aumenta la capacidad de la VM existente añadiendo más recursos."
+  },
+  {
+    "question": "¿Cuál es el propósito principal de un Grupo de Recursos en Azure?",
+    "options": [
+      "A) Un método para gestionar la facturación.",
+      "B) Un contenedor lógico para gestionar y organizar recursos de Azure.",
+      "C) Un centro de datos físico.",
+      "D) Un protocolo de seguridad."
+    ],
+    "answer": "B) Un contenedor lógico para gestionar y organizar recursos de Azure."
+  },
+  {
+    "question": "¿Cuál de las siguientes opciones describe un Control de Acceso Basado en Roles (RBAC) de Azure?",
+    "options": [
+      "A) Un método para controlar el acceso a la red.",
+      "B) Un sistema para gestionar permisos de usuario.",
+      "C) Una herramienta de gestión de bases de datos.",
+      "D) Un protocolo de almacenamiento."
+    ],
+    "answer": "B) Un sistema para gestionar permisos de usuario."
+  },
+  {
+    "question": "¿Qué servicio de Azure permite la supervisión y gestión de recursos, aplicaciones y servicios?",
+    "options": [
+      "A) Azure DevOps",
+      "B) Azure Monitor",
+      "C) Azure SQL Database",
+      "D) Azure Functions"
+    ],
+    "answer": "B) Azure Monitor"
+  },
+  {
+    "question": "¿Qué hace que un sistema sea elástico?",
+    "options": [
+      "La capacidad de estar disponible durante actualizaciones.",
+      "La capacidad de aumentar y disminuir la capacidad según la demanda real.",
+      "La capacidad de repararse a sí mismo después de un fallo.",
+      "La capacidad de resistir ataques DoS."
+    ],
+    "answer": "La capacidad de aumentar y disminuir la capacidad según la demanda real."
+  },
+  {
+    "question": "¿Cuál es la conexión más rápida entre su red local y Microsoft Azure, si el dinero no es un problema?",
+    "options": [
+      "VPN de punto a sitio",
+      "VPN de sitio a sitio",
+      "Enlace privado",
+      "Express Route"
+    ],
+    "answer": "Express Route"
+  },
+  {
+    "question": "¿Es cierto que los scripts de Azure PowerShell y los scripts de la Interfaz de Línea de Comandos (CLI) son completamente compatibles?",
+    "options": ["NO", "SÍ"],
+    "answer": "NO"
+  },
+  {
+    "question": "¿Qué recursos se consideran recursos de computación?",
+    "options": [
+      "Todos los recursos listados en el Azure Marketplace.",
+      "Solo las máquinas virtuales.",
+      "Recursos que realizan tareas que requieren ciclos de CPU."
+    ],
+    "answer": "Recursos que realizan tareas que requieren ciclos de CPU."
+  },
+  {
+    "question": "¿Qué significa la abreviatura ARM en Azure?",
+    "options": [
+      "Advanced RISC Machine",
+      "Azure Resource Manager",
+      "Availability, Reliability, Maintainability",
+      "Account Resource Manager"
+    ],
+    "answer": "Azure Resource Manager"
+  },
+  {
+    "question": "¿Qué es el inicio de sesión único (Single Sign-On)?",
+    "options": [
+      "Cuando una aplicación externaliza su servicio de identidad a una plataforma de terceros (federado).",
+      "La capacidad de iniciar sesión una vez y usar la ID de usuario y la contraseña existentes para iniciar sesión en otras aplicaciones sin tener que crear/recordar una nueva.",
+      "Cuando inicias sesión en una aplicación, esta recuerda quién eres la próxima vez que la visitas."
+    ],
+    "answer": "La capacidad de iniciar sesión una vez y usar la ID de usuario y la contraseña existentes para iniciar sesión en otras aplicaciones sin tener que crear/recordar una nueva."
+  },
+  {
+    "question": "¿Por qué se considera Azure App Services como Platform as a Service (PaaS)?",
+    "options": [
+      "Puedes decidir en qué tipo de máquina virtual se ejecuta: Serie A, Serie D o incluso Serie H.",
+      "Eres responsable de mantener el sistema operativo actualizado con los últimos parches.",
+      "Azure App Services no es PaaS. Es Software as a Service.",
+      "Le das a Azure el código y la configuración, y no tienes acceso al hardware subyacente."
+    ],
+    "answer": "Le das a Azure el código y la configuración, y no tienes acceso al hardware subyacente."
+  },
+  {
+    "question": "¿En qué escenarios se recomienda usar Azure Policy?",
+    "options": [
+      "Permitir el acceso a un grupo de recursos solo a ciertos roles de usuario.",
+      "Impedir el uso de ciertos tipos de instancias de Azure Virtual Machine en un grupo de recursos.",
+      "Agregar un aviso adicional cuando se crea un recurso sin una etiqueta específica para preguntar al usuario si realmente desea continuar.",
+      "Requerir que una máquina virtual siempre tenga los últimos parches de seguridad instalados."
+    ],
+    "answer": "Impedir el uso de ciertos tipos de instancias de Azure Virtual Machine en un grupo de recursos."
+  },
+  {
+    "question": "¿Qué herramienta dentro del portal de Azure proporciona recomendaciones específicas basadas en su uso real sobre cómo mejorar su uso de Azure?",
+    "options": [
+      "Azure Monitor",
+      "Azure Dashboard",
+      "Azure Service Health",
+      "Azure Advisor"
+    ],
+    "answer": "Azure Advisor"
+  },
+  {
+    "question": "¿Qué función dentro de Azure le alerta sobre problemas de servicio que ocurren en Azure y no están relacionados específicamente con sus propios recursos?",
+    "options": [
+      "Azure Portal Dashboard",
+      "Azure Monitor",
+      "Azure Security Center",
+      "Azure Service Health"
+    ],
+    "answer": "Azure Service Health"
+  },
+  {
+    "question": "¿Para qué sistemas operativos proporciona Microsoft Azure imágenes de máquinas virtuales?",
+    "options": [
+      "macOS",
+      "Windows",
+      "Windows y Linux",
+      "Linux",
+      "Windows, Linux y macOS"
+    ],
+    "answer": "Windows y Linux"
+  },
+  {
+    "question": "¿Es cierto que puede crear sus propias políticas si las políticas integradas de Azure no son suficientes?",
+    "options": ["SÍ", "NO"],
+    "answer": "SÍ"
+  },
+  {
+    "question": "¿Qué tipo de documentos ofrece el Microsoft Service Trust Portal?",
+    "options": [
+      "Una herramienta que le ayuda a gestionar el cumplimiento de varios estándares.",
+      "Documentación sobre los servicios y soluciones individuales de Azure.",
+      "Una lista de estándares que sigue Microsoft, resultados de pruebas de penetración, evaluaciones de seguridad, libros blancos, preguntas frecuentes y otros documentos que demuestran los esfuerzos de cumplimiento de Microsoft.",
+      "Recomendaciones específicas sobre el uso de Azure y formas de mejorar."
+    ],
+    "answer": "Una lista de estándares que sigue Microsoft, resultados de pruebas de penetración, evaluaciones de seguridad, libros blancos, preguntas frecuentes y otros documentos que demuestran los esfuerzos de cumplimiento de Microsoft."
+  },
+  {
+    "question": "¿Qué DOS funciones proporciona Azure AD?",
+    "options": [
+      "Azure DDoS Protection, Logic Apps",
+      "Functions, Logs Analytics",
+      "Gestión de aplicaciones, Autenticación"
+    ],
+    "answer": ["Gestión de aplicaciones, Autenticación"]
+  },
+  {
+    "question": "¿Es cierto que una cuenta de almacenamiento de Azure puede tener tanto un punto final público como uno privado al mismo tiempo?",
+    "options": ["NO", "SÍ"],
+    "answer": "NO"
+  },
+  {
+    "question": "¿Es cierto que en el modelo de 'Infrastructure as a Service' (IaaS) de Azure, Azure es responsable de gestionar el host físico, la red física y el centro de datos físico?",
+    "options": ["NO", "SÍ"],
+    "answer": "SÍ"
+  },
+  {
+    "question": "¿Es cierto que Azure Cloud Shell permite acceso a las consolas CLI y PowerShell en el portal de Azure?",
+    "options": ["NO", "SÍ"],
+    "answer": "SÍ"
+  },
+  {
+    "question": "¿Qué son los grupos de recursos en Azure?",
+    "options": [
+      "En el modelo de seguridad de Azure, los usuarios se organizan en grupos y a esos grupos se les otorgan permisos para los recursos.",
+      "Una estructura de carpetas en Azure donde organizas recursos como bases de datos, máquinas virtuales, redes virtuales o casi cualquier recurso.",
+      "Basado en la etiqueta asignada a un recurso por el script de implementación, se asigna a un grupo.",
+      "Grupos de recursos asignados automáticamente que tienen todos el mismo tipo (máquina virtual, servicio de aplicaciones, etc.)."
+    ],
+    "answer": "Una estructura de carpetas en Azure donde organizas recursos como bases de datos, máquinas virtuales, redes virtuales o casi cualquier recurso."
+  },
+  {
+    "question": "¿Qué tecnología de Azure le permite iniciar sesión en un dispositivo o aplicación de Azure Active Directory usando su rostro, un código PIN o un gesto en lugar de una contraseña?",
+    "options": [
+      "Acceso condicional de AD",
+      "Microsoft Defender for Cloud",
+      "Autenticación multifactor",
+      "Sin contraseña"
+    ],
+    "answer": "Sin contraseña"
+  },
+  {
+    "question": "¿Cuál es un principio fundamental de Zero Trust?",
+    "options": [
+      "Asume que tu red ya está comprometida.",
+      "No almacenes tarjetas de crédito y otros datos críticos en la nube.",
+      "Requiere que los usuarios cambien sus contraseñas con frecuencia.",
+      "Requiere que los usuarios inicien sesión en cada sesión."
+    ],
+    "answer": "Asume que tu red ya está comprometida."
+  },
+  {
+    "question": "¿Qué impacto tiene un bloqueo de recurso 'Solo lectura' en una cuenta de almacenamiento de Azure?",
+    "options": [
+      "Solo los usuarios administradores pueden actualizar los contenidos de la cuenta de almacenamiento.",
+      "Un bloqueo de recursos no tiene impacto en una cuenta de almacenamiento.",
+      "Los datos en la cuenta de almacenamiento no pueden cambiar.",
+      "La cuenta de almacenamiento no puede cambiar sus propiedades, pero los datos en sí no se ven afectados."
+    ],
+    "answer": "La cuenta de almacenamiento no puede cambiar sus propiedades, pero los datos en sí no se ven afectados."
+  },
+  {
+    "question": "¿Cuál de los siguientes elementos pertenece a la seguridad perimetral?",
+    "options": [
+      "Usar un firewall.",
+      "Cerraduras en las puertas del centro de datos.",
+      "Mantener los sistemas operativos actualizados con parches.",
+      "Separar servidores en diferentes subredes según su función."
+    ],
+    "answer": "Usar un firewall."
+  },
+  {
+    "question": "¿Qué característica dentro de Azure recopila todos los registros de varios recursos en un tablero central donde puedes ejecutar consultas, ver gráficos y crear alertas para eventos específicos?",
+    "options": [
+      "Azure Monitor",
+      "Azure Security Center",
+      "Azure Portal Dashboard",
+      "Cuenta de almacenamiento o Event Hub"
+    ],
+    "answer": "Azure Monitor"
+  },
+  {
+    "question": "¿Es cierto que no puede tener más de una suscripción a Azure por empresa?",
+    "options": ["NO", "SÍ"],
+    "answer": "NO"
+  },
+  {
+    "question": "¿Es cierto que Azure cobra por el ancho de banda que entra en Azure?",
+    "options": ["NO", "SÍ"],
+    "answer": "NO"
+  },
+  {
+    "question": "¿Cuál es el servicio preferido de Azure para la identidad y autenticación?",
+    "options": [
+      "Live Connect",
+      "Azure Active Directory",
+      "Grupo de Seguridad de Red",
+      "Facebook Connect"
+    ],
+    "answer": "Azure Active Directory"
+  },
+  {
+    "question": "¿Es cierto que Azure es una nube pública y no tiene ofertas de nubes privadas?",
+    "options": ["NO", "SÍ"],
+    "answer": "NO"
+  },
+  {
+    "question": "¿Cuáles de los siguientes factores influyen en el costo total de propiedad (CapEx)? Seleccione todas las que correspondan.",
+    "options": [
+      "Salarios del personal que gestiona los servidores",
+      "Costos inmobiliarios",
+      "Costos de electricidad",
+      "Costos de acceso a Internet",
+      "Todos los anteriores"
+    ],
+    "answer": ["Todos los anteriores"]
+  },
+  {
+    "question": "¿Por qué alguien preferiría un modelo de pago por uso en lugar de un modelo de precio fijo?",
+    "options": [
+      "Puedes ahorrar mucho dinero si no usas el recurso con frecuencia, en lugar de tenerlo disponible 24/7.",
+      "Puedes predecir fácilmente los costos futuros del servicio.",
+      "El modelo de precios es más simple y fácil de entender.",
+      "Siempre es más barato pagar por uso que por hora."
+    ],
+    "answer": "Puedes ahorrar mucho dinero si no usas el recurso con frecuencia, en lugar de tenerlo disponible 24/7."
+  },
+  {
+    "question": "¿Cuáles de los siguientes recursos de Azure son necesarios para tener una máquina virtual? Seleccione solo los servicios que son necesarios, no los que son opcionales.",
+    "options": [
+      "Red virtual",
+      "Cuenta de almacenamiento",
+      "Tarjeta de interfaz de red (NIC)",
+      "Todoas las anteriores"
+    ],
+    "answer": ["Todoas las anteriores"]
+  },
+  {
+    "question": "¿Qué servicio de Azure te da acceso a tu propio escritorio personalizado de Windows 10 o 11 en la nube, para que puedas acceder a tus archivos y aplicaciones de trabajo desde cualquier dispositivo y en cualquier lugar?",
+    "options": [
+      "Red Privada Virtual",
+      "Azure App Services",
+      "Azure Virtual Desktop",
+      "Private Link"
+    ],
+    "answer": "Azure Virtual Desktop"
+  },
+  {
+    "question": "¿Cuál es la ventaja de las economías de escala?",
+    "options": [
+      "Cuanto más compras de algo, más barato es por unidad.",
+      "Las grandes empresas no necesitan obtener ganancias con el primer producto que te venden, ya que lo harán con el segundo.",
+      "Los precios de los servidores y servicios en la nube bajan constantemente. El próximo año será más barato que este año.",
+      "Las grandes empresas no necesitan obtener ganancias con cada venta."
+    ],
+    "answer": "Cuanto más compras de algo, más barato es por unidad."
+  },
+  {
+    "question": "¿Cuál de los siguientes servicios no se consideraría infraestructura como servicio (IaaS)?",
+    "options": [
+      "Tarjeta de interfaz de red virtual (NIC)",
+      "Azure Functions App",
+      "Red virtual",
+      "Máquina virtual"
+    ],
+    "answer": "Azure Functions App"
+  },
+  {
+    "question": "¿Qué recurso de Azure te permite distribuir el tráfico entrante de manera uniforme y reenviarlo a múltiples máquinas virtuales idénticas para realizar el trabajo y responder a la solicitud?",
+    "options": [
+      "Load Balancer o Application Gateway",
+      "Red virtual",
+      "Azure Logic Apps",
+      "Azure App Services"
+    ],
+    "answer": "Load Balancer o Application Gateway"
+  },
+  {
+    "question": "Se puede decir que la mayoría de los servicios en Azure tienen un punto de conexión público por defecto. ¿Qué es un punto de conexión público?",
+    "options": [
+      "Te proporciona una dirección IP estática con la que el mundo exterior puede comunicarse con tu aplicación.",
+      "Bloquea el acceso a tus aplicaciones y datos desde fuera de Azure.",
+      "Permite el acceso a tus datos o aplicaciones desde fuera de la red virtual.",
+      "Te proporciona una dirección IP estática con la que tu aplicación siempre puede comunicarse con el mundo exterior."
+    ],
+    "answer": "Permite el acceso a tus datos o aplicaciones desde fuera de la red virtual."
+  },
+  {
+    "question": "¿Qué son las zonas de disponibilidad de Azure?",
+    "options": [
+      "Esto es lo mismo que una región.",
+      "Una estructura de carpetas en Azure donde puedes organizar recursos como bases de datos, máquinas virtuales, redes virtuales o casi cualquier recurso.",
+      "Una característica de Azure que te permite especificar manualmente en qué centro de datos se colocan tus máquinas virtuales, lo que te proporciona una mayor disponibilidad que cualquier otra opción.",
+      "Dentro de cada centro de datos, ciertos racks de servidores han sido diseñados por Azure para tener una mayor disponibilidad que otros. Si colocas tus aplicaciones en este rack, obtendrás una mayor disponibilidad que si dejaras que Azure decida."
+    ],
+    "answer": "Una característica de Azure que te permite especificar manualmente en qué centro de datos se colocan tus máquinas virtuales, lo que te proporciona una mayor disponibilidad que cualquier otra opción."
+  },
+  {
+    "question": "¿Es cierto que Azure Active Directory es una puerta de enlace de red que realiza balanceo de carga de inicios de sesión de usuarios mediante una CDN (Content Delivery Network)?",
+    "options": ["SÍ", "NO"],
+    "answer": "NO"
+  },
+  {
+    "question": "¿Qué herramienta de Azure te permite gestionar múltiples suscripciones en jerarquías anidadas?",
+    "options": [
+      "Grupos de recursos",
+      "RBAC",
+      "Grupos de administración",
+      "Azure Active Directory"
+    ],
+    "answer": "Grupos de administración"
+  },
+  {
+    "question": "¿Qué tecnología de Azure te permite gestionar máquinas virtuales que se ejecutan en Azure, en tu propio entorno y en otros entornos como AWS?",
+    "options": [
+      "Azure Arc",
+      "Azure Kubernetes Service",
+      "Azure Virtual Desktop",
+      "Azure Monitor"
+    ],
+    "answer": "Azure Arc"
+  },
+  {
+    "question": "¿Cuál es la opción de redundancia de almacenamiento más económica?",
+    "options": ["LRS", "GRS", "RA-GRS", "ZRS"],
+    "answer": "LRS"
+  },
+  {
+    "question": "¿Cómo hace la autenticación multifactor que un sistema sea más seguro?",
+    "options": [
+      "No lo hace más seguro.",
+      "Permite al usuario iniciar sesión sin contraseña, ya que se ha validado previamente mediante una cookie del navegador.",
+      "Es otra contraseña que el usuario debe recordar, lo que lo hace más seguro.",
+      "Requiere que el usuario tenga acceso a un dispositivo adicional para la verificación de identidad."
+    ],
+    "answer": "Requiere que el usuario tenga acceso a un dispositivo adicional para la verificación de identidad."
+  },
+  {
+    "question": "¿Cuál es el enfoque más adecuado cuando necesitas copiar grandes volúmenes de datos entre dos cuentas de almacenamiento de Azure?",
+    "options": [
+      "Usar la API de Azure programáticamente",
+      "Storage Explorer",
+      "Descargar los archivos a tu computadora local y subirlos a la nueva cuenta",
+      "AzCopy"
+    ],
+    "answer": "AzCopy"
+  },
+  {
+    "question": "Con la nube pública de Azure, cualquier persona con una tarjeta de crédito válida puede registrarse y obtener servicios de inmediato (sujeto a las restricciones habituales del país).",
+    "options": ["NO", "SÍ"],
+    "answer": "SÍ"
+  },
+  {
+    "question": "¿Cuántas zonas de disponibilidad hay en cada región (para regiones que las tienen)?",
+    "options": ["2", "1", "Ilimitadas", "3"],
+    "answer": "3"
+  },
+  {
+    "question": "¿Cuál es el propósito de Azure Blueprints?",
+    "options": [
+      "Permite crear nuevas suscripciones que ya contienen políticas, roles, grupos de recursos y plantillas ARM.",
+      "Permite crear nuevos recursos basados en una plantilla predefinida para consistencia y menos errores.",
+      "Permite gestionar un grupo de suscripciones existentes de manera anidada.",
+      "Un estándar diseñado específicamente para arquitectos y la industria de la construcción que trabajan en la nube."
+    ],
+    "answer": "Permite crear nuevas suscripciones que ya contienen políticas, roles, grupos de recursos y plantillas ARM."
+  },
+  {
+    "question": "¿Cuáles de las siguientes son regiones de soberanía de Azure?",
+    "options": [
+      "Azure Brasil y Argentina",
+      "Azure Gobierno de EE. UU y China.",
+      "Azure Sudáfrica y Rusia",
+      "Azure China y Alemania"
+    ],
+    "answer": ["Azure Gobierno de EE. UU y China."]
+  },
+  {
+    "question": "¿Qué ventaja ofrece Azure Scale Sets en cuanto a las máquinas virtuales en Azure?",
+    "options": [
+      "Puede gestionar grupos de máquinas virtuales como una sola unidad.",
+      "Permite monitorear la capacidad de las VM y enviar notificaciones al equipo de operaciones.",
+      "Mantiene las máquinas virtuales muy juntas para la comunicación más rápida entre ellas.",
+      "Separa físicamente las máquinas virtuales, de modo que si una falla, las otras no fallen."
+    ],
+    "answer": "Puede gestionar grupos de máquinas virtuales como una sola unidad."
+  },
+
+  {
+    "question": "¿Qué ventaja ofrecen los conjuntos de disponibilidad en cuanto a las máquinas virtuales en Azure?",
+    "options": [
+      "Mantiene las máquinas virtuales muy juntas para la comunicación más rápida entre ellas.",
+      "Separa físicamente y lógicamente las máquinas virtuales, de modo que si una falla, las otras no fallen.",
+      "Permite monitorear la capacidad de las VM y enviar notificaciones al equipo de operaciones.",
+      "Puede gestionar grupos de máquinas virtuales como una sola unidad."
+    ],
+    "answer": "Separa físicamente y lógicamente las máquinas virtuales, de modo que si una falla, las otras no fallen."
+  },
+  {
+    "question": "¿Cuál de los siguientes elementos se considera parte de la capa de red de la seguridad de red?",
+    "options": [
+      "Separar servidores en subredes separadas por rol.",
+      "Cerraduras en las puertas del centro de datos.",
+      "Mantener los sistemas operativos actualizados con parches.",
+      "Usar un firewall."
+    ],
+    "answer": ["Usar un firewall."]
+  },
+  {
+    "question": "Una empresa planea implementar su suite de aplicaciones empresariales en Microsoft Azure, donde cada aplicación tiene varias dependencias y subcomponentes. La empresa también debe controlar y gestionar las actividades de parcheo del sistema operativo subyacente de los servidores. ¿Qué tipo de solución de despliegue en la nube debería recomendar?",
+    "options": [
+      "Plataforma como Servicio (PaaS)",
+      "Infraestructura como Servicio (IaaS)",
+      "Software como Servicio (SaaS)",
+      "Funciones como Servicio (FaaS)"
+    ],
+    "answer": "Infraestructura como Servicio (IaaS)"
+  },
+  {
+    "question": "¿Cuál de los siguientes se considera escalado vertical en un entorno en la nube?",
+    "options": [
+      "Provisión de contenedores adicionales",
+      "Aumentar la CPU y RAM de una máquina virtual",
+      "Aumentar el número de máquinas virtuales",
+      "Provisión de un host dedicado adicional de Azure"
+    ],
+    "answer": "Aumentar la CPU y RAM de una máquina virtual"
+  },
+  {
+    "question": "¿Qué servicio de Azure deberías usar si quieres que tu aplicación tenga un mayor nivel de disponibilidad y distribuir de manera uniforme el tráfico interno entre máquinas virtuales dentro de una VNET?",
+    "options": [
+      "Equilibrador de Carga Público",
+      "Grupo de Seguridad de Red",
+      "Equilibrador de Carga Privado",
+      "Gateway de Aplicaciones"
+    ],
+    "answer": "Gateway de Aplicaciones"
+  },
+  {
+    "question": "Has sido encargado de reducir el uso mensual de Azure de tu organización. Necesitas recomendar qué factores pueden contribuir a reducir el costo de los recursos de Azure. ¿Recomiendas limitar la transferencia de datos entrantes a tus recursos de Azure?",
+    "options": ["No", "Sí"],
+    "answer": "No"
+  },
+  {
+    "question": "Selecciona la respuesta correcta de la lista desplegable de opciones. Cada selección correcta vale un punto. Los conjuntos de escalado de máquinas virtuales son un ejemplo de **\\_**",
+    "options": ["Alta disponibilidad", "DNS", "Cuentas de almacenamiento"],
+    "answer": "Alta disponibilidad"
+  },
+  {
+    "question": "Tu organización tiene varias máquinas virtuales en tus suscripciones de Azure. Necesitas poder monitorear el uso de CPU y memoria de tus máquinas virtuales y ejecutar consultas de registro cuando sea necesario. ¿Qué dos servicios/características de Azure deberías usar? Cada respuesta correcta representa parte de la solución.",
+    "options": [
+      "Log Analytics, Azure Monitor",
+      "Plantillas de Azure Resource Manager, Azure Blueprints",
+      "Gestión de Costos de Microsoft, Azure Service Health"
+    ],
+    "answer": ["Log Analytics , Azure Monitor"]
+  },
+  {
+    "question": "Una organización ha migrado con éxito su base de datos SQL a Azure y quieren evitar que otros usuarios en la organización eliminen o modifiquen accidentalmente recursos críticos. ¿Qué característica de Azure deberían usar?",
+    "options": [
+      "Azure Policy",
+      "Microsoft Entra ID",
+      "Control de acceso basado en roles de Azure",
+      "Bloqueos de recursos de Azure Resource Manager"
+    ],
+    "answer": "Bloqueos de recursos de Azure Resource Manager"
+  },
+  {
+    "question": "¿Qué deberías usar para rastrear los costos de ciertos recursos ubicados en diferentes grupos de recursos?",
+    "options": ["Azure Monitor", "Etiquetas", "Azure Policy", "Azure Advisor"],
+    "answer": "Etiquetas"
+  },
+  {
+    "question": "Tienes una cuenta de almacenamiento y una red virtual en tu suscripción de Azure. Debes asegurar que los datos entre la cuenta de almacenamiento y la red virtual pasen a través de la red backbone de Azure. ¿Qué deberías usar?",
+    "options": [
+      "Puerta de enlace VPN",
+      "Punto final de servicio",
+      "Peering de VNet",
+      "ExpressRoute"
+    ],
+    "answer": "Punto final de servicio"
+  },
+  {
+    "question": "Tu empresa planea implementar varias máquinas virtuales que alojarán su aplicación crítica para el negocio en Azure. Necesitas recomendar una solución para asegurar que si un centro de datos falla, la aplicación no se vea afectada. ¿Recomiendas desplegar máquinas virtuales en un conjunto de escalado en al menos dos zonas?",
+    "options": ["No", "Sí"],
+    "answer": "Sí"
+  },
+  {
+    "question": "¿Qué servicio permite correlacionar eventos de seguimiento de múltiples máquinas virtuales de Azure y otros recursos en un repositorio centralizado?",
+    "options": [
+      "Azure Resource Manager",
+      "Azure Monitor",
+      "Azure Repos",
+      "Azure Event Hubs"
+    ],
+    "answer": "Azure Monitor"
+  },
+  {
+    "question": "Selecciona la respuesta correcta de la lista desplegable de opciones. El proceso de verificar las credenciales del usuario es:",
+    "options": [
+      "Autorización",
+      "Sincronización",
+      "Autenticación",
+      "Federación"
+    ],
+    "answer": "Autenticación"
+  },
+  {
+    "question": "¿Qué servicio proporciona tokens de seguridad que puedes usar para el flujo de autenticación de tus aplicaciones basadas en la nube?",
+    "options": [
+      "Azure Key Vault",
+      "Microsoft Defender for Cloud",
+      "Microsoft Entra ID",
+      "Cuenta de almacenamiento de Azure"
+    ],
+    "answer": "Microsoft Entra ID"
+  },
+  {
+    "question": "Tienes cientos de servidores alojados en tu entorno on-premises. Planeas migrar algunos de los servidores a una suscripción de pago por uso de Azure. ¿Qué modelo de gasto deberías usar?",
+    "options": [
+      "Gasto operativo",
+      "Reservas de Azure",
+      "Nube pública",
+      "Gasto de capital"
+    ],
+    "answer": "Gasto operativo"
+  },
+  {
+    "question": "Selecciona la respuesta correcta de la lista desplegable de opciones. La computación en la nube es la entrega de servicios informáticos",
+    "options": [
+      "a través de Internet y la seguridad de los datos y las identidades es gestionada en su totalidad por el proveedor de la nube",
+      "a través de Internet que te permite gestionar la infraestructura subyacente",
+      "a través de Internet que ofrece innovación más rápida, recursos flexibles, precios de pago por uso y economías de escala.",
+      "a través de Internet que necesita un costo inicial en infraestructura física"
+    ],
+    "answer": "a través de Internet que ofrece innovación más rápida, recursos flexibles, precios de pago por uso y economías de escala."
+  },
+
+  {
+    "question": "Puedes añadir o eliminar un recurso a un grupo de recursos en cualquier momento.",
+    "options": ["si", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "La región de los recursos debe ser la misma que la región donde se creó el grupo de recursos.",
+    "options": ["Si", "No"],
+    "answer": ["No"]
+  },
+  {
+    "question": "Los recursos pueden conectarse a otros recursos ubicados en otro grupo de recursos.",
+    "options": ["Si", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "¿Qué característica de Azure permite a las organizaciones gestionar el acceso, las políticas y el cumplimiento de sus recursos en Azure a través de múltiples suscripciones?",
+    "options": [
+      "Planes de Soporte de Azure",
+      "Grupos de Recursos",
+      "Grupos de Gestión",
+      "Políticas de Azure"
+    ],
+    "answer": "Grupos de Gestión"
+  },
+  {
+    "question": "¿Qué servicio de Azure permite a varios tipos de recursos de Azure, como Máquinas Virtuales (VM) de Azure, comunicarse de manera segura entre sí, con Internet y con redes on-premises?",
+    "options": [
+      "Red Virtual de Azure",
+      "IP Pública",
+      "Red de Entrega de Contenido de Azure (CDN)",
+      "Microsoft Sentinel"
+    ],
+    "answer": "Red Virtual de Azure"
+  },
+  {
+    "question": "Tu empresa actualmente aloja una aplicación web en una máquina virtual de Azure. La aplicación está procesando cargas de trabajo críticas para el negocio. Planean reducir los costos migrándola a una nueva instancia. ¿La solución cumple el objetivo si lanzan una nueva Máquina Virtual Spot de Azure?",
+    "options": ["Sí", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "En el modelo de responsabilidad compartida de Azure, ¿de quién es la responsabilidad de mantener la aplicación en una máquina virtual de Azure?",
+    "options": [
+      "Azure",
+      "Cliente",
+      "Ambos, Azure y el cliente",
+      "Ni Azure ni el cliente"
+    ],
+    "answer": "Cliente"
+  },
+
+  {
+    "question": "Has sido encargado de reducir el uso mensual de Azure de tu organización. Necesitas recomendar qué factores pueden contribuir a reducir el costo de los recursos de Azure. ¿Recomiendas disminuir el tamaño de los recursos de Azure?",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "**\\_** es un servicio de Azure que ejecuta código sin necesidad de aprovisionar y gestionar un servidor.",
+    "options": [
+      "Registro de Contenedores de Azure",
+      "Host Dedicado de Azure",
+      "Azure Service Fabric",
+      "Funciones de Azure"
+    ],
+    "answer": "Funciones de Azure"
+  },
+  {
+    "question": "¿Qué protocolo utilizaría para conectar una compartición de archivos de Azure a su servidor local de Windows?",
+    "options": ["SMB", "FTP", "SSH", "RD"],
+    "answer": "SMB"
+  },
+
+  {
+    "question": "Su empresa planea implementar varias máquinas virtuales que alojarán su aplicación crítica en Azure. Debe recomendar una solución para asegurarse de que la aplicación no se vea afectada si falla un único centro de datos. Solución: Implemente máquinas virtuales en varios grupos de recursos dentro de la misma zona de disponibilidad. ¿Cumple esto con el objetivo?",
+    "options": ["Sí", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "Se le ha encargado reducir los costos mensuales de uso de Azure de su empresa. Debe recomendar qué factores pueden ayudar a reducir los costos de los recursos de Azure. Solución: Recomienda trasladar sus recursos a una región de Azure más económica. ¿Cumple esto con el objetivo?",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+
+  {
+    "question": "Techstarter planea migrar sus servidores de aplicaciones y bases de datos desde su centro de datos local en Manila a Azure. ¿Cuál es la principal ventaja de usar la nube pública para sus servidores?",
+    "options": [
+      "La nube pública es una entidad compartida gratuita financiada por el público y accesible por cualquier persona.",
+      "La nube pública es utilizada exclusivamente por una sola empresa u organización.",
+      "La nube pública pertenece al público y no a una organización o empresa privada.",
+      "La nube pública es una entidad compartida operada por un proveedor de servicios en la nube de terceros que pueden utilizar varias empresas."
+    ],
+    "answer": "La nube pública es una entidad compartida operada por un proveedor de servicios en la nube de terceros que pueden utilizar varias empresas."
+  },
+  {
+    "question": "¿Qué servicio permite a los arquitectos de la nube y a los grupos centrales de TI definir un conjunto repetible de recursos de Azure que implementa y cumple con los estándares, patrones y requisitos de una organización?",
+    "options": [
+      "Azure Monitor",
+      "Azure Advisor",
+      "Compliance Manager",
+      "Azure Blueprints"
+    ],
+    "answer": "Azure Blueprints"
+  },
+  {
+    "question": "¿Qué término en la computación en la nube se refiere a la capacidad de un sistema para recuperarse de fallos y seguir funcionando?",
+    "options": [
+      "Alta disponibilidad",
+      "Confiabilidad",
+      "Agilidad",
+      "Escalabilidad"
+    ],
+    "answer": "Alta disponibilidad"
+  },
+
+  {
+    "question": "Azure App Service y Azure Virtual Machines son servicios que puede usar en Azure. Para cada servicio, debe determinar su tipo correcto de modelo de servicio en la nube. Seleccione la respuesta correcta de la lista desplegable de opciones. Cada selección correcta vale un punto.",
+    "options": [
+      {
+        "text": "Azure Virtual Machines",
+        "answer": "IaaS"
+      },
+      {
+        "text": "Azure App Service",
+        "answer": "PaaS"
+      }
+    ]
+  },
+  {
+    "question": "¿Qué servicio analiza la configuración de sus recursos y la telemetría de uso y luego recomienda soluciones que pueden ayudarlo a mejorar la rentabilidad, el rendimiento, la confiabilidad y la seguridad de sus recursos de Azure?",
+    "options": [
+      "Compliance Manager",
+      "Azure Information Protection",
+      "Azure Advisor",
+      "Azure Resource Manager"
+    ],
+    "answer": "Azure Advisor"
+  },
+  {
+    "question": "Una empresa migra todas sus aplicaciones y datos a Microsoft Azure. Hay un requisito estricto de que el entorno de Azure solo debe consistir en soluciones de Platform-as-a-Service (PaaS) para minimizar la carga administrativa de gestionar los recursos subyacentes. Solución: Implemente las aplicaciones con el servicio Azure App Service y migre los datos a las bases de datos Azure SQL. ¿Cumple esta solución con el requisito?",
+    "options": ["No", "Sí"],
+    "answer": "Sí"
+  },
+
+  {
+    "question": "Una empresa desea migrar a la nube. El requisito es tener una conexión VPN para conectar su red local a una red virtual de Azure a través de un túnel VPN IPsec/IKE (IKEv1 o IKEv2). ¿Qué tipo de conexión VPN es más adecuada para esto?",
+    "options": [
+      "Conexión VPN de sitio a sitio",
+      "Conexión VPN de punto a sitio",
+      "Conexión ExpressRoute",
+      "Conexión de emparejamiento de redes virtuales (VNet Peering)"
+    ],
+    "answer": "Conexión VPN de sitio a sitio"
+  },
+
+  {
+    "question": "Su empresa planea implementar varias máquinas virtuales que alojarán su aplicación crítica en Azure. Debe recomendar una solución para asegurarse de que la aplicación no se vea afectada si falla un único centro de datos. Solución: Implemente máquinas virtuales en múltiples suscripciones. ¿Cumple esto con el objetivo?",
+    "options": ["Sí", "No"],
+    "answer": "No"
+  },
+
+  {
+    "question": "Si a un grupo de recursos se le asigna un bloqueo 'No eliminar', entonces",
+    "options": [
+      "el administrador puede eliminarlo directamente sin eliminar el bloqueo",
+      "el administrador debe eliminar primero el bloqueo antes de que se pueda eliminar",
+      "el administrador debe cambiar primero la política de Azure asociada antes de que se pueda eliminar",
+      "el administrador debe eliminar primero la etiqueta 'No eliminar' asociada antes de que se pueda eliminar"
+    ],
+    "answer": "el administrador debe eliminar primero el bloqueo antes de que se pueda eliminar"
+  },
+
+  {
+    "question": "Una empresa de agencia de noticias planea migrar su aplicación de WordPress a Azure. Como ingeniero de soporte de la empresa, debe proponer un servicio que pueda monitorear su aplicación, detectar automáticamente anomalías de rendimiento, diagnosticar problemas y comprender el comportamiento del usuario. ¿Qué servicio de Azure puede hacer esto?",
+    "options": [
+      "Azure Application Gateway",
+      "Azure App Service",
+      "Azure Application Insights",
+      "Microsoft Entra Connect"
+    ],
+    "answer": "Azure Application Insights"
+  },
+
+  {
+    "question": "Su empresa actualmente aloja una aplicación web en una máquina virtual de Azure. La aplicación procesa cargas de trabajo críticas para el negocio. Planea reducir costos migrando a una nueva instancia. Solución: Comprar capacidad reservada. ¿Cumple la solución con el objetivo?",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Si migra su sitio web público estático a una cuenta de almacenamiento de Azure, debe **_**",
+    "options": [
+      "pagar por el uso mensual de Azure",
+      "pagar por los datos migrados a Azure",
+      "provisionar una conexión VPN de sitio a sitio",
+      "provisionar un disco de Azure para los archivos multimedia"
+    ],
+    "answer": "pagar por el uso mensual de Azure"
+  },
+  {
+    "question": "Su empresa actualmente aloja una aplicación web en una máquina virtual de Azure. La aplicación procesa cargas de trabajo críticas para el negocio. Planea reducir costos migrando a una nueva instancia. Solución: Comprar una instancia reservada. ¿Cumple la solución con el objetivo?",
+    "options": ["No", "Sí"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Su colega está trabajando en un proyecto y le informa que necesita acceso RDP al servidor alojado en Azure. Le ha dado la dirección IP de su estación de trabajo. ¿Dónde debería incluir en la lista blanca su dirección IP?",
+    "options": [
+      "Grupo de Seguridad de la Aplicación",
+      "Grupo de Seguridad de la Red",
+      "Balanceador de Carga",
+      "Registro de Actividades"
+    ],
+    "answer": "Grupo de Seguridad de la Red"
+  },
+  {
+    "question": "Un empresa debe desplegar recursos de Infraestructura como Servicio (IaaS) en su entorno de Azure. Estos recursos de IaaS permiten a la empresa evitar los costos y la complejidad de adquirir y administrar sus propios servidores físicos y otra infraestructura de centro de datos. ¿Cuál de las siguientes opciones es un tipo de IaaS?",
+    "options": [
+      "Azure Files",
+      "Azure Virtual Machine",
+      "Azure SQL Database",
+      "Azure Logic App"
+    ],
+    "answer": "Azure Virtual Machine"
+  },
+
+  {
+    "question": "¿Qué término en el ámbito del Cloud Computing se refiere a la capacidad de aumentar el número de máquinas virtuales en respuesta a un aumento significativo en la demanda?",
+    "options": [
+      "Escalado vertical",
+      "Escalado horizontal",
+      "Alta disponibilidad",
+      "Fiabilidad"
+    ],
+    "answer": "Escalado horizontal"
+  },
+
+  {
+    "question": " Pagas por los recursos que creas, independientemente de si los utilizas en un modelo de precio fijo.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "En el modelo basado en el consumo, solo pagas por lo que utilizas.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": " Las reservas se consideran una estructura de precios basada en el consumo.",
+    "options": ["Sí", "No"],
+    "answer": ["No"]
+  },
+
+  {
+    "question": "¿Con qué servicio de Azure puedes enviar alertas cuando el uso de CPU de una máquina virtual alcanza el 80%?",
+    "options": [
+      "Azure Bastion",
+      "Azure Monitor",
+      "Microsoft Defender para Cloud",
+      "Azure Service Health"
+    ],
+    "answer": "Azure Monitor"
+  },
+
+  {
+    "question": "Estás planeando migrar varias máquinas virtuales para tus aplicaciones de frontend y backend a Azure. Hay un requisito de cumplimiento que indica que los servidores de backend deben estar en un segmento de red separado. ¿Qué solución de Azure deberías implementar?",
+    "options": [
+      "Una Red de Seguridad (Network Security Group) para los servidores de frontend y backend",
+      "Un grupo de recursos para los servidores de frontend y backend",
+      "Una suscripción para los servidores de frontend y backend",
+      "Una red virtual para los servidores de frontend y backend"
+    ],
+    "answer": "Una red virtual para los servidores de frontend y backend"
+  },
+
+  {
+    "question": "¿Qué servicio te permite evaluar el cumplimiento legal y mejorar el estado de cumplimiento de tu entorno Azure?",
+    "options": [
+      "Azure Advisor",
+      "Azure Blueprints",
+      "Políticas de Azure",
+      "Microsoft Defender para Cloud"
+    ],
+    "answer": "Políticas de Azure"
+  },
+
+  {
+    "question": "Una empresa tiene cientos de máquinas virtuales alojadas en varios redes virtuales y suscripciones. Se te ha encargado limitar la cantidad de tráfico de datos salientes HTTPS a una lista específica de nombres de dominio completos (FQDN) y restringir el tráfico entrante a las redes virtuales. ¿Qué se debe hacer para cumplir con el requisito mencionado?",
+    "options": [
+      "Integrar Azure Firewall en tu arquitectura de red.",
+      "Crear un único grupo de seguridad de red.",
+      "Establecer una única conexión de Azure ExpressRoute.",
+      "Integrar Azure Virtual Network TAP (Terminal Access Point) en tu arquitectura de red."
+    ],
+    "answer": "Integrar Azure Firewall en tu arquitectura de red."
+  },
+
+  {
+    "question": "Selecciona la respuesta correcta de la lista de opciones. La computación sin servidor permite a los desarrolladores",
+    "options": [
+      "Minimizar el tiempo y los recursos dedicados a la gestión de infraestructura y código.",
+      "Centrarse en el desarrollo de aplicaciones eliminando tareas de gestión de infraestructura como el parcheo de servidores y la provisión de capacidad.",
+      "Centrarse en tareas de gestión de infraestructura como la provisión de capacidad y el parcheo.",
+      "Ejecutar aplicaciones con menos esfuerzo y menos recursos de servidor mediante herramientas amigables para la provisión de capacidad."
+    ],
+    "answer": "Centrarse en el desarrollo de aplicaciones eliminando tareas de gestión de infraestructura como el parcheo de servidores y la provisión de capacidad."
+  },
+
+  {
+    "question": "¿Qué servicio de Azure te permite crear escritorios Windows que pueden hospedar aplicaciones de escritorio en minutos, escalar fácilmente y permitir que los usuarios se conecten desde cualquier dispositivo a través de Internet?",
+    "options": [
+      "Azure Functions",
+      "Azure Virtual Desktop",
+      "Azure Dedicated Host",
+      "Azure Batch"
+    ],
+    "answer": "Azure Virtual Desktop"
+  },
+
+  {
+    "question": "Te han encargado encontrar una solución para compartir documentos que puedes asignar o montar en tus servidores Windows locales. ¿Qué servicio de Azure deberías utilizar?",
+    "options": [
+      "Azure Cosmos DB",
+      "Azure Managed Disks",
+      "Azure Files",
+      "Azure Blob"
+    ],
+    "answer": "Azure Files"
+  },
+
+  {
+    "question": "¿Qué servicio para la computación sin servidor te permite ejecutar código basado en eventos sin tener que gestionar o aprovisionar infraestructura explícitamente?",
+    "options": [
+      "Azure Logic Apps",
+      "Azure Container Instances",
+      "Azure Functions",
+      "Azure VMs"
+    ],
+    "answer": "Azure Functions"
+  },
+
+  {
+    "question": "Tu empresa almacena sus recursos multimedia en una cuenta de almacenamiento en la región de Singapur. Necesitas una solución para asegurar que los datos aún puedan ser accesibles incluso si la región de Singapur falla. Además, la solución debe ser rentable. Solución: Configura tu cuenta de almacenamiento para utilizar 'Almacenamiento georredundante de zonas' (GZRS). ¿Cumple esto con el objetivo?",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+
+  {
+    "question": "Debes configurar un grupo de seguridad de red en tu suscripción de Azure que restrinja el acceso al Protocolo de Escritorio Remoto para tus máquinas virtuales. ¿Qué recurso puede ser asignado a tu grupo de seguridad de red?",
+    "options": ["Interfaz de red", "Tabla de rutas", "Subred", "Servidor DNS"],
+    "answer": ["Interfaz de red"]
+  },
+
+  {
+    "question": "Azure Firewall utiliza Internet Protocol Security (IPsec) para cifrar todo el tráfico de red entre tus recursos de Azure y tu red local a través de Internet público. ",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+
+  {
+    "question": "Puedes configurar una conexión VPN de punto a sitio que utiliza Internet Protocol Security (IPsec) para conectarte desde tu computadora doméstica a tu red virtual de Azure.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+
+  {
+    "question": "Las Grupos de Seguridad de Red de Azure pueden cifrar todo el tráfico de red entre tus recursos de Azure y tu red local a través del Internet público.",
+    "options": ["Sí", "No"],
+    "answer": ["No"]
+  },
+
+  {
+    "question": "Se te ha asignado la tarea de supervisar la infraestructura de identidades locales y asegurar una conexión confiable con Office 365 y los Servicios en Línea de Microsoft. ¿Qué servicio deberías utilizar?",
+    "options": [
+      "Azure Application Gateway",
+      "Microsoft Enterprise Connect Health",
+      "Azure App Service",
+      "Azure Application Insights"
+    ],
+    "answer": "Microsoft Enterprise Connect Health"
+  },
+
+  {
+    "question": "Una empresa está migrando sus máquinas virtuales a Azure. Por razones de seguridad, debe recomendar una solución que bloquee automáticamente nuevas reglas de seguridad de grupos de seguridad de red que contengan los puertos 22, 80 y 3389. ¿Qué debería incluir en su recomendación?",
+    "options": [
+      "Azure Policies",
+      "Azure Resource Manager",
+      "Azure Monitor",
+      "Azure Service Trust Portal"
+    ],
+    "answer": "Azure Policies"
+  },
+
+  {
+    "question": " Los permisos de un grupo de recursos son heredados de los recursos que contiene.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "Si asigna una etiqueta a un grupo de recursos, los recursos dentro de ese grupo heredan la etiqueta.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+  {
+    "question": "Un grupo de recursos es un contenedor que incluye recursos relacionados para una solución de Azure.",
+    "options": ["Sí", "No"],
+    "answer": ["Sí"]
+  },
+
+  {
+    "question": "Su federación de Active Directory en el servidor local actualmente tiene 3000 usuarios. Planea retirar el servidor local que hospeda el Active Directory. Debe recomendar una solución para migrar los usuarios a Microsoft Azure AD lo más rápido posible, minimizando el impacto en los usuarios. ¿Qué debería recomendar?",
+    "options": [
+      "Crear los usuarios manualmente en Microsoft Azure AD.",
+      "Sincronizar el Active Directory local con Microsoft Azure AD mediante Microsoft Azure AD Connect.",
+      "Implementar la autenticación multifactor de Azure.",
+      "Migrar el servidor local de Active Directory a máquinas virtuales de Azure."
+    ],
+    "answer": "Sincronizar el Active Directory local con Microsoft Azure AD mediante Microsoft Azure AD Connect."
+  }
+]
