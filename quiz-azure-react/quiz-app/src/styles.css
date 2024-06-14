@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  height: 70%;
+  margin: 30vh auto;
+  padding: 50px;
+  border: 6px solid #ccc;
+  border-radius: 8px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.timer {
+  font-size: 30px; /* Aumenta el tamaño de la fuente del temporizador */
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px; /* Aumenta el espacio entre botones */
+  padding: 15px 30px; /* Aumenta el tamaño de los botones */
+  font-size: 18px; /* Aumenta el tamaño de la fuente de los botones */
+}
+
+h2 {
+  font-size: 28px; /* Aumenta el tamaño de la fuente de las preguntas */
+}
+
+input[type="radio"] {
+  transform: scale(1.5); /* Aumenta el tamaño de los botones de radio */
+  margin-right: 10px;
+}
+
+label,
+p {
+  font-size: 22px; /* Aumenta el tamaño de la fuente de las etiquetas y los párrafos */
+}
+
+input[type="number"] {
+  font-size: 20px; /* Aumenta el tamaño de la fuente del input de número */
+  padding: 5px;
+  width: 60px;
+  margin-left: 10px;
+}
+
+.option {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.option.correct {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.option.incorrect {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
