@@ -1622,5 +1622,430 @@
       "Migrar el servidor local de Active Directory a máquinas virtuales de Azure."
     ],
     "answer": "Sincronizar el Active Directory local con Microsoft Azure AD mediante Microsoft Azure AD Connect."
+  },
+  {
+    "question": "¿Qué servicio de Azure permite la creación y el hospedaje de aplicaciones web sin gestionar la infraestructura?",
+    "options": [
+      "Azure Virtual Machines",
+      "Azure Functions",
+      "Azure Container Instances",
+      "Azure App Service"
+    ],
+    "answer": "Azure App Service"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, elija Sí si es verdadera o No si es falsa. Los permisos de un grupo de recursos son heredados de los recursos que contiene.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "¿Cuál de las siguientes es una opción de cálculo sin servidor que no requiere la gestión de máquinas virtuales o contenedores?",
+    "options": [
+      "Azure Container Instances",
+      "Azure App Service",
+      "Azure Functions",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Azure Functions"
+  },
+  {
+    "question": "Un negocio migra sus máquinas virtuales a Azure. Por motivos de seguridad, debe recomendar una solución que bloquee automáticamente nuevas reglas de seguridad de grupos de seguridad de red que contengan los puertos 22, 80 y 3389.",
+    "options": [
+      "Políticas de Azure",
+      "Azure Resource Manager",
+      "Azure Monitor",
+      "Azure Service Trust Portal"
+    ],
+    "answer": "Políticas de Azure"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Si asigna una etiqueta a un grupo de recursos, los recursos dentro de ese grupo heredan la etiqueta.",
+    "options": ["Sí", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "Su servidor de Active Directory local tiene actualmente 3000 usuarios. Planea desmantelar el servidor local que aloja el Active Directory. Debe recomendar una solución para migrar los usuarios a Microsoft Entra ID lo más rápido posible, minimizando el impacto en los usuarios.",
+    "options": [
+      "Crear manualmente los usuarios en Microsoft Entra ID.",
+      "Sincronizar el Active Directory local con Microsoft Entra ID utilizando Microsoft Entra Connect.",
+      "Implementar la autenticación multifactor de Azure.",
+      "Migrar el servidor de Active Directory local a Azure Virtual Machines."
+    ],
+    "answer": "Sincronizar el Active Directory local con Microsoft Entra ID utilizando Microsoft Entra Connect."
+  },
+  {
+    "question": "¿Cuál de los siguientes servicios de Azure proporciona control total sobre el sistema operativo?",
+    "options": [
+      "Azure Container Instances",
+      "Azure App Service",
+      "Azure Functions",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Azure Virtual Machines"
+  },
+  {
+    "question": "¿Qué servicio de Azure está diseñado específicamente para una arquitectura de microservicios?",
+    "options": [
+      "Azure Container Instances",
+      "Azure App Service",
+      "Azure Functions",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Azure Container Instances"
+  },
+  {
+    "question": "¿Qué herramienta de Azure permite a los administradores implementar políticas que aplican reglas y efectos a los recursos en su suscripción?",
+    "options": [
+      "Azure Policy",
+      "Azure Blueprints",
+      "Azure Security Center",
+      "Azure Advisor"
+    ],
+    "answer": "Azure Policy"
+  },
+  {
+    "question": "Para mejorar la seguridad de su red, desea monitorear y diagnosticar condiciones de tráfico anormales y detectar posibles ataques. ¿Qué servicio de Azure debería utilizar?",
+    "options": [
+      "Azure Traffic Manager",
+      "Azure Sentinel",
+      "Azure DDoS Protection",
+      "Azure Monitor"
+    ],
+    "answer": "Azure DDoS Protection"
+  },
+  {
+    "question": "¿Cuál de los siguientes es un servicio de Azure que permite la gestión de versiones y la automatización del código?",
+    "options": [
+      "Azure DevOps",
+      "Azure Monitor",
+      "Azure Sentinel",
+      "Azure Cost Management"
+    ],
+    "answer": "Azure DevOps"
+  },
+  {
+    "question": "¿Qué servicio de Azure proporciona recomendaciones personalizadas para optimizar los recursos y reducir costos?",
+    "options": [
+      "Azure Policy",
+      "Azure Advisor",
+      "Azure Monitor",
+      "Azure Sentinel"
+    ],
+    "answer": "Azure Advisor"
+  },
+  {
+    "question": "Para cumplir con los requisitos de cumplimiento, debe retener datos durante un período específico. ¿Qué servicio de Azure debería usar?",
+    "options": [
+      "Azure Storage",
+      "Azure Backup",
+      "Azure Policy",
+      "Azure Site Recovery"
+    ],
+    "answer": "Azure Storage"
+  },
+  {
+    "question": "¿Cuál es el servicio de Azure que proporciona un entorno de desarrollo integrado (IDE) basado en la nube?",
+    "options": [
+      "Azure DevTest Labs",
+      "Azure Lab Services",
+      "Azure DevOps",
+      "Visual Studio Online"
+    ],
+    "answer": "Visual Studio Online"
+  },
+  {
+    "question": "¿Cuál de las siguientes características de Azure permite el almacenamiento de grandes volúmenes de datos no estructurados?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure SQL Database",
+      "Azure Table Storage",
+      "Azure File Storage"
+    ],
+    "answer": "Azure Blob Storage"
+  },
+  {
+    "question": "¿Qué servicio de Azure permite la implementación de aplicaciones con múltiples instancias y equilibrio de carga automático?",
+    "options": [
+      "Azure Load Balancer",
+      "Azure Traffic Manager",
+      "Azure Kubernetes Service",
+      "Azure App Service"
+    ],
+    "answer": "Azure App Service"
+  },
+  {
+    "question": "Para mejorar la seguridad, necesita realizar un análisis de seguridad y detección de amenazas en sus aplicaciones. ¿Qué servicio de Azure debería usar?",
+    "options": [
+      "Azure Security Center",
+      "Azure Sentinel",
+      "Azure Key Vault",
+      "Azure AD Identity Protection"
+    ],
+    "answer": "Azure Security Center"
+  },
+  {
+    "question": "¿Qué servicio de Azure proporciona un firewall gestionado para proteger sus aplicaciones web contra ataques comunes?",
+    "options": [
+      "Azure Firewall",
+      "Azure DDoS Protection",
+      "Azure WAF (Web Application Firewall)",
+      "Azure Network Security Groups"
+    ],
+    "answer": "Azure WAF (Web Application Firewall)"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Los recursos dentro de un grupo de recursos pueden pertenecer a diferentes regiones.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Necesita una solución que permita a los usuarios autenticar sus aplicaciones utilizando sus credenciales de Google. ¿Qué servicio de Azure debería usar?",
+    "options": [
+      "Azure AD B2C",
+      "Azure AD DS",
+      "Azure Key Vault",
+      "Azure Security Center"
+    ],
+    "answer": "Azure AD B2C"
+  },
+  {
+    "question": "Para automatizar la gestión y el cumplimiento de sus políticas de seguridad, ¿qué servicio de Azure debería usar?",
+    "options": [
+      "Azure Policy",
+      "Azure Sentinel",
+      "Azure Security Center",
+      "Azure Blueprint"
+    ],
+    "answer": "Azure Policy"
+  },
+  {
+    "question": "¿Qué servicio de Azure permite el almacenamiento y gestión de secretos y claves criptográficas?",
+    "options": [
+      "Azure Key Vault",
+      "Azure Security Center",
+      "Azure AD Identity Protection",
+      "Azure Firewall"
+    ],
+    "answer": "Azure Key Vault"
+  },
+  {
+    "question": "Necesita implementar una solución de recuperación ante desastres para sus máquinas virtuales. ¿Qué servicio de Azure debería usar?",
+    "options": [
+      "Azure Backup",
+      "Azure Site Recovery",
+      "Azure DevTest Labs",
+      "Azure Lab Services"
+    ],
+    "answer": "Azure Site Recovery"
+  },
+  {
+    "question": "¿Cuál de los siguientes servicios de Azure proporciona analíticas avanzadas y visualización de datos en tiempo real?",
+    "options": [
+      "Azure Monitor",
+      "Azure Stream Analytics",
+      "Azure Data Factory",
+      "Azure Synapse Analytics"
+    ],
+    "answer": "Azure Stream Analytics"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Puede implementar máquinas virtuales en Azure utilizando plantillas ARM.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "¿Qué servicio de Azure permite la integración y entrega continua (CI/CD) para sus aplicaciones?",
+    "options": [
+      "Azure Pipelines",
+      "Azure DevTest Labs",
+      "Azure Monitor",
+      "Azure Kubernetes Service"
+    ],
+    "answer": "Azure Pipelines"
+  },
+  {
+    "question": "Para optimizar el rendimiento y reducir los costos, necesita administrar la infraestructura de su aplicación a través de contenedores. ¿Qué servicio de Azure debería usar?",
+    "options": [
+      "Azure Kubernetes Service",
+      "Azure Container Instances",
+      "Azure App Service",
+      "Azure Functions"
+    ],
+    "answer": "Azure Kubernetes Service"
+  },
+  {
+    "question": "Para asegurar las comunicaciones entre sus aplicaciones y servicios, ¿qué servicio de Azure proporciona una red privada virtual (VPN)?",
+    "options": [
+      "Azure VPN Gateway",
+      "Azure Firewall",
+      "Azure Network Watcher",
+      "Azure DDoS Protection"
+    ],
+    "answer": "Azure VPN Gateway"
+  },
+  {
+    "question": "¿Qué servicio de Azure permite la orquestación y gestión de aplicaciones basadas en microservicios?",
+    "options": [
+      "Azure Service Fabric",
+      "Azure Kubernetes Service",
+      "Azure App Service",
+      "Azure Functions"
+    ],
+    "answer": "Azure Service Fabric"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Resource Manager proporciona un enfoque coherente para la gestión de recursos.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "¿Qué servicio de Azure ofrece la capacidad de realizar análisis de grandes volúmenes de datos y obtener insights empresariales?",
+    "options": [
+      "Azure Synapse Analytics",
+      "Azure Data Lake",
+      "Azure Machine Learning",
+      "Azure Stream Analytics"
+    ],
+    "answer": "Azure Synapse Analytics"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Virtual Network permite la segmentación de la red en subredes.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "¿Qué servicio de Azure permite la gestión de identidades y el control de acceso en aplicaciones y recursos?",
+    "options": [
+      "Azure Active Directory",
+      "Azure Key Vault",
+      "Azure Policy",
+      "Azure Monitor"
+    ],
+    "answer": "Azure Active Directory"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Policy permite la aplicación de políticas de gobernanza en sus recursos.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Necesita implementar una solución para la entrega global de contenido con baja latencia. ¿Qué servicio de Azure debería usar?",
+    "options": [
+      "Azure Content Delivery Network (CDN)",
+      "Azure Traffic Manager",
+      "Azure Load Balancer",
+      "Azure Front Door"
+    ],
+    "answer": "Azure Content Delivery Network (CDN)"
+  },
+  {
+    "question": "¿Cuál de los siguientes servicios de Azure proporciona almacenamiento de archivos compartidos accesibles desde múltiples máquinas virtuales?",
+    "options": [
+      "Azure File Storage",
+      "Azure Blob Storage",
+      "Azure Disk Storage",
+      "Azure Data Lake Storage"
+    ],
+    "answer": "Azure File Storage"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Monitor proporciona monitoreo y telemetría para sus aplicaciones e infraestructura.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Para realizar análisis predictivos y crear modelos de aprendizaje automático, ¿qué servicio de Azure debería usar?",
+    "options": [
+      "Azure Machine Learning",
+      "Azure Synapse Analytics",
+      "Azure Data Factory",
+      "Azure Cognitive Services"
+    ],
+    "answer": "Azure Machine Learning"
+  },
+  {
+    "question": "¿Qué servicio de Azure permite la migración de bases de datos SQL locales a Azure con el mínimo tiempo de inactividad?",
+    "options": [
+      "Azure Database Migration Service",
+      "Azure Data Factory",
+      "Azure Data Lake",
+      "Azure Synapse Analytics"
+    ],
+    "answer": "Azure Database Migration Service"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Logic Apps permite la creación de flujos de trabajo automatizados.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "Necesita almacenar y analizar grandes volúmenes de datos no estructurados. ¿Qué servicio de Azure debería usar?",
+    "options": [
+      "Azure Data Lake Storage",
+      "Azure Blob Storage",
+      "Azure SQL Database",
+      "Azure File Storage"
+    ],
+    "answer": "Azure Data Lake Storage"
+  },
+  {
+    "question": "¿Qué servicio de Azure proporciona una plataforma gestionada para la creación, el entrenamiento y la implementación de modelos de aprendizaje automático?",
+    "options": [
+      "Azure Machine Learning",
+      "Azure Cognitive Services",
+      "Azure Synapse Analytics",
+      "Azure Data Factory"
+    ],
+    "answer": "Azure Machine Learning"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Functions permite ejecutar código sin aprovisionar ni gestionar servidores.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "¿Qué servicio de Azure proporciona la capacidad de gestionar y supervisar aplicaciones en contenedores en un entorno de clúster?",
+    "options": [
+      "Azure Kubernetes Service",
+      "Azure Container Instances",
+      "Azure DevTest Labs",
+      "Azure App Service"
+    ],
+    "answer": "Azure Kubernetes Service"
+  },
+  {
+    "question": "Necesita realizar una migración sin problemas de sus aplicaciones y datos a la nube. ¿Qué servicio de Azure debería usar?",
+    "options": [
+      "Azure Migrate",
+      "Azure Site Recovery",
+      "Azure Data Factory",
+      "Azure DevTest Labs"
+    ],
+    "answer": "Azure Migrate"
+  },
+  {
+    "question": "¿Qué servicio de Azure permite la creación y gestión de bases de datos SQL sin necesidad de gestionar la infraestructura subyacente?",
+    "options": [
+      "Azure SQL Database",
+      "Azure Cosmos DB",
+      "Azure Database for MySQL",
+      "Azure Synapse Analytics"
+    ],
+    "answer": "Azure SQL Database"
+  },
+  {
+    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Site Recovery permite la replicación y recuperación de máquinas virtuales.",
+    "options": ["Sí", "No"],
+    "answer": "Sí"
+  },
+  {
+    "question": "¿Qué servicio de Azure proporciona capacidades de monitoreo y gestión para sus aplicaciones en contenedores?",
+    "options": [
+      "Azure Monitor",
+      "Azure DevOps",
+      "Azure Kubernetes Service",
+      "Azure App Service"
+    ],
+    "answer": "Azure Monitor"
   }
 ]

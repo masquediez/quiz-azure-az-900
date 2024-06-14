@@ -425,5 +425,420 @@
       "You cannot decide which hardware it will run on or which network connection it will use."
     ],
     "answer": "You cannot decide which hardware it will run on or which network connection it will use."
+  },
+  {
+    "question": "Which Azure service allows you to create and host web apps without managing the infrastructure?",
+    "options": [
+      "Azure Virtual Machines",
+      "Azure Functions",
+      "Azure Container Instances",
+      "Azure App Service"
+    ],
+    "answer": "Azure App Service"
+  },
+  {
+    "question": "For each of the following statements, select Yes if it is true or No if it is false. The permissions of a resource group are inherited by the resources within it.",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which of the following is a serverless compute option that does not require managing virtual machines or containers?",
+    "options": [
+      "Azure Container Instances",
+      "Azure App Service",
+      "Azure Functions",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Azure Functions"
+  },
+  {
+    "question": "A company is migrating its virtual machines to Azure. For security reasons, you need to recommend a solution that automatically blocks new network security group rules containing ports 22, 80, and 3389.",
+    "options": [
+      "Azure Policies",
+      "Azure Resource Manager",
+      "Azure Monitor",
+      "Azure Service Trust Portal"
+    ],
+    "answer": "Azure Policies"
+  },
+  {
+    "question": "For each of the following statements, select Yes if it is true or No if it is false. If you assign a tag to a resource group, the resources within that group inherit the tag.",
+    "options": ["Yes", "No"],
+    "answer": "No"
+  },
+  {
+    "question": "Your on-premises Active Directory domain currently has 3000 users. You plan to decommission the on-premises server that hosts the Active Directory. You need to recommend a solution to migrate the users to Microsoft Entra ID as quickly as possible while minimizing the impact on the users.",
+    "options": [
+      "Manually create the users in Microsoft Entra ID.",
+      "Synchronize the on-premises Active Directory with Microsoft Entra ID using Microsoft Entra Connect.",
+      "Implement Azure Multi-Factor Authentication.",
+      "Migrate the on-premises Active Directory server to Azure Virtual Machines."
+    ],
+    "answer": "Synchronize the on-premises Active Directory with Microsoft Entra ID using Microsoft Entra Connect."
+  },
+  {
+    "question": "Which of the following Azure services provides full control over the operating system?",
+    "options": [
+      "Azure Container Instances",
+      "Azure App Service",
+      "Azure Functions",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Azure Virtual Machines"
+  },
+  {
+    "question": "Which Azure service is specifically designed for a microservice architecture?",
+    "options": [
+      "Azure Container Instances",
+      "Azure App Service",
+      "Azure Functions",
+      "Azure Virtual Machines"
+    ],
+    "answer": "Azure Container Instances"
+  },
+  {
+    "question": "Which Azure tool allows administrators to implement policies that apply rules and effects to resources in their subscription?",
+    "options": [
+      "Azure Policy",
+      "Azure Blueprints",
+      "Azure Security Center",
+      "Azure Advisor"
+    ],
+    "answer": "Azure Policy"
+  },
+  {
+    "question": "To enhance your network's security, you want to monitor and diagnose abnormal traffic conditions and detect potential attacks. Which Azure service should you use?",
+    "options": [
+      "Azure Traffic Manager",
+      "Azure Sentinel",
+      "Azure DDoS Protection",
+      "Azure Monitor"
+    ],
+    "answer": "Azure DDoS Protection"
+  },
+  {
+    "question": "Which of the following Azure services allows for version control and code automation?",
+    "options": [
+      "Azure DevOps",
+      "Azure Monitor",
+      "Azure Sentinel",
+      "Azure Cost Management"
+    ],
+    "answer": "Azure DevOps"
+  },
+  {
+    "question": "Which Azure service provides personalized recommendations to optimize resources and reduce costs?",
+    "options": [
+      "Azure Policy",
+      "Azure Advisor",
+      "Azure Monitor",
+      "Azure Sentinel"
+    ],
+    "answer": "Azure Advisor"
+  },
+  {
+    "question": "To meet compliance requirements, you need to retain data for a specific period. Which Azure service should you use?",
+    "options": [
+      "Azure Storage",
+      "Azure Backup",
+      "Azure Policy",
+      "Azure Site Recovery"
+    ],
+    "answer": "Azure Storage"
+  },
+  {
+    "question": "Which Azure service provides a cloud-based integrated development environment (IDE)?",
+    "options": [
+      "Azure DevTest Labs",
+      "Azure Lab Services",
+      "Azure DevOps",
+      "Visual Studio Online"
+    ],
+    "answer": "Visual Studio Online"
+  },
+  {
+    "question": "Which of the following Azure features allows for the storage of large volumes of unstructured data?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure SQL Database",
+      "Azure Table Storage",
+      "Azure File Storage"
+    ],
+    "answer": "Azure Blob Storage"
+  },
+  {
+    "question": "Which Azure service allows the deployment of applications with multiple instances and automatic load balancing?",
+    "options": [
+      "Azure Load Balancer",
+      "Azure Traffic Manager",
+      "Azure Kubernetes Service",
+      "Azure App Service"
+    ],
+    "answer": "Azure App Service"
+  },
+  {
+    "question": "To enhance security, you need to perform security analysis and threat detection on your applications. Which Azure service should you use?",
+    "options": [
+      "Azure Security Center",
+      "Azure Sentinel",
+      "Azure Key Vault",
+      "Azure AD Identity Protection"
+    ],
+    "answer": "Azure Security Center"
+  },
+  {
+    "question": "Which Azure service provides a managed firewall to protect your web applications from common attacks?",
+    "options": [
+      "Azure Firewall",
+      "Azure DDoS Protection",
+      "Azure WAF (Web Application Firewall)",
+      "Azure Network Security Groups"
+    ],
+    "answer": "Azure WAF (Web Application Firewall)"
+  },
+  {
+    "question": "For each of the following statements, select Yes if it is true or No if it is false. Resources within a resource group can belong to different regions.",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "You need a solution that allows users to authenticate to your applications using their Google credentials. Which Azure service should you use?",
+    "options": [
+      "Azure AD B2C",
+      "Azure AD DS",
+      "Azure Key Vault",
+      "Azure Security Center"
+    ],
+    "answer": "Azure AD B2C"
+  },
+  {
+    "question": "To automate security management and compliance policies, which Azure service should you use?",
+    "options": [
+      "Azure Policy",
+      "Azure Sentinel",
+      "Azure Security Center",
+      "Azure Blueprint"
+    ],
+    "answer": "Azure Policy"
+  },
+  {
+    "question": "Which Azure service allows for the storage and management of secrets and cryptographic keys?",
+    "options": [
+      "Azure Key Vault",
+      "Azure Security Center",
+      "Azure AD Identity Protection",
+      "Azure Firewall"
+    ],
+    "answer": "Azure Key Vault"
+  },
+  {
+    "question": "You need to implement a disaster recovery solution for your virtual machines. Which Azure service should you use?",
+    "options": [
+      "Azure Backup",
+      "Azure Site Recovery",
+      "Azure DevTest Labs",
+      "Azure Lab Services"
+    ],
+    "answer": "Azure Site Recovery"
+  },
+  {
+    "question": "Which of the following Azure services provides advanced analytics and real-time data visualization?",
+    "options": [
+      "Azure Monitor",
+      "Azure Stream Analytics",
+      "Azure Data Factory",
+      "Azure Synapse Analytics"
+    ],
+    "answer": "Azure Stream Analytics"
+  },
+  {
+    "question": "For each of the following statements, select Yes if it is true or No if it is false. You can deploy virtual machines in Azure using ARM templates.",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which Azure service allows for continuous integration and continuous delivery (CI/CD) for your applications?",
+    "options": [
+      "Azure Pipelines",
+      "Azure DevTest Labs",
+      "Azure Monitor",
+      "Azure Kubernetes Service"
+    ],
+    "answer": "Azure Pipelines"
+  },
+  {
+    "question": "To optimize performance and reduce costs, you need to manage your application's infrastructure through containers. Which Azure service should you use?",
+    "options": [
+      "Azure Kubernetes Service",
+      "Azure Container Instances",
+      "Azure App Service",
+      "Azure Functions"
+    ],
+    "answer": "Azure Kubernetes Service"
+  },
+  {
+    "question": "To secure communications between your applications and services, which Azure service provides a virtual private network (VPN)?",
+    "options": [
+      "Azure VPN Gateway",
+      "Azure Firewall",
+      "Azure Network Watcher",
+      "Azure DDoS Protection"
+    ],
+    "answer": "Azure VPN Gateway"
+  },
+  {
+    "question": "Which Azure service allows for the orchestration and management of microservices-based applications?",
+    "options": [
+      "Azure Service Fabric",
+      "Azure Kubernetes Service",
+      "Azure App Service",
+      "Azure Functions"
+    ],
+    "answer": "Azure Service Fabric"
+  },
+  {
+    "question": "For each of the following statements, select Yes if it is true or No if it is false. Azure Resource Manager provides a consistent management approach for resources.",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "For each of the following statements, select Yes if it is true or No if it is false. Azure Virtual Network allows network segmentation into subnets.",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which Azure service provides identity management and access control for applications and resources?",
+    "options": [
+      "Azure Active Directory",
+      "Azure Key Vault",
+      "Azure Policy",
+      "Azure Monitor"
+    ],
+    "answer": "Azure Active Directory"
+  },
+  {
+    "question": "For each of the following statements, select Yes if it is true or No if it is false. Azure Policy enables the enforcement of governance policies on your resources.",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "You need to deploy a solution for global content delivery with low latency. Which Azure service should you use?",
+    "options": [
+      "Azure Content Delivery Network (CDN)",
+      "Azure Traffic Manager",
+      "Azure Load Balancer",
+      "Azure Front Door"
+    ],
+    "answer": "Azure Content Delivery Network (CDN)"
+  },
+  {
+    "question": "Which of the following Azure services provides shared file storage accessible from multiple virtual machines?",
+    "options": [
+      "Azure File Storage",
+      "Azure Blob Storage",
+      "Azure Disk Storage",
+      "Azure Data Lake Storage"
+    ],
+    "answer": "Azure File Storage"
+  },
+  {
+    "question": "For each of the following statements, select Yes if it is true or No if it is false. Azure Monitor provides monitoring and telemetry for your applications and infrastructure.",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "To perform predictive analytics and build machine learning models, which Azure service should you use?",
+    "options": [
+      "Azure Machine Learning",
+      "Azure Synapse Analytics",
+      "Azure Data Factory",
+      "Azure Cognitive Services"
+    ],
+    "answer": "Azure Machine Learning"
+  },
+  {
+    "question": "Which Azure service allows for seamless migration of on-premises SQL databases to Azure with minimal downtime?",
+    "options": [
+      "Azure Database Migration Service",
+      "Azure Data Factory",
+      "Azure Data Lake",
+      "Azure Synapse Analytics"
+    ],
+    "answer": "Azure Database Migration Service"
+  },
+  {
+    "question": "For each of the following statements, select Yes if it is true or No if it is false. Azure Logic Apps enables the creation of automated workflows.",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "You need to store and analyze large volumes of unstructured data. Which Azure service should you use?",
+    "options": [
+      "Azure Data Lake Storage",
+      "Azure Blob Storage",
+      "Azure SQL Database",
+      "Azure File Storage"
+    ],
+    "answer": "Azure Data Lake Storage"
+  },
+  {
+    "question": "Which Azure service provides a managed platform for creating, training, and deploying machine learning models?",
+    "options": [
+      "Azure Machine Learning",
+      "Azure Cognitive Services",
+      "Azure Synapse Analytics",
+      "Azure Data Factory"
+    ],
+    "answer": "Azure Machine Learning"
+  },
+  {
+    "question": "For each of the following statements, select Yes if it is true or No if it is false. Azure Functions allows you to execute code without provisioning or managing servers.",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which Azure service provides the capability to manage and monitor containerized applications in a cluster environment?",
+    "options": [
+      "Azure Kubernetes Service",
+      "Azure Container Instances",
+      "Azure DevTest Labs",
+      "Azure App Service"
+    ],
+    "answer": "Azure Kubernetes Service"
+  },
+  {
+    "question": "You need to seamlessly migrate your applications and data to the cloud. Which Azure service should you use?",
+    "options": [
+      "Azure Migrate",
+      "Azure Site Recovery",
+      "Azure Data Factory",
+      "Azure DevTest Labs"
+    ],
+    "answer": "Azure Migrate"
+  },
+  {
+    "question": "Which Azure service allows for the creation and management of SQL databases without managing the underlying infrastructure?",
+    "options": [
+      "Azure SQL Database",
+      "Azure Cosmos DB",
+      "Azure Database for MySQL",
+      "Azure Synapse Analytics"
+    ],
+    "answer": "Azure SQL Database"
+  },
+  {
+    "question": "For each of the following statements, select Yes if it is true or No if it is false. Azure Site Recovery allows for virtual machine replication and recovery.",
+    "options": ["Yes", "No"],
+    "answer": "Yes"
+  },
+  {
+    "question": "Which Azure service provides monitoring and management capabilities for your containerized applications?",
+    "options": [
+      "Azure Monitor",
+      "Azure DevOps",
+      "Azure Kubernetes Service",
+      "Azure App Service"
+    ],
+    "answer": "Azure Monitor"
   }
 ]
