@@ -605,6 +605,436 @@
             "Die Fähigkeit, Daten effektiv zu sichern"
         ],
         "answer": "Die Fähigkeit, Ressourcen nach Bedarf nach oben oder unten zu skalieren"
+    },
+ {
+        "question": "Was ist Azure Kubernetes Service (AKS)?",
+        "options": [
+            "Ein Cloud-Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Container-Orchestrierungsdienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Container-Orchestrierungsdienst"
+    },
+    {
+        "question": "Was ist Azure DevTest Labs?",
+        "options": [
+            "Ein Dienst zur Verwaltung und Automatisierung der Entwicklungs- und Testinfrastruktur",
+            "Ein Speicherdienst",
+            "Ein Analysedienst",
+            "Ein Überwachungsdienst"
+        ],
+        "answer": "Ein Dienst zur Verwaltung und Automatisierung der Entwicklungs- und Testinfrastruktur"
+    },
+    {
+        "question": "Was ist Azure Resource Manager (ARM)?",
+        "options": [
+            "Ein Datenbankdienst",
+            "Ein Speicherdienst",
+            "Die Verwaltungsoberfläche für Ressourcen in Azure",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Die Verwaltungsoberfläche für Ressourcen in Azure"
+    },
+    {
+        "question": "Was ist der Zweck von Azure Blueprints?",
+        "options": [
+            "Ressourcen individuell erstellen und verwalten",
+            "Ermöglicht die Erstellung von virtuellen Netzwerken",
+            "Definiert eine wiederholbare Menge von Ressourcen für Bereitstellungen",
+            "Bietet Speicherdienste"
+        ],
+        "answer": "Definiert eine wiederholbare Menge von Ressourcen für Bereitstellungen"
+    },
+    {
+        "question": "Was ist Azure Policy?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Dienst zur Verwaltung und Durchsetzung von Governance-Richtlinien",
+            "Ein Datenbankdienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Verwaltung und Durchsetzung von Governance-Richtlinien"
+    },
+    {
+        "question": "Was ist Azure Sentinel?",
+        "options": [
+            "Ein Cloud-Sicherheitsanalysetool",
+            "Ein Datenbankdienst",
+            "Ein Speicherdienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Cloud-Sicherheitsanalysetool"
+    },
+    {
+        "question": "Was ist Azure Synapse Analytics?",
+        "options": [
+            "Ein relationaler Datenbankdienst",
+            "Eine Analyse-Lösung, die Data Warehousing und Big Data kombiniert",
+            "Ein Dateispeicherdienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Eine Analyse-Lösung, die Data Warehousing und Big Data kombiniert"
+    },
+    {
+        "question": "Was ist Azure Cosmos DB?",
+        "options": [
+            "Eine SQL-Datenbank",
+            "Eine global verteilte NoSQL-Datenbank",
+            "Ein Blob-Speicherdienst",
+            "Ein Analysedienst"
+        ],
+        "answer": "Eine global verteilte NoSQL-Datenbank"
+    },
+    {
+        "question": "Was ist Azure Data Lake Storage?",
+        "options": [
+            "Ein relationaler Datenbankdienst",
+            "Ein Speicherdienst, der für große Datenmengen optimiert ist",
+            "Ein Echtzeit-Analysedienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Speicherdienst, der für große Datenmengen optimiert ist"
+    },
+    {
+        "question": "Was ist Azure Active Directory (Azure AD)?",
+        "options": [
+            "Ein Cloud-Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Identitäts- und Zugriffsverwaltungsdienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Identitäts- und Zugriffsverwaltungsdienst"
+    },
+    {
+        "question": "Was ist der Zweck von Azure Network Watcher?",
+        "options": [
+            "Bietet Cloud-Speicher",
+            "Überwacht und diagnostiziert Netzwerkprobleme",
+            "Bietet Datenbankdienste",
+            "Verwaltet Identitäten und Zugriffe"
+        ],
+        "answer": "Überwacht und diagnostiziert Netzwerkprobleme"
+    },
+    {
+        "question": "Was ist Azure Logic Apps?",
+        "options": [
+            "Ein Datenbankdienst",
+            "Ein Speicherdienst",
+            "Ein Dienst zur Automatisierung von Geschäftsabläufen",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Automatisierung von Geschäftsabläufen"
+    },
+    {
+        "question": "Was ist Azure Data Factory?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst zur Datenintegration für die Datenbewegung und -transformation",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Datenintegration für die Datenbewegung und -transformation"
+    },
+    {
+        "question": "Was ist Azure Bastion?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Netzwerkdienst, der eine sichere Verbindung zu virtuellen Maschinen ermöglicht",
+            "Ein Identitätsverwaltungsdienst"
+        ],
+        "answer": "Ein Netzwerkdienst, der eine sichere Verbindung zu virtuellen Maschinen ermöglicht"
+    },
+    {
+        "question": "Was ist Azure Event Grid?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst zur Verwaltung des Event-Routings",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Verwaltung des Event-Routings"
+    },
+    {
+        "question": "Was ist Azure File Sync?",
+        "options": [
+            "Ein lokaler Dateispeicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst zur Zentralisierung und Synchronisierung von Dateien in Azure und auf lokalen Servern",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Zentralisierung und Synchronisierung von Dateien in Azure und auf lokalen Servern"
+    },
+    {
+        "question": "Was ist Azure Private Link?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst, der den Zugriff auf Azure-Dienste über eine private Verbindung ermöglicht",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst, der den Zugriff auf Azure-Dienste über eine private Verbindung ermöglicht"
+    },
+    {
+        "question": "Was ist Azure Cost Management and Billing?",
+        "options": [
+            "Ein Datenbankdienst",
+            "Ein Speicherdienst",
+            "Ein Tool zur Überwachung und Steuerung der Azure-Kosten",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Tool zur Überwachung und Steuerung der Azure-Kosten"
+    },
+    {
+        "question": "Was ist Azure Site Recovery?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst, der die Notfallwiederherstellung durch Replikation von virtuellen Maschinen ermöglicht",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst, der die Notfallwiederherstellung durch Replikation von virtuellen Maschinen ermöglicht"
+    },
+    {
+        "question": "Was ist Azure Arc?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst zur Verwaltung von lokalen und Multi-Cloud-Ressourcen aus Azure heraus",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Verwaltung von lokalen und Multi-Cloud-Ressourcen aus Azure heraus"
+    },
+    {
+        "question": "Was ist Azure Data Bricks?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Analysedienst, der Apache Spark unterstützt",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Analysedienst, der Apache Spark unterstützt"
+    },
+    {
+        "question": "Was ist Azure ExpressRoute?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst, der private Verbindungen zwischen Azure-Rechenzentren und der lokalen Infrastruktur herstellt",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst, der private Verbindungen zwischen Azure-Rechenzentren und der lokalen Infrastruktur herstellt"
+    },
+    {
+        "question": "Was ist Azure Logic Apps?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst zur Erstellung und Ausführung automatisierter Arbeitsabläufe",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Erstellung und Ausführung automatisierter Arbeitsabläufe"
+    },
+    {
+        "question": "Was ist Azure Application Gateway?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Load Balancer für Webanwendungen",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Load Balancer für Webanwendungen"
+    },
+    {
+        "question": "Was ist Azure Functions?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Serverless-Computing-Dienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Serverless-Computing-Dienst"
+    },
+    {
+        "question": "Was ist Azure Table Storage?",
+        "options": [
+            "Ein relationaler Datenbankdienst",
+            "Ein Speicherdienst für NoSQL-Daten",
+            "Ein Überwachungsdienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Speicherdienst für NoSQL-Daten"
+    },
+    {
+        "question": "Was ist Azure Traffic Manager?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein DNS-basierter Lastenausgleichsdienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein DNS-basierter Lastenausgleichsdienst"
+    },
+    {
+        "question": "Was ist Azure Disk Encryption?",
+        "options": [
+            "Ein Datenbankdienst",
+            "Ein Speicherdienst, der Festplattenverschlüsselung bereitstellt",
+            "Ein Überwachungsdienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Speicherdienst, der Festplattenverschlüsselung bereitstellt"
+    },
+    {
+        "question": "Was ist Azure Data Box?",
+        "options": [
+            "Ein Cloud-Speicherdienst",
+            "Ein physisches Gerät zum Übertragen großer Datenmengen nach Azure",
+            "Ein Netzwerkdienst",
+            "Ein Überwachungsdienst"
+        ],
+        "answer": "Ein physisches Gerät zum Übertragen großer Datenmengen nach Azure"
+    },
+    {
+        "question": "Was ist Azure Load Balancer?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Lastenausgleichsdienst zur Verteilung des Datenverkehrs zwischen virtuellen Maschinen",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Lastenausgleichsdienst zur Verteilung des Datenverkehrs zwischen virtuellen Maschinen"
+    },
+    {
+        "question": "Was ist Azure Blob Storage?",
+        "options": [
+            "Ein Speicherdienst für große Mengen unstrukturierter Daten",
+            "Ein Datenbankdienst",
+            "Ein Computing-Dienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Speicherdienst für große Mengen unstrukturierter Daten"
+    },
+    {
+        "question": "Was ist Azure Front Door?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein globaler Lastenausgleichs- und Anwendungsbeschleunigungsdienst",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein globaler Lastenausgleichs- und Anwendungsbeschleunigungsdienst"
+    },
+    {
+        "question": "Was ist Azure Firewall?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Sicherheitsdienst zur Verwaltung des Netzwerkverkehrs",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Sicherheitsdienst zur Verwaltung des Netzwerkverkehrs"
+    },
+    {
+        "question": "Was ist Azure Virtual WAN?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst, der globale Konnektivität für virtuelle Netzwerke bietet",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst, der globale Konnektivität für virtuelle Netzwerke bietet"
+    },
+    {
+        "question": "Was ist Azure Security Center?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Tool zur Verwaltung der Sicherheit und Konformität von Azure-Ressourcen",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Tool zur Verwaltung der Sicherheit und Konformität von Azure-Ressourcen"
+    },
+    {
+        "question": "Was ist Azure Service Fabric?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Eine Plattform zum Erstellen und Verwalten skalierbarer Microservice-Anwendungen",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Eine Plattform zum Erstellen und Verwalten skalierbarer Microservice-Anwendungen"
+    },
+    {
+        "question": "Was ist Azure Monitor?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst zur Sammlung und Analyse von Telemetriedaten von Azure-Ressourcen",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Sammlung und Analyse von Telemetriedaten von Azure-Ressourcen"
+    },
+    {
+        "question": "Was ist Azure API Management?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst zur Verwaltung und Veröffentlichung von APIs",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Verwaltung und Veröffentlichung von APIs"
+    },
+    {
+        "question": "Was ist Azure Backup?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst zur Sicherung und Wiederherstellung von Daten in der Cloud",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Sicherung und Wiederherstellung von Daten in der Cloud"
+    },
+    {
+        "question": "Was ist Azure HDInsight?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Big-Data-Analysedienst, der Apache Hadoop unterstützt",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Big-Data-Analysedienst, der Apache Hadoop unterstützt"
+    },
+    {
+        "question": "Was ist Azure App Configuration?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst zur zentralisierten Verwaltung von Anwendungs-Konfigurationen",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur zentralisierten Verwaltung von Anwendungs-Konfigurationen"
+    },
+    {
+        "question": "Was ist Azure Event Hubs?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst zur Echtzeit-Datenerfassung im großen Maßstab",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Echtzeit-Datenerfassung im großen Maßstab"
+    },
+    {
+        "question": "Was ist Azure Automation?",
+        "options": [
+            "Ein Speicherdienst",
+            "Ein Datenbankdienst",
+            "Ein Dienst zur Automatisierung wiederkehrender Verwaltungsaufgaben in Azure",
+            "Ein Netzwerkdienst"
+        ],
+        "answer": "Ein Dienst zur Automatisierung wiederkehrender Verwaltungsaufgaben in Azure"
     }
 ]
 
