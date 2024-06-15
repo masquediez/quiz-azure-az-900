@@ -5,25 +5,21 @@ const port = 3001;
 
 app.use(cors());
 
-// Cargar las preguntas desde el archivo JSON
-const questions = require("./questions.json");
+const questionsES = require("./questions-es.json");
+const questionsEN = require("./questions-en.json");
+const questionsDE = require("./questions-de.json");
 
-app.get("/questions", (req, res) => {
-  res.json(questions);
+// Endpoint para obtener preguntas según el idioma
+app.get("/questions-es.json", (req, res) => {
+  res.json(questionsES);
 });
 
-// Endpoint para obtener una pregunta específica por número de pregunta
-app.get("/pregunta", (req, res) => {
-  const numeroPregunta = parseInt(req.query.numeroPregunta);
-  if (
-    isNaN(numeroPregunta) ||
-    numeroPregunta < 0 ||
-    numeroPregunta >= questions.length
-  ) {
-    return res.status(400).send({ error: "Número de pregunta no válido" });
-  }
-  const pregunta = questions[numeroPregunta];
-  res.json({ pregunta, totalPreguntas: questions.length });
+app.get("/questions-en.json", (req, res) => {
+  res.json(questionsEN);
+});
+
+app.get("/questions-de.json", (req, res) => {
+  res.json(questionsDE);
 });
 
 app.listen(port, () => {

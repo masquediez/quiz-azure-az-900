@@ -424,7 +424,7 @@
   {
     "question": "Para cada uno de los siguientes elementos, elija Sí si la afirmación es verdadera, o No si la afirmación es falsa.\n\n Tenga en cuenta que cada elemento correcto vale un punto.\n\n bajo el modelo de pago por uso, solo paga por lo que usa.",
     "options": ["Sí", "No"],
-    "answer": ["Sí"]
+    "answer": "Sí"
   },
   {
     "question": "Para cada uno de los siguientes elementos, elija Sí si la afirmación es verdadera, o No si la afirmación es falsa.\n\n Tenga en cuenta que cada elemento correcto vale un punto.\n\n Paga por los recursos que aprovisiona, independientemente de si los usa o no, bajo el modelo de precio fijo.",
@@ -1624,428 +1624,923 @@
     "answer": "Sincronizar el Active Directory local con Microsoft Azure AD mediante Microsoft Azure AD Connect."
   },
   {
-    "question": "¿Qué servicio de Azure permite la creación y el hospedaje de aplicaciones web sin gestionar la infraestructura?",
+    "question": "¿Qué es el Cloud Computing?",
+    "options": [
+      "Modelo de entrega de servicios de TI a través de Internet",
+      "Modelo de entrega de servicios de TI localmente",
+      "Modelo de entrega de servicios de TI por satélite",
+      "Modelo de entrega de servicios de TI por línea telefónica"
+    ],
+    "answer": "Modelo de entrega de servicios de TI a través de Internet"
+  },
+  {
+    "question": "¿Qué es el modelo de responsabilidad compartida en la nube?",
+    "options": [
+      "Un modelo donde el cliente y el proveedor de servicios en la nube comparten responsabilidades de seguridad",
+      "Un modelo donde solo el proveedor de servicios en la nube es responsable de la seguridad",
+      "Un modelo donde solo el cliente es responsable de la seguridad",
+      "Un modelo donde la responsabilidad de la seguridad no está clara"
+    ],
+    "answer": "Un modelo donde el cliente y el proveedor de servicios en la nube comparten responsabilidades de seguridad"
+  },
+  {
+    "question": "¿Cuál de los siguientes NO es un modelo de nube?",
+    "options": ["Nube pública", "Nube privada", "Nube híbrida", "Nube local"],
+    "answer": "Nube local"
+  },
+  {
+    "question": "¿Cuál es el beneficio principal de un modelo de nube pública?",
+    "options": [
+      "Control total sobre la infraestructura",
+      "Costos de operación más altos",
+      "Acceso exclusivo a los recursos",
+      "Escalabilidad y flexibilidad"
+    ],
+    "answer": "Escalabilidad y flexibilidad"
+  },
+  {
+    "question": "¿Qué describe mejor el modelo IaaS (Infrastructure-as-a-Service)?",
+    "options": [
+      "Plataforma para desarrollar y gestionar aplicaciones",
+      "Entrega de software a través de internet",
+      "Provisión de infraestructura TI básica, como servidores y almacenamiento",
+      "Provisión de servicios de seguridad"
+    ],
+    "answer": "Provisión de infraestructura TI básica, como servidores y almacenamiento"
+  },
+  {
+    "question": "¿Qué servicio de Azure permite la ejecución de código sin la gestión explícita de la infraestructura subyacente?",
     "options": [
       "Azure Virtual Machines",
-      "Azure Functions",
-      "Azure Container Instances",
-      "Azure App Service"
-    ],
-    "answer": "Azure App Service"
-  },
-  {
-    "question": "Para cada una de las siguientes afirmaciones, elija Sí si es verdadera o No si es falsa. Los permisos de un grupo de recursos son heredados de los recursos que contiene.",
-    "options": ["Sí", "No"],
-    "answer": "Sí"
-  },
-  {
-    "question": "¿Cuál de las siguientes es una opción de cálculo sin servidor que no requiere la gestión de máquinas virtuales o contenedores?",
-    "options": [
-      "Azure Container Instances",
       "Azure App Service",
       "Azure Functions",
-      "Azure Virtual Machines"
+      "Azure Storage"
     ],
     "answer": "Azure Functions"
   },
   {
-    "question": "Un negocio migra sus máquinas virtuales a Azure. Por motivos de seguridad, debe recomendar una solución que bloquee automáticamente nuevas reglas de seguridad de grupos de seguridad de red que contengan los puertos 22, 80 y 3389.",
+    "question": "¿Qué es Azure App Service?",
     "options": [
-      "Políticas de Azure",
-      "Azure Resource Manager",
-      "Azure Monitor",
-      "Azure Service Trust Portal"
+      "Un servicio que permite la creación y hospedaje de aplicaciones web sin gestionar la infraestructura subyacente",
+      "Un servicio de almacenamiento en la nube",
+      "Una máquina virtual en Azure",
+      "Una base de datos en la nube"
     ],
-    "answer": "Políticas de Azure"
+    "answer": "Un servicio que permite la creación y hospedaje de aplicaciones web sin gestionar la infraestructura subyacente"
   },
   {
-    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Si asigna una etiqueta a un grupo de recursos, los recursos dentro de ese grupo heredan la etiqueta.",
-    "options": ["Sí", "No"],
-    "answer": "No"
-  },
-  {
-    "question": "Su servidor de Active Directory local tiene actualmente 3000 usuarios. Planea desmantelar el servidor local que aloja el Active Directory. Debe recomendar una solución para migrar los usuarios a Microsoft Entra ID lo más rápido posible, minimizando el impacto en los usuarios.",
+    "question": "¿Qué es una Azure Virtual Machine?",
     "options": [
-      "Crear manualmente los usuarios en Microsoft Entra ID.",
-      "Sincronizar el Active Directory local con Microsoft Entra ID utilizando Microsoft Entra Connect.",
-      "Implementar la autenticación multifactor de Azure.",
-      "Migrar el servidor de Active Directory local a Azure Virtual Machines."
+      "Un contenedor de aplicaciones",
+      "Una máquina física",
+      "Una máquina virtual en la nube que proporciona control total sobre el sistema operativo",
+      "Un servicio de base de datos"
     ],
-    "answer": "Sincronizar el Active Directory local con Microsoft Entra ID utilizando Microsoft Entra Connect."
+    "answer": "Una máquina virtual en la nube que proporciona control total sobre el sistema operativo"
   },
   {
-    "question": "¿Cuál de los siguientes servicios de Azure proporciona control total sobre el sistema operativo?",
+    "question": "¿Qué servicio de Azure proporciona un entorno de ejecución para aplicaciones serverless?",
     "options": [
-      "Azure Container Instances",
+      "Azure Virtual Machines",
       "Azure App Service",
       "Azure Functions",
-      "Azure Virtual Machines"
+      "Azure Kubernetes Service"
     ],
-    "answer": "Azure Virtual Machines"
+    "answer": "Azure Functions"
   },
   {
-    "question": "¿Qué servicio de Azure está diseñado específicamente para una arquitectura de microservicios?",
+    "question": "¿Qué es el modelo SaaS (Software-as-a-Service)?",
     "options": [
-      "Azure Container Instances",
-      "Azure App Service",
-      "Azure Functions",
-      "Azure Virtual Machines"
+      "Provisión de infraestructura TI básica",
+      "Plataforma para desarrollar y gestionar aplicaciones",
+      "Entrega de software a través de internet",
+      "Provisión de servicios de seguridad"
     ],
-    "answer": "Azure Container Instances"
+    "answer": "Entrega de software a través de internet"
   },
   {
-    "question": "¿Qué herramienta de Azure permite a los administradores implementar políticas que aplican reglas y efectos a los recursos en su suscripción?",
+    "question": "¿Cuál es el propósito de Azure Regions?",
+    "options": [
+      "Alojar máquinas virtuales localmente",
+      "Proporcionar redundancia y disponibilidad geográfica",
+      "Almacenar datos en discos físicos",
+      "Gestionar políticas de seguridad"
+    ],
+    "answer": "Proporcionar redundancia y disponibilidad geográfica"
+  },
+  {
+    "question": "¿Qué es una Azure Resource Group?",
+    "options": [
+      "Un grupo de máquinas virtuales",
+      "Un contenedor que incluye recursos relacionados para una solución de Azure",
+      "Un servicio de base de datos",
+      "Un servicio de almacenamiento en la nube"
+    ],
+    "answer": "Un contenedor que incluye recursos relacionados para una solución de Azure"
+  },
+  {
+    "question": "¿Qué es una Azure Availability Zone?",
+    "options": [
+      "Una región geográfica específica en Azure",
+      "Un conjunto de ubicaciones físicas dentro de una región de Azure",
+      "Un tipo de máquina virtual",
+      "Un servicio de base de datos"
+    ],
+    "answer": "Un conjunto de ubicaciones físicas dentro de una región de Azure"
+  },
+  {
+    "question": "¿Qué herramienta permite gestionar y monitorear los recursos de Azure desde la línea de comandos?",
+    "options": [
+      "Azure Portal",
+      "Azure CLI",
+      "Azure Functions",
+      "Azure App Service"
+    ],
+    "answer": "Azure CLI"
+  },
+  {
+    "question": "¿Qué servicio de Azure proporciona seguridad y cumplimiento a nivel de recurso?",
     "options": [
       "Azure Policy",
-      "Azure Blueprints",
-      "Azure Security Center",
-      "Azure Advisor"
+      "Azure App Service",
+      "Azure Virtual Machines",
+      "Azure Functions"
     ],
     "answer": "Azure Policy"
   },
   {
-    "question": "Para mejorar la seguridad de su red, desea monitorear y diagnosticar condiciones de tráfico anormales y detectar posibles ataques. ¿Qué servicio de Azure debería utilizar?",
+    "question": "¿Qué describe mejor el servicio Azure Storage?",
     "options": [
-      "Azure Traffic Manager",
-      "Azure Sentinel",
-      "Azure DDoS Protection",
-      "Azure Monitor"
+      "Un servicio de máquinas virtuales",
+      "Un servicio de bases de datos",
+      "Un servicio que proporciona almacenamiento escalable en la nube",
+      "Un servicio de contenedores"
     ],
-    "answer": "Azure DDoS Protection"
+    "answer": "Un servicio que proporciona almacenamiento escalable en la nube"
   },
   {
-    "question": "¿Cuál de los siguientes es un servicio de Azure que permite la gestión de versiones y la automatización del código?",
+    "question": "¿Qué método de autenticación en Azure permite el acceso sin necesidad de contraseña?",
     "options": [
-      "Azure DevOps",
-      "Azure Monitor",
-      "Azure Sentinel",
-      "Azure Cost Management"
+      "Multi-Factor Authentication (MFA)",
+      "Single Sign-On (SSO)",
+      "Passwordless Authentication",
+      "Azure AD Domain Services"
     ],
-    "answer": "Azure DevOps"
+    "answer": "Passwordless Authentication"
   },
   {
-    "question": "¿Qué servicio de Azure proporciona recomendaciones personalizadas para optimizar los recursos y reducir costos?",
+    "question": "¿Qué servicio de Azure permite el uso de escritorios virtuales?",
+    "options": [
+      "Azure Virtual Machines",
+      "Azure Virtual Desktop",
+      "Azure App Service",
+      "Azure Functions"
+    ],
+    "answer": "Azure Virtual Desktop"
+  },
+  {
+    "question": "¿Qué herramienta de Azure ayuda a calcular los costos de diferentes servicios?",
     "options": [
       "Azure Policy",
-      "Azure Advisor",
+      "Azure Pricing Calculator",
       "Azure Monitor",
-      "Azure Sentinel"
+      "Azure Resource Manager"
+    ],
+    "answer": "Azure Pricing Calculator"
+  },
+  {
+    "question": "¿Qué servicio de Azure permite mover grandes volúmenes de datos a Azure de manera física?",
+    "options": ["Azure Migrate", "Azure Data Box", "Azure File Sync", "AzCopy"],
+    "answer": "Azure Data Box"
+  },
+  {
+    "question": "¿Qué herramienta de Azure proporciona recomendaciones para optimizar los recursos?",
+    "options": [
+      "Azure Monitor",
+      "Azure Advisor",
+      "Azure Policy",
+      "Azure Resource Manager"
     ],
     "answer": "Azure Advisor"
   },
   {
-    "question": "Para cumplir con los requisitos de cumplimiento, debe retener datos durante un período específico. ¿Qué servicio de Azure debería usar?",
+    "question": "¿Qué servicio de Azure permite la creación y gestión de contenedores?",
     "options": [
-      "Azure Storage",
-      "Azure Backup",
+      "Azure Virtual Machines",
+      "Azure Kubernetes Service (AKS)",
+      "Azure App Service",
+      "Azure Functions"
+    ],
+    "answer": "Azure Kubernetes Service (AKS)"
+  },
+  {
+    "question": "¿Qué describe mejor el concepto de 'Zero Trust' en seguridad?",
+    "options": [
+      "Confiar en todos los usuarios por defecto",
+      "No confiar en nadie dentro y fuera de la red",
+      "Confiar solo en usuarios externos",
+      "Confiar en todos los dispositivos por defecto"
+    ],
+    "answer": "No confiar en nadie dentro y fuera de la red"
+  },
+  {
+    "question": "¿Qué servicio de Azure se utiliza para supervisar y diagnosticar problemas en aplicaciones y servicios?",
+    "options": [
       "Azure Policy",
-      "Azure Site Recovery"
-    ],
-    "answer": "Azure Storage"
-  },
-  {
-    "question": "¿Cuál es el servicio de Azure que proporciona un entorno de desarrollo integrado (IDE) basado en la nube?",
-    "options": [
-      "Azure DevTest Labs",
-      "Azure Lab Services",
-      "Azure DevOps",
-      "Visual Studio Online"
-    ],
-    "answer": "Visual Studio Online"
-  },
-  {
-    "question": "¿Cuál de las siguientes características de Azure permite el almacenamiento de grandes volúmenes de datos no estructurados?",
-    "options": [
-      "Azure Blob Storage",
-      "Azure SQL Database",
-      "Azure Table Storage",
-      "Azure File Storage"
-    ],
-    "answer": "Azure Blob Storage"
-  },
-  {
-    "question": "¿Qué servicio de Azure permite la implementación de aplicaciones con múltiples instancias y equilibrio de carga automático?",
-    "options": [
-      "Azure Load Balancer",
-      "Azure Traffic Manager",
-      "Azure Kubernetes Service",
+      "Azure Monitor",
+      "Azure Resource Manager",
       "Azure App Service"
     ],
-    "answer": "Azure App Service"
+    "answer": "Azure Monitor"
   },
   {
-    "question": "Para mejorar la seguridad, necesita realizar un análisis de seguridad y detección de amenazas en sus aplicaciones. ¿Qué servicio de Azure debería usar?",
+    "question": "¿Qué herramienta de Azure permite la administración de políticas y cumplimiento?",
     "options": [
-      "Azure Security Center",
-      "Azure Sentinel",
-      "Azure Key Vault",
-      "Azure AD Identity Protection"
-    ],
-    "answer": "Azure Security Center"
-  },
-  {
-    "question": "¿Qué servicio de Azure proporciona un firewall gestionado para proteger sus aplicaciones web contra ataques comunes?",
-    "options": [
-      "Azure Firewall",
-      "Azure DDoS Protection",
-      "Azure WAF (Web Application Firewall)",
-      "Azure Network Security Groups"
-    ],
-    "answer": "Azure WAF (Web Application Firewall)"
-  },
-  {
-    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Los recursos dentro de un grupo de recursos pueden pertenecer a diferentes regiones.",
-    "options": ["Sí", "No"],
-    "answer": "Sí"
-  },
-  {
-    "question": "Necesita una solución que permita a los usuarios autenticar sus aplicaciones utilizando sus credenciales de Google. ¿Qué servicio de Azure debería usar?",
-    "options": [
-      "Azure AD B2C",
-      "Azure AD DS",
-      "Azure Key Vault",
-      "Azure Security Center"
-    ],
-    "answer": "Azure AD B2C"
-  },
-  {
-    "question": "Para automatizar la gestión y el cumplimiento de sus políticas de seguridad, ¿qué servicio de Azure debería usar?",
-    "options": [
+      "Azure CLI",
+      "Azure Advisor",
       "Azure Policy",
-      "Azure Sentinel",
-      "Azure Security Center",
-      "Azure Blueprint"
+      "Azure Resource Manager"
     ],
     "answer": "Azure Policy"
   },
   {
-    "question": "¿Qué servicio de Azure permite el almacenamiento y gestión de secretos y claves criptográficas?",
+    "question": "¿Qué servicio de Azure permite la autenticación única (Single Sign-On, SSO)?",
     "options": [
+      "Azure Virtual Machines",
+      "Azure Active Directory (Azure AD)",
+      "Azure App Service",
+      "Azure Storage"
+    ],
+    "answer": "Azure Active Directory (Azure AD)"
+  },
+  {
+    "question": "¿Qué describe mejor la redundancia en el almacenamiento de Azure?",
+    "options": [
+      "Copia única de datos en un único servidor",
+      "Copia de datos en múltiples ubicaciones dentro de una misma región",
+      "Sin copias de seguridad de datos",
+      "Copia de datos en múltiples ubicaciones geográficas"
+    ],
+    "answer": "Copia de datos en múltiples ubicaciones geográficas"
+  },
+  {
+    "question": "¿Qué es Azure SQL Database?",
+    "options": [
+      "Una máquina virtual en Azure",
+      "Un servicio de base de datos relacional en la nube",
+      "Un servicio de almacenamiento",
+      "Un servicio de contenedores"
+    ],
+    "answer": "Un servicio de base de datos relacional en la nube"
+  },
+  {
+    "question": "¿Qué describe mejor el término 'High Availability' en Azure?",
+    "options": [
+      "Garantizar que los servicios estén disponibles el 50% del tiempo",
+      "Garantizar que los servicios estén disponibles el 100% del tiempo",
+      "Garantizar que los servicios estén disponibles la mayor parte del tiempo",
+      "No garantizar disponibilidad de los servicios"
+    ],
+    "answer": "Garantizar que los servicios estén disponibles la mayor parte del tiempo"
+  },
+  {
+    "question": "¿Qué servicio de Azure se utiliza para la gestión de claves y secretos?",
+    "options": [
+      "Azure Storage",
       "Azure Key Vault",
-      "Azure Security Center",
-      "Azure AD Identity Protection",
-      "Azure Firewall"
+      "Azure SQL Database",
+      "Azure App Service"
     ],
     "answer": "Azure Key Vault"
   },
   {
-    "question": "Necesita implementar una solución de recuperación ante desastres para sus máquinas virtuales. ¿Qué servicio de Azure debería usar?",
+    "question": "¿Qué es un SLA (Service Level Agreement) en Azure?",
     "options": [
-      "Azure Backup",
-      "Azure Site Recovery",
-      "Azure DevTest Labs",
-      "Azure Lab Services"
+      "Un acuerdo entre Azure y el cliente sobre los niveles de servicio y disponibilidad garantizados",
+      "Un acuerdo de precios",
+      "Un contrato de seguridad",
+      "Un acuerdo de soporte técnico"
     ],
-    "answer": "Azure Site Recovery"
+    "answer": "Un acuerdo entre Azure y el cliente sobre los niveles de servicio y disponibilidad garantizados"
   },
   {
-    "question": "¿Cuál de los siguientes servicios de Azure proporciona analíticas avanzadas y visualización de datos en tiempo real?",
+    "question": "¿Qué servicio de Azure permite el análisis y visualización de datos en tiempo real?",
     "options": [
+      "Azure Functions",
       "Azure Monitor",
       "Azure Stream Analytics",
-      "Azure Data Factory",
-      "Azure Synapse Analytics"
+      "Azure DevOps"
     ],
     "answer": "Azure Stream Analytics"
   },
   {
-    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Puede implementar máquinas virtuales en Azure utilizando plantillas ARM.",
-    "options": ["Sí", "No"],
-    "answer": "Sí"
-  },
-  {
-    "question": "¿Qué servicio de Azure permite la integración y entrega continua (CI/CD) para sus aplicaciones?",
+    "question": "¿Qué es Azure DevOps?",
     "options": [
-      "Azure Pipelines",
-      "Azure DevTest Labs",
-      "Azure Monitor",
-      "Azure Kubernetes Service"
+      "Una máquina virtual en Azure",
+      "Un servicio para la gestión y automatización del desarrollo de software",
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos"
     ],
-    "answer": "Azure Pipelines"
+    "answer": "Un servicio para la gestión y automatización del desarrollo de software"
   },
   {
-    "question": "Para optimizar el rendimiento y reducir los costos, necesita administrar la infraestructura de su aplicación a través de contenedores. ¿Qué servicio de Azure debería usar?",
+    "question": "¿Qué es un Azure Resource Manager (ARM) template?",
     "options": [
-      "Azure Kubernetes Service",
-      "Azure Container Instances",
+      "Una plantilla para crear y gestionar recursos de Azure de manera repetitiva y consistente",
+      "Un servicio de almacenamiento en la nube",
+      "Un servicio de base de datos",
+      "Una máquina virtual en Azure"
+    ],
+    "answer": "Una plantilla para crear y gestionar recursos de Azure de manera repetitiva y consistente"
+  },
+  {
+    "question": "¿Qué es un Azure Virtual Network (VNet)?",
+    "options": [
+      "Un servicio de base de datos",
+      "Una red lógica aislada en Azure",
+      "Un servicio de almacenamiento",
+      "Un servicio de contenedores"
+    ],
+    "answer": "Una red lógica aislada en Azure"
+  },
+  {
+    "question": "¿Qué describe mejor el término 'Disaster Recovery' en Azure?",
+    "options": [
+      "Provisión de máquinas virtuales",
+      "Copia de seguridad y recuperación de datos en caso de un desastre",
+      "Gestión de identidades y accesos",
+      "Creación de aplicaciones web"
+    ],
+    "answer": "Copia de seguridad y recuperación de datos en caso de un desastre"
+  },
+  {
+    "question": "¿Qué servicio de Azure proporciona un entorno para desarrollar, probar y desplegar aplicaciones rápidamente?",
+    "options": [
+      "Azure Virtual Machines",
       "Azure App Service",
-      "Azure Functions"
+      "Azure Storage",
+      "Azure Key Vault"
     ],
-    "answer": "Azure Kubernetes Service"
+    "answer": "Azure App Service"
   },
   {
-    "question": "Para asegurar las comunicaciones entre sus aplicaciones y servicios, ¿qué servicio de Azure proporciona una red privada virtual (VPN)?",
+    "question": "¿Qué servicio de Azure permite la integración de servicios y aplicaciones de terceros?",
     "options": [
-      "Azure VPN Gateway",
-      "Azure Firewall",
-      "Azure Network Watcher",
-      "Azure DDoS Protection"
+      "Azure Logic Apps",
+      "Azure Virtual Machines",
+      "Azure Storage",
+      "Azure Key Vault"
     ],
-    "answer": "Azure VPN Gateway"
+    "answer": "Azure Logic Apps"
   },
   {
-    "question": "¿Qué servicio de Azure permite la orquestación y gestión de aplicaciones basadas en microservicios?",
+    "question": "¿Qué describe mejor el servicio Azure Traffic Manager?",
     "options": [
-      "Azure Service Fabric",
-      "Azure Kubernetes Service",
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un balanceador de carga basado en DNS que distribuye el tráfico a los servicios de Azure",
+      "Un servicio de contenedores"
+    ],
+    "answer": "Un balanceador de carga basado en DNS que distribuye el tráfico a los servicios de Azure"
+  },
+  {
+    "question": "¿Qué es Azure Active Directory (Azure AD)?",
+    "options": [
+      "Un servicio de base de datos",
+      "Un servicio de administración de identidades y accesos en la nube",
+      "Un servicio de almacenamiento",
+      "Una máquina virtual en Azure"
+    ],
+    "answer": "Un servicio de administración de identidades y accesos en la nube"
+  },
+  {
+    "question": "¿Qué servicio de Azure permite el escalado automático de recursos?",
+    "options": [
+      "Azure Virtual Machines",
       "Azure App Service",
-      "Azure Functions"
-    ],
-    "answer": "Azure Service Fabric"
-  },
-  {
-    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Resource Manager proporciona un enfoque coherente para la gestión de recursos.",
-    "options": ["Sí", "No"],
-    "answer": "Sí"
-  },
-  {
-    "question": "¿Qué servicio de Azure ofrece la capacidad de realizar análisis de grandes volúmenes de datos y obtener insights empresariales?",
-    "options": [
-      "Azure Synapse Analytics",
-      "Azure Data Lake",
-      "Azure Machine Learning",
-      "Azure Stream Analytics"
-    ],
-    "answer": "Azure Synapse Analytics"
-  },
-  {
-    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Virtual Network permite la segmentación de la red en subredes.",
-    "options": ["Sí", "No"],
-    "answer": "Sí"
-  },
-  {
-    "question": "¿Qué servicio de Azure permite la gestión de identidades y el control de acceso en aplicaciones y recursos?",
-    "options": [
-      "Azure Active Directory",
-      "Azure Key Vault",
-      "Azure Policy",
-      "Azure Monitor"
-    ],
-    "answer": "Azure Active Directory"
-  },
-  {
-    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Policy permite la aplicación de políticas de gobernanza en sus recursos.",
-    "options": ["Sí", "No"],
-    "answer": "Sí"
-  },
-  {
-    "question": "Necesita implementar una solución para la entrega global de contenido con baja latencia. ¿Qué servicio de Azure debería usar?",
-    "options": [
-      "Azure Content Delivery Network (CDN)",
-      "Azure Traffic Manager",
-      "Azure Load Balancer",
-      "Azure Front Door"
-    ],
-    "answer": "Azure Content Delivery Network (CDN)"
-  },
-  {
-    "question": "¿Cuál de los siguientes servicios de Azure proporciona almacenamiento de archivos compartidos accesibles desde múltiples máquinas virtuales?",
-    "options": [
-      "Azure File Storage",
-      "Azure Blob Storage",
-      "Azure Disk Storage",
-      "Azure Data Lake Storage"
-    ],
-    "answer": "Azure File Storage"
-  },
-  {
-    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Monitor proporciona monitoreo y telemetría para sus aplicaciones e infraestructura.",
-    "options": ["Sí", "No"],
-    "answer": "Sí"
-  },
-  {
-    "question": "Para realizar análisis predictivos y crear modelos de aprendizaje automático, ¿qué servicio de Azure debería usar?",
-    "options": [
-      "Azure Machine Learning",
-      "Azure Synapse Analytics",
-      "Azure Data Factory",
-      "Azure Cognitive Services"
-    ],
-    "answer": "Azure Machine Learning"
-  },
-  {
-    "question": "¿Qué servicio de Azure permite la migración de bases de datos SQL locales a Azure con el mínimo tiempo de inactividad?",
-    "options": [
-      "Azure Database Migration Service",
-      "Azure Data Factory",
-      "Azure Data Lake",
-      "Azure Synapse Analytics"
-    ],
-    "answer": "Azure Database Migration Service"
-  },
-  {
-    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Logic Apps permite la creación de flujos de trabajo automatizados.",
-    "options": ["Sí", "No"],
-    "answer": "Sí"
-  },
-  {
-    "question": "Necesita almacenar y analizar grandes volúmenes de datos no estructurados. ¿Qué servicio de Azure debería usar?",
-    "options": [
-      "Azure Data Lake Storage",
-      "Azure Blob Storage",
-      "Azure SQL Database",
-      "Azure File Storage"
-    ],
-    "answer": "Azure Data Lake Storage"
-  },
-  {
-    "question": "¿Qué servicio de Azure proporciona una plataforma gestionada para la creación, el entrenamiento y la implementación de modelos de aprendizaje automático?",
-    "options": [
-      "Azure Machine Learning",
-      "Azure Cognitive Services",
-      "Azure Synapse Analytics",
-      "Azure Data Factory"
-    ],
-    "answer": "Azure Machine Learning"
-  },
-  {
-    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Functions permite ejecutar código sin aprovisionar ni gestionar servidores.",
-    "options": ["Sí", "No"],
-    "answer": "Sí"
-  },
-  {
-    "question": "¿Qué servicio de Azure proporciona la capacidad de gestionar y supervisar aplicaciones en contenedores en un entorno de clúster?",
-    "options": [
-      "Azure Kubernetes Service",
-      "Azure Container Instances",
-      "Azure DevTest Labs",
-      "Azure App Service"
-    ],
-    "answer": "Azure Kubernetes Service"
-  },
-  {
-    "question": "Necesita realizar una migración sin problemas de sus aplicaciones y datos a la nube. ¿Qué servicio de Azure debería usar?",
-    "options": [
-      "Azure Migrate",
-      "Azure Site Recovery",
-      "Azure Data Factory",
-      "Azure DevTest Labs"
-    ],
-    "answer": "Azure Migrate"
-  },
-  {
-    "question": "¿Qué servicio de Azure permite la creación y gestión de bases de datos SQL sin necesidad de gestionar la infraestructura subyacente?",
-    "options": [
-      "Azure SQL Database",
-      "Azure Cosmos DB",
-      "Azure Database for MySQL",
-      "Azure Synapse Analytics"
-    ],
-    "answer": "Azure SQL Database"
-  },
-  {
-    "question": "Para cada una de las siguientes afirmaciones, seleccione Sí si es verdadera o No si es falsa. Azure Site Recovery permite la replicación y recuperación de máquinas virtuales.",
-    "options": ["Sí", "No"],
-    "answer": "Sí"
-  },
-  {
-    "question": "¿Qué servicio de Azure proporciona capacidades de monitoreo y gestión para sus aplicaciones en contenedores?",
-    "options": [
       "Azure Monitor",
-      "Azure DevOps",
-      "Azure Kubernetes Service",
-      "Azure App Service"
+      "Azure Resource Manager"
     ],
-    "answer": "Azure Monitor"
+    "answer": "Azure App Service"
+  },
+  {
+    "question": "¿Qué describe mejor el término 'Data Residency' en Azure?",
+    "options": [
+      "La capacidad de acceder a los datos desde cualquier lugar",
+      "La ubicación física donde se almacenan los datos",
+      "La disponibilidad de los datos",
+      "La copia de seguridad de los datos"
+    ],
+    "answer": "La ubicación física donde se almacenan los datos"
+  },
+  {
+    "question": "¿Qué es un Azure Availability Set?",
+    "options": [
+      "Un conjunto de servicios de almacenamiento",
+      "Un conjunto de máquinas virtuales que garantiza la disponibilidad durante fallos planeados o no planeados",
+      "Un conjunto de políticas de seguridad",
+      "Un conjunto de bases de datos"
+    ],
+    "answer": "Un conjunto de máquinas virtuales que garantiza la disponibilidad durante fallos planeados o no planeados"
+  },
+  {
+    "question": "¿Qué servicio de Azure se utiliza para la orquestación de contenedores?",
+    "options": [
+      "Azure Virtual Machines",
+      "Azure Kubernetes Service (AKS)",
+      "Azure App Service",
+      "Azure Storage"
+    ],
+    "answer": "Azure Kubernetes Service (AKS)"
+  },
+  {
+    "question": "¿Qué herramienta de Azure permite el despliegue de infraestructura como código?",
+    "options": [
+      "Azure CLI",
+      "Azure Resource Manager",
+      "Azure App Service",
+      "Azure Policy"
+    ],
+    "answer": "Azure Resource Manager"
+  },
+  {
+    "question": "¿Qué es Azure Sentinel?",
+    "options": [
+      "Un servicio de monitoreo de aplicaciones",
+      "Un servicio de orquestación de contenedores",
+      "Un servicio de gestión y análisis de seguridad",
+      "Un servicio de bases de datos"
+    ],
+    "answer": "Un servicio de gestión y análisis de seguridad"
+  },
+  {
+    "question": "¿Qué describe mejor el concepto de 'Elasticity' en la nube?",
+    "options": [
+      "Capacidad para escalar recursos hacia arriba o hacia abajo según sea necesario",
+      "Capacidad para almacenar datos indefinidamente",
+      "Capacidad para acceder a datos de manera rápida",
+      "Capacidad para asegurar datos de manera efectiva"
+    ],
+    "answer": "Capacidad para escalar recursos hacia arriba o hacia abajo según sea necesario"
+  },
+  {
+    "question": "¿Qué es Azure Kubernetes Service (AKS)?",
+    "options": [
+      "Un servicio de almacenamiento en la nube",
+      "Un servicio de bases de datos",
+      "Un servicio de orquestación de contenedores",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de orquestación de contenedores"
+  },
+  {
+    "question": "¿Qué es Azure DevTest Labs?",
+    "options": [
+      "Un servicio para gestionar y automatizar la infraestructura de desarrollo y pruebas",
+      "Un servicio de almacenamiento",
+      "Un servicio de análisis de datos",
+      "Un servicio de monitorización"
+    ],
+    "answer": "Un servicio para gestionar y automatizar la infraestructura de desarrollo y pruebas"
+  },
+  {
+    "question": "¿Qué es Azure Resource Manager (ARM)?",
+    "options": [
+      "Un servicio de bases de datos",
+      "Un servicio de almacenamiento",
+      "La interfaz de gestión para los recursos en Azure",
+      "Un servicio de redes"
+    ],
+    "answer": "La interfaz de gestión para los recursos en Azure"
+  },
+  {
+    "question": "¿Cuál es el propósito de Azure Blueprints?",
+    "options": [
+      "Crear y gestionar recursos de manera individual",
+      "Permitir la creación de redes virtuales",
+      "Definir un conjunto repetible de recursos para implementaciones",
+      "Proveer servicios de almacenamiento"
+    ],
+    "answer": "Definir un conjunto repetible de recursos para implementaciones"
+  },
+  {
+    "question": "¿Qué es Azure Policy?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio para gestionar y aplicar políticas de gobernanza",
+      "Un servicio de bases de datos",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para gestionar y aplicar políticas de gobernanza"
+  },
+  {
+    "question": "¿Qué es Azure Sentinel?",
+    "options": [
+      "Un servicio de análisis de seguridad en la nube",
+      "Un servicio de bases de datos",
+      "Un servicio de almacenamiento",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de análisis de seguridad en la nube"
+  },
+  {
+    "question": "¿Qué es Azure Synapse Analytics?",
+    "options": [
+      "Un servicio de bases de datos relacionales",
+      "Una solución de análisis que combina almacenamiento de datos y big data",
+      "Un servicio de almacenamiento de archivos",
+      "Un servicio de red"
+    ],
+    "answer": "Una solución de análisis que combina almacenamiento de datos y big data"
+  },
+  {
+    "question": "¿Qué es Azure Cosmos DB?",
+    "options": [
+      "Una base de datos SQL",
+      "Una base de datos NoSQL globalmente distribuida",
+      "Un servicio de almacenamiento de blobs",
+      "Un servicio de análisis"
+    ],
+    "answer": "Una base de datos NoSQL globalmente distribuida"
+  },
+  {
+    "question": "¿Qué es Azure Data Lake Storage?",
+    "options": [
+      "Un servicio de bases de datos relacionales",
+      "Un servicio de almacenamiento optimizado para grandes cantidades de datos",
+      "Un servicio de análisis en tiempo real",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de almacenamiento optimizado para grandes cantidades de datos"
+  },
+  {
+    "question": "¿Qué es Azure Active Directory (Azure AD)?",
+    "options": [
+      "Un servicio de almacenamiento en la nube",
+      "Un servicio de bases de datos",
+      "Un servicio de gestión de identidades y acceso",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de gestión de identidades y acceso"
+  },
+  {
+    "question": "¿Cuál es la finalidad de Azure Network Watcher?",
+    "options": [
+      "Proveer almacenamiento en la nube",
+      "Supervisar y diagnosticar problemas de red",
+      "Proveer servicios de bases de datos",
+      "Gestionar identidades y accesos"
+    ],
+    "answer": "Supervisar y diagnosticar problemas de red"
+  },
+  {
+    "question": "¿Qué es Azure Logic Apps?",
+    "options": [
+      "Un servicio de bases de datos",
+      "Un servicio de almacenamiento",
+      "Un servicio para automatizar flujos de trabajo empresariales",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para automatizar flujos de trabajo empresariales"
+  },
+  {
+    "question": "¿Qué es Azure Data Factory?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio de integración de datos para mover y transformar datos",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de integración de datos para mover y transformar datos"
+  },
+  {
+    "question": "¿Qué es Azure Bastion?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio de red que permite conectarse a máquinas virtuales de manera segura",
+      "Un servicio de gestión de identidades"
+    ],
+    "answer": "Un servicio de red que permite conectarse a máquinas virtuales de manera segura"
+  },
+  {
+    "question": "¿Qué es Azure Event Grid?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio que gestiona el enrutamiento de eventos",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio que gestiona el enrutamiento de eventos"
+  },
+  {
+    "question": "¿Qué es Azure File Sync?",
+    "options": [
+      "Un servicio de almacenamiento de archivos local",
+      "Un servicio de bases de datos",
+      "Un servicio para centralizar y sincronizar archivos en Azure y en servidores locales",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para centralizar y sincronizar archivos en Azure y en servidores locales"
+  },
+  {
+    "question": "¿Qué es Azure Private Link?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio que permite acceder a los servicios de Azure a través de una conexión privada",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio que permite acceder a los servicios de Azure a través de una conexión privada"
+  },
+  {
+    "question": "¿Qué es Azure Cost Management and Billing?",
+    "options": [
+      "Un servicio de bases de datos",
+      "Un servicio de almacenamiento",
+      "Una herramienta para monitorear y controlar los costos de Azure",
+      "Un servicio de red"
+    ],
+    "answer": "Una herramienta para monitorear y controlar los costos de Azure"
+  },
+  {
+    "question": "¿Qué es Azure Site Recovery?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio que permite la recuperación ante desastres mediante la replicación de máquinas virtuales",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio que permite la recuperación ante desastres mediante la replicación de máquinas virtuales"
+  },
+  {
+    "question": "¿Qué es Azure Arc?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio que permite gestionar recursos locales y multi-nube desde Azure",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio que permite gestionar recursos locales y multi-nube desde Azure"
+  },
+  {
+    "question": "¿Qué es Azure Data Bricks?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio de análisis que soporta Apache Spark",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de análisis que soporta Apache Spark"
+  },
+  {
+    "question": "¿Qué es Azure ExpressRoute?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio que establece conexiones privadas entre los centros de datos de Azure y la infraestructura local",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio que establece conexiones privadas entre los centros de datos de Azure y la infraestructura local"
+  },
+  {
+    "question": "¿Qué es Azure Logic Apps?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio para crear y ejecutar flujos de trabajo automatizados",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para crear y ejecutar flujos de trabajo automatizados"
+  },
+  {
+    "question": "¿Qué es Azure Application Gateway?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un balanceador de carga para aplicaciones web",
+      "Un servicio de red"
+    ],
+    "answer": "Un balanceador de carga para aplicaciones web"
+  },
+  {
+    "question": "¿Qué es Azure Functions?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio de computación sin servidor",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de computación sin servidor"
+  },
+  {
+    "question": "¿Qué es Azure Table Storage?",
+    "options": [
+      "Un servicio de bases de datos relacionales",
+      "Un servicio de almacenamiento para datos NoSQL",
+      "Un servicio de red",
+      "Un servicio de monitorización"
+    ],
+    "answer": "Un servicio de almacenamiento para datos NoSQL"
+  },
+  {
+    "question": "¿Qué es Azure Traffic Manager?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio de balanceo de carga basado en DNS",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de balanceo de carga basado en DNS"
+  },
+  {
+    "question": "¿Qué es Azure Logic Apps?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio para crear y ejecutar flujos de trabajo automatizados",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para crear y ejecutar flujos de trabajo automatizados"
+  },
+  {
+    "question": "¿Qué es Azure Disk Encryption?",
+    "options": [
+      "Un servicio de bases de datos",
+      "Un servicio de almacenamiento que proporciona encriptación de discos",
+      "Un servicio de monitorización",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de almacenamiento que proporciona encriptación de discos"
+  },
+  {
+    "question": "¿Qué es Azure Data Box?",
+    "options": [
+      "Un servicio de almacenamiento en la nube",
+      "Un dispositivo físico para transferir grandes cantidades de datos a Azure",
+      "Un servicio de red",
+      "Un servicio de monitorización"
+    ],
+    "answer": "Un dispositivo físico para transferir grandes cantidades de datos a Azure"
+  },
+  {
+    "question": "¿Qué es Azure Load Balancer?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio de balanceo de carga para distribuir tráfico entre máquinas virtuales",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de balanceo de carga para distribuir tráfico entre máquinas virtuales"
+  },
+  {
+    "question": "¿Qué es Azure Blob Storage?",
+    "options": [
+      "Un servicio de almacenamiento para grandes cantidades de datos no estructurados",
+      "Un servicio de bases de datos",
+      "Un servicio de computación",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de almacenamiento para grandes cantidades de datos no estructurados"
+  },
+  {
+    "question": "¿Qué es Azure Front Door?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio de balanceo de carga global y aceleración de aplicaciones web",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de balanceo de carga global y aceleración de aplicaciones web"
+  },
+  {
+    "question": "¿Qué es Azure Firewall?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio de seguridad para gestionar el tráfico de red",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de seguridad para gestionar el tráfico de red"
+  },
+  {
+    "question": "¿Qué es Azure Virtual WAN?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio que proporciona conectividad global para redes virtuales",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio que proporciona conectividad global para redes virtuales"
+  },
+  {
+    "question": "¿Qué es Azure Security Center?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Una herramienta para gestionar la seguridad y la conformidad de los recursos de Azure",
+      "Un servicio de red"
+    ],
+    "answer": "Una herramienta para gestionar la seguridad y la conformidad de los recursos de Azure"
+  },
+  {
+    "question": "¿Qué es Azure Service Fabric?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Una plataforma para construir y gestionar aplicaciones microservicios escalables",
+      "Un servicio de red"
+    ],
+    "answer": "Una plataforma para construir y gestionar aplicaciones microservicios escalables"
+  },
+  {
+    "question": "¿Qué es Azure Monitor?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio para recopilar y analizar datos de telemetría de recursos de Azure",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para recopilar y analizar datos de telemetría de recursos de Azure"
+  },
+  {
+    "question": "¿Qué es Azure Logic Apps?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio para crear y ejecutar flujos de trabajo automatizados",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para crear y ejecutar flujos de trabajo automatizados"
+  },
+  {
+    "question": "¿Qué es Azure API Management?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio para gestionar y publicar APIs",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para gestionar y publicar APIs"
+  },
+  {
+    "question": "¿Qué es Azure Backup?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio para realizar copias de seguridad y restaurar datos en la nube",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para realizar copias de seguridad y restaurar datos en la nube"
+  },
+  {
+    "question": "¿Qué es Azure HDInsight?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio de análisis de big data que soporta Apache Hadoop",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de análisis de big data que soporta Apache Hadoop"
+  },
+  {
+    "question": "¿Qué es Azure Logic Apps?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio para crear y ejecutar flujos de trabajo automatizados",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para crear y ejecutar flujos de trabajo automatizados"
+  },
+  {
+    "question": "¿Qué es Azure App Configuration?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio para gestionar configuraciones de aplicaciones de forma centralizada",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para gestionar configuraciones de aplicaciones de forma centralizada"
+  },
+  {
+    "question": "¿Qué es Azure Event Hubs?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio de ingesta de datos en tiempo real a gran escala",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio de ingesta de datos en tiempo real a gran escala"
+  },
+  {
+    "question": "¿Qué es Azure Automation?",
+    "options": [
+      "Un servicio de almacenamiento",
+      "Un servicio de bases de datos",
+      "Un servicio para automatizar tareas repetitivas de gestión en Azure",
+      "Un servicio de red"
+    ],
+    "answer": "Un servicio para automatizar tareas repetitivas de gestión en Azure"
   }
 ]
