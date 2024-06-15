@@ -2,6 +2,11 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./styles.css";
 
+// Archivos JSON con textos estáticos en diferentes idiomas
+import textosES from "./textos-es.json";
+import textosEN from "./textos-en.json";
+import textosDE from "./textos-de.json";
+
 const shuffleArray = (array) => {
   let currentIndex = array.length;
   let temporaryValue, randomIndex;
@@ -29,19 +34,23 @@ const App = () => {
   const [answerMessage, setAnswerMessage] = useState("");
   const [numQuestions, setNumQuestions] = useState(5);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
+  const [language, setLanguage] = useState("es"); // Estado para el idioma seleccionado
+
+  const [selectedLanguage, setSelectedLanguage] = useState("es"); // Estado para el botón de idioma seleccionado
+
+  const [quizStarted, setQuizStarted] = useState(false); // Estado para controlar si se ha iniciado el quiz
 
   useEffect(() => {
+    // Cargar las preguntas solo al inicio
     const fetchQuestions = async () => {
-      try {
-        const response = await axios.get("http://localhost:3001/questions");
-        const shuffledQuestions = shuffleArray(response.data);
+      const fetchedQuestions = await loadQuestionsByLanguage(language);
+      if (fetchedQuestions.length > 0) {
+        const shuffledQuestions = shuffleArray(fetchedQuestions);
         setQuestions(shuffledQuestions);
-      } catch (error) {
-        console.error("Error fetching questions:", error);
       }
     };
     fetchQuestions();
-  }, []);
+  }, [language]); // Añadir language a la dependencia para actualizar preguntas al cambiar idioma
 
   useEffect(() => {
     if (timeLeft === 0) {
@@ -54,6 +63,18 @@ const App = () => {
     return () => clearInterval(timer);
   }, [timeLeft]);
 
+  const loadQuestionsByLanguage = async (lang) => {
+    try {
+      const response = await axios.get(
+        `http://localhost:3001/questions-${lang}.json`
+      );
+      return response.data;
+    } catch (error) {
+      console.error("Error fetching questions:", error);
+      return [];
+    }
+  };
+
   const handleOptionChange = (e) => {
     setSelectedOption(e.target.value);
     setShowCorrectAnswer(false);
@@ -61,30 +82,40 @@ const App = () => {
 
   const checkAnswer = () => {
     if (selectedOption === selectedQuestions[currentQuestionIndex]?.answer) {
-      setScore((prevScore) => prevScore + 1);
-      setAnswerMessage("¡Korrekte Antwort!");
+      setScore((prevScore) => prevScore);
+      setAnswerMessage(textos[language].respuestaCorrecta);
     } else {
-      setAnswerMessage("Falsche Antwort");
+      setAnswerMessage(textos[language].respuestaIncorrecta);
     }
     setShowCorrectAnswer(true);
   };
 
   const handleNextQuestion = () => {
-    setAnswerMessage("");
+    if (selectedOption === selectedQuestions[currentQuestionIndex]?.answer) {
+      setScore((prevScore) => prevScore + 1); // Contabiliza la respuesta correcta
+    } else {
+      setAnswerMessage(textos[language].respuestaIncorrecta);
+    }
+
     setShowCorrectAnswer(false);
 
     if (currentQuestionIndex < selectedQuestions.length - 1) {
       setCurrentQuestionIndex(currentQuestionIndex + 1);
+      setSelectedOption("");
     } else {
       setShowScore(true);
     }
 
-    setSelectedOption("");
     setTimeLeft(60);
   };
 
   const handleResetQuiz = () => {
-    window.location.reload();
+    setShowScore(false);
+    setCurrentQuestionIndex(0);
+    setScore(0);
+    setQuizStarted(false); // Reiniciar el estado de quizStarted
+    setSelectedQuestions([]);
+    setTimeLeft(60);
   };
 
   const handleNumQuestionsChange = (e) => {
@@ -92,88 +123,124 @@ const App = () => {
   };
 
   const startQuiz = () => {
-    const shuffledQuestions = shuffleArray(questions);
-    const selected = shuffledQuestions.slice(0, numQuestions);
-    setSelectedQuestions(selected);
+    setSelectedQuestions(shuffleArray(questions).slice(0, numQuestions));
     setShowScore(false);
     setCurrentQuestionIndex(0);
     setScore(0);
     setTimeLeft(60);
+    setQuizStarted(true); // Marcar que el quiz ha comenzado
+  };
+
+  const changeLanguage = (lang) => {
+    setLanguage(lang);
+    setSelectedLanguage(lang); // Marca el botón de idioma seleccionado
+  };
+
+  // Definición de textos estáticos según el idioma seleccionado
+  const textos = {
+    es: textosES,
+    en: textosEN,
+    de: textosDE,
   };
 
   return (
     <div className="App">
+      <div className="language-buttons">
+        <button
+          className={selectedLanguage === "es" ? "selected" : ""}
+          onClick={() => changeLanguage("es")}
+        >
+          ES
+        </button>
+        <button
+          className={selectedLanguage === "en" ? "selected" : ""}
+          onClick={() => changeLanguage("en")}
+        >
+          EN
+        </button>
+        <button
+          className={selectedLanguage === "de" ? "selected" : ""}
+          onClick={() => changeLanguage("de")}
+        >
+          DE
+        </button>
+      </div>
       <div className="container">
-        {showScore ? (
+        {!quizStarted && !showScore && (
+          <div className="start-quiz">
+            <label>
+              {textos[language].elegirCantidadPreguntas}
+              <input
+                type="number"
+                min="1"
+                max={questions.length}
+                value={numQuestions}
+                onChange={handleNumQuestionsChange}
+              />
+            </label>
+            <button className="start-quiz-button" onClick={startQuiz}>
+              {textos[language].iniciarQuiz}
+            </button>
+          </div>
+        )}
+        {quizStarted && !showScore && (
+          <div>
+            <div className="timer">
+              {textos[language].tiempoRestante}: {timeLeft}s
+            </div>
+            <h2>{selectedQuestions[currentQuestionIndex].question}</h2>
+            <div>
+              {selectedQuestions[currentQuestionIndex].options.map(
+                (option, index) => (
+                  <div
+                    key={index}
+                    className={`option ${
+                      showCorrectAnswer &&
+                      option === selectedQuestions[currentQuestionIndex].answer
+                        ? "correct"
+                        : showCorrectAnswer && option === selectedOption
+                        ? "incorrect"
+                        : ""
+                    }`}
+                  >
+                    <input
+                      type="radio"
+                      name="option"
+                      value={option}
+                      checked={selectedOption === option}
+                      onChange={handleOptionChange}
+                      disabled={showCorrectAnswer}
+                    />
+                    {option}
+                  </div>
+                )
+              )}
+            </div>
+            <div className="button-container">
+              <button onClick={checkAnswer} disabled={showCorrectAnswer}>
+                {textos[language].verificarRespuesta}
+              </button>
+              {showCorrectAnswer && <p>{answerMessage}</p>}
+              <button onClick={handleNextQuestion}>
+                {textos[language].siguientePregunta}
+              </button>
+            </div>
+          </div>
+        )}
+        {showScore && (
           <div>
             <p>
-              Ihre Punktzahl ist {score} von {selectedQuestions.length}
+              {textos[language].puntuacion}: {score} / {numQuestions}
             </p>
             <p>
-              Prozentsatz der Wirksamkeit:
+              {textos[language].porcentajeAciertos}:
               {((score / selectedQuestions.length) * 100).toFixed(2)}%
             </p>
             <div className="button-container">
-              <button onClick={handleResetQuiz}>Quiz neu starten</button>
+              <button onClick={handleResetQuiz}>
+                {textos[language].reiniciarQuiz}
+              </button>
             </div>
-          </div>
-        ) : (
-          <div>
-            {selectedQuestions.length === 0 ? (
-              <div>
-                <label>
-                  wie viel Fragen?
-                  <input
-                    type="number"
-                    min="1"
-                    max={questions.length}
-                    value={numQuestions}
-                    onChange={handleNumQuestionsChange}
-                  />
-                </label>
-                <button onClick={startQuiz}>Start Quiz</button>
-              </div>
-            ) : (
-              <div>
-                <div className="timer">Übrige Zeit: {timeLeft}s</div>
-                <h2>{selectedQuestions[currentQuestionIndex].question}</h2>
-                <div>
-                  {selectedQuestions[currentQuestionIndex].options.map(
-                    (option, index) => (
-                      <div
-                        key={index}
-                        className={`option ${
-                          showCorrectAnswer &&
-                          option ===
-                            selectedQuestions[currentQuestionIndex].answer
-                            ? "correct"
-                            : showCorrectAnswer && option === selectedOption
-                            ? "incorrect"
-                            : ""
-                        }`}
-                      >
-                        <input
-                          type="radio"
-                          name="option"
-                          value={option}
-                          checked={selectedOption === option}
-                          onChange={handleOptionChange}
-                          disabled={showCorrectAnswer}
-                        />
-                        {option}
-                      </div>
-                    )
-                  )}
-                </div>
-                <div className="button-container">
-                  <button onClick={checkAnswer} disabled={showCorrectAnswer}>
-                    Prüfe die Antwort
-                  </button>
-                  {answerMessage && <p>{answerMessage}</p>}
-                  <button onClick={handleNextQuestion}>Nächste Frage</button>
-                </div>
-              </div>
-            )}
           </div>
         )}
       </div>
