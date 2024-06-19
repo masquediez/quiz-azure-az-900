@@ -73,6 +73,12 @@ html {
   margin-bottom: 10px;
 }
 
+h1 {
+  font-size: 2em; /* Tamaño del título ajustado */
+  margin-bottom: 20px; /* Espacio inferior para separar el título del contenido */
+  text-align: center; /* Añadido para centrar el texto del título */
+}
+
 h2 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -109,19 +115,18 @@ h2 {
 .verificar,
 .siguientePregunta,
 .ver-respuestas {
-  /* Añadido para estilizar el botón "Ver Respuestas" */
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   background-color: blue;
   color: white;
+  margin-right: 10px; /* Añadido para separar los botones */
 }
 
 .verificar:hover,
 .siguientePregunta:hover,
 .ver-respuestas:hover {
-  /* Añadido para estilizar el botón "Ver Respuestas" */
   background-color: #0056b3;
 }
 
@@ -175,4 +180,19 @@ h2 {
 
 .respuesta-item.incorrect {
   color: red;
+}
+
+/* Estilos para la barra de carga */
+.progress-bar-container {
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  transition: width 0.3s ease;
 }

@@ -1,12 +1,15 @@
 {
   "elegirCantidadPreguntas": "Wählen Sie die Anzahl der Fragen",
   "puntuacion": "Punktzahl",
-  "porcentajeAciertos": "Genauigkeitsprozentsatz",
+  "porcentajeAciertos": "Erfolgsprozentsatz: ",
   "respuestaCorrecta": "Richtige Antwort!",
   "respuestaIncorrecta": "Falsche Antwort",
   "tiempoRestante": "Verbleibende Zeit",
   "reiniciarQuiz": "Quiz neu starten",
   "iniciarQuiz": "Quiz starten",
   "verificarRespuesta": "Antwort überprüfen",
-  "siguientePregunta": "Nächste Frage"
+  "siguientePregunta": "Nächste Frage",
+  "pregunta": "Frage:",
+  "de": " von",
+  "porcentajeAciertosActual": "Aktueller Erfolgsprozentsatz: "
 }

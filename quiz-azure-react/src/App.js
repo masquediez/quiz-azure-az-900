@@ -34,12 +34,12 @@ const App = () => {
   const [answerMessage, setAnswerMessage] = useState("");
   const [numQuestions, setNumQuestions] = useState(5);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
-  const [language, setLanguage] = useState("es"); // Estado para el idioma seleccionado
-  const [selectedLanguage, setSelectedLanguage] = useState("es"); // Estado para el botón de idioma seleccionado
-  const [quizStarted, setQuizStarted] = useState(false); // Estado para controlar si se ha iniciado el quiz
+  const [language, setLanguage] = useState("es");
+  const [selectedLanguage, setSelectedLanguage] = useState("es");
+  const [quizStarted, setQuizStarted] = useState(false);
+  const [currentPercentage, setCurrentPercentage] = useState(0);
 
   useEffect(() => {
-    // Cargar las preguntas solo al inicio
     const fetchQuestions = async () => {
       const fetchedQuestions = await loadQuestionsByLanguage(language);
       if (fetchedQuestions.length > 0) {
@@ -48,7 +48,7 @@ const App = () => {
       }
     };
     fetchQuestions();
-  }, [language]); // Añadir language a la dependencia para actualizar preguntas al cambiar idioma
+  }, [language]);
 
   useEffect(() => {
     if (timeLeft === 0) {
@@ -80,7 +80,7 @@ const App = () => {
 
   const checkAnswer = () => {
     if (selectedOption === selectedQuestions[currentQuestionIndex]?.answer) {
-      setScore((prevScore) => prevScore + 1); // Contabiliza la respuesta correcta
+      setScore((prevScore) => prevScore + 0);
       setAnswerMessage(textos[language].respuestaCorrecta);
     } else {
       setAnswerMessage(textos[language].respuestaIncorrecta);
@@ -89,25 +89,38 @@ const App = () => {
   };
 
   const handleNextQuestion = () => {
-    setShowCorrectAnswer(false);
-    setAnswerMessage(""); // Limpiar el mensaje de respuesta
-
-    if (currentQuestionIndex < selectedQuestions.length - 1) {
-      setCurrentQuestionIndex(currentQuestionIndex + 1);
-      setSelectedOption("");
-      setTimeLeft(60);
+    if (selectedOption === selectedQuestions[currentQuestionIndex]?.answer) {
+      setScore((prevScore) => prevScore + 1);
+      setAnswerMessage(textos[language].respuestaCorrecta);
     } else {
-      setShowScore(true);
+      setAnswerMessage(textos[language].respuestaIncorrecta);
     }
+
+    const nextPercentage = ((score + 1) / (currentQuestionIndex + 1)) * 100;
+
+    setTimeout(() => {
+      setShowCorrectAnswer(false);
+      setAnswerMessage("");
+
+      if (currentQuestionIndex < selectedQuestions.length - 1) {
+        setCurrentPercentage(nextPercentage);
+        setCurrentQuestionIndex((prevIndex) => prevIndex + 1);
+        setSelectedOption("");
+        setTimeLeft(60);
+      } else {
+        setShowScore(true);
+      }
+    }, 10);
   };
 
   const handleResetQuiz = () => {
     setShowScore(false);
     setCurrentQuestionIndex(0);
     setScore(0);
-    setQuizStarted(false); // Reiniciar el estado de quizStarted
+    setQuizStarted(false);
     setSelectedQuestions([]);
     setTimeLeft(60);
+    setCurrentPercentage(0);
   };
 
   const handleNumQuestionsChange = (e) => {
@@ -115,7 +128,6 @@ const App = () => {
   };
 
   const startQuiz = () => {
-    console.log("Starting quiz...");
     if (questions.length === 0) {
       console.error("No questions loaded");
       return;
@@ -125,23 +137,27 @@ const App = () => {
     setCurrentQuestionIndex(0);
     setScore(0);
     setTimeLeft(60);
-    setQuizStarted(true); // Marcar que el quiz ha comenzado
+    setQuizStarted(true);
   };
 
   const changeLanguage = (lang) => {
     setLanguage(lang);
-    setSelectedLanguage(lang); // Marca el botón de idioma seleccionado
+    setSelectedLanguage(lang);
   };
 
-  // Definición de textos estáticos según el idioma seleccionado
   const textos = {
     es: textosES,
     en: textosEN,
     de: textosDE,
   };
 
+  const getProgressColor = (percentage) => {
+    return percentage >= 70 ? "green" : "red";
+  };
+
   return (
     <div className="App">
+      <h1>Quiz Azure AZ900</h1>
       <div className="language-buttons">
         <button
           className={selectedLanguage === "es" ? "selected" : ""}
@@ -234,6 +250,37 @@ const App = () => {
                 {textos[language].siguientePregunta}
               </button>
             </div>
+            <div className="question-info">
+              <p>
+                {textos[language].pregunta} {currentQuestionIndex + 1}{" "}
+                {textos[language].de} {numQuestions}
+              </p>
+              <p>
+                {textos[language].porcentajeAciertosActual}:
+                <div className="progress-bar-container">
+                  <div
+                    className="progress-bar"
+                    style={{
+                      width: `${
+                        currentQuestionIndex === 0
+                          ? 0
+                          : ((score / currentQuestionIndex) * 100).toFixed(2)
+                      }%`,
+                      backgroundColor: getProgressColor(
+                        currentQuestionIndex === 0
+                          ? 0
+                          : (score / currentQuestionIndex) * 100
+                      ),
+                    }}
+                  ></div>
+                </div>
+                <span>
+                  {currentQuestionIndex === 0
+                    ? "0%"
+                    : `${((score / currentQuestionIndex) * 100).toFixed(2)}%`}
+                </span>
+              </p>
+            </div>
           </div>
         )}
         {showScore && (
@@ -242,7 +289,7 @@ const App = () => {
               {textos[language].puntuacion}: {score} / {numQuestions}
             </p>
             <p>
-              {textos[language].porcentajeAciertos}:
+              {textos[language].porcentajeAciertos}
               {((score / selectedQuestions.length) * 100).toFixed(2)}%
             </p>
             <div className="button-container">
